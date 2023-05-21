@@ -13,7 +13,7 @@ class Product(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=200)
     image = models.CharField(max_length=200)
-    pics = models.TextField()
+    pics = models.JSONField()
     price = models.FloatField()
     value = models.IntegerField()
     notvalue = models.IntegerField()
@@ -21,6 +21,7 @@ class Product(models.Model):
     recommended_time = models.DateTimeField()
     purchase_method = models.CharField(max_length=200)
     recommendation_reason = models.CharField(max_length=200)
+    recent_prices = models.JSONField()
     introduce = models.TextField()
 
 
@@ -59,3 +60,15 @@ class UserView(models.Model):
     class Meta:
         unique_together = ['user_id', 'product_id']
 
+
+class UserValue(models.Model):
+    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    product_id = models.ForeignKey(Product, on_delete=models.CASCADE)
+    VALUE_OR_NOT_CHOICES = (
+        (0, 'Not Value'),
+        (1, 'Value'),
+    )
+    value_or_not = models.IntegerField(choices=VALUE_OR_NOT_CHOICES)
+
+    class Meta:
+        unique_together = ['user_id', 'product_id']
