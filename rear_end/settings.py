@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'rear_end.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'worth_buying',  # 数据库名字
+        'USER': 'root',
+        'PASSWORD': '@672501109',
+        'HOST': '127.0.0.1',  # 哪台机器上安装了mysql
+        'PORT': '3306',
     }
 }
 
