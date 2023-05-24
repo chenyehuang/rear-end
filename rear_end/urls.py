@@ -21,6 +21,9 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('create/', views.create),
+    path('api/product', views.get_product, name='get_product'),
+    path('api/product_new', views.get_product_new, name='get_product_new'),
+    path('api/product_hot', views.get_product_hot, name='get_product_hot'),
     path('api/user_collect/<int:user_id>/', views.get_user_collect, name='get_user_collect'),
     path('api/user_value/<int:user_id>/<int:value_flag>', views.get_user_value, name='get_user_value'),
     path('api/user_new_break/<int:user_id>', views.get_user_new_break, name='get_user_new_break'),

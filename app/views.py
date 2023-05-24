@@ -399,6 +399,49 @@ class CommentSerializer(serializers.ModelSerializer):
         fields = '__all__'  # 序列化所有字段
 
 
+def get_product(request):
+    products = Product.objects.all()
+    # 序列化商品信息
+    serializer = ProductSerializer(products, many=True)
+    serialized_data = serializer.data
+
+    # 将序列化后的数据返回给前端
+    data = {
+        'products': serialized_data
+    }
+
+    return JsonResponse(data)
+
+
+def get_product_new(request):
+    products = Product.objects.all()
+    products = products.order_by('-recommended_time')
+    # 序列化商品信息
+    serializer = ProductSerializer(products, many=True)
+    serialized_data = serializer.data
+
+    # 将序列化后的数据返回给前端
+    data = {
+        'products': serialized_data
+    }
+
+    return JsonResponse(data)
+
+
+def get_product_hot(request):
+    products = Product.objects.all()
+    products = products.order_by('-value')
+    # 序列化商品信息
+    serializer = ProductSerializer(products, many=True)
+    serialized_data = serializer.data
+
+    # 将序列化后的数据返回给前端
+    data = {
+        'products': serialized_data
+    }
+
+    return JsonResponse(data)
+
 # 获取用户收藏
 def get_user_collect(request, user_id):
     user_collect = UserCollect.objects.filter(user_id=user_id)
