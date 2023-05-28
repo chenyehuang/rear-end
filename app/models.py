@@ -8,6 +8,10 @@ class User(models.Model):
     user_wechat = models.CharField(max_length=200)
     phone_number = models.BigIntegerField()
 
+class User_new(models.Model):
+    openid = models.CharField(max_length=200)
+    nickName = models.CharField(max_length=200)
+    avatarUrl = models.CharField(max_length=200)
 
 class Product(models.Model):
     id = models.AutoField(primary_key=True)

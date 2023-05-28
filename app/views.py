@@ -2,10 +2,11 @@ import json
 
 from django.http import JsonResponse
 from django.shortcuts import render, HttpResponse
-from app.models import User, Product, Comment, RecentPrice, UserCollect, UserView, UserValue
+from app.models import User, Product, Comment, RecentPrice, UserCollect, UserView, UserValue, User_new
 from datetime import datetime, timedelta
 from random import randint
 import random
+from django.views.decorators.csrf import csrf_exempt
 from django.core.serializers import serialize
 from rest_framework import serializers
 
@@ -306,6 +307,19 @@ def create(request):
         Product(**data) for data in products_list
     ])"""
 
+    
+    # 更新image字段的值
+    # for i in range(1, 11):
+    #     product = Product.objects.get(id=i)
+    #     product.image = 'http://47.115.221.21:8081/pic/goods{}.png'.format(i)
+
+    #     # 更新pics字段的值
+    #     product.pics = ['http://47.115.221.21:8081/pic/goods{}-1.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-2.png'.format(i), 
+    #                     'http://47.115.221.21:8081/pic/goods{}-3.png'.format(i)]
+
+    #     # 保存更新后的数据
+    #     product.save()
+
     # Product.objects.bulk_create(products_list)
     # Product.objects.all().delete()
 
@@ -381,7 +395,7 @@ def create(request):
 
     # UserValue.objects.bulk_create(user_value_list)
     # UserValue.objects.all().delete()
-
+    # User_new.objects.filter(id=5).delete()
     return HttpResponse("创建成功")
 
 
@@ -401,6 +415,20 @@ class CommentSerializer(serializers.ModelSerializer):
 
 def get_product(request):
     products = Product.objects.all()
+    # 序列化商品信息
+    serializer = ProductSerializer(products, many=True)
+    serialized_data = serializer.data
+
+    # 将序列化后的数据返回给前端
+    data = {
+        'products': serialized_data
+    }
+
+    return JsonResponse(data)
+
+#获取当个商品信息
+def get_product_detail(request, product_id):
+    products = Product.objects.filter(id=product_id)
     # 序列化商品信息
     serializer = ProductSerializer(products, many=True)
     serialized_data = serializer.data
@@ -576,3 +604,29 @@ def history_new_product(request, user_id):
     }
 
     return JsonResponse(data)
+
+# 注册用户将其存储进数据库
+@csrf_exempt
+def create_user(request):
+    if request.method == 'GET':
+        openid = request.GET.get('openid')
+        if openid is None:
+            return JsonResponse('注册失败, 发送的openid为空')
+        else:
+            userinfo = User_new.objects.filter(openid=openid)
+            if userinfo.exists():
+                md_user = User_new.objects.get(openid=openid)
+                # if request.GET.get('nickName') != md_user.nickName:
+                # print(request.GET.get("forChangeName"))
+                # print(request.GET.get('nickName'))
+                if request.GET.get("forChangeName") == "yes":
+                    User_new.objects.filter(openid=openid).update(nickName=request.GET.get('nickName'))
+                return JsonResponse({'is_registered': True,
+                                    'user_name':User_new.objects.get(openid=openid).nickName})
+            else:
+                nickName = request.GET.get('nickName')
+                avatarUrl = request.GET.get('avatarUrl')
+                User_new.objects.create(openid=openid, nickName=nickName, avatarUrl=avatarUrl)  # 这里需要修改
+                return JsonResponse({'注册成功': True})
+    else:
+        return JsonResponse({'注册失败': False})
