@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'worth_buying',  # 数据库名字
-        'USER': 'first_group',
-        'PASSWORD': '123451109',
-        'HOST': '47.115.221.21',  # 哪台机器上安装了mysql
+        'USER': 'root',
+        'PASSWORD': '@672501109',
+        'HOST': 'localhost',  # 哪台机器上安装了mysql
         'PORT': '3306',
     }
 }

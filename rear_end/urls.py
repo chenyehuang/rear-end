@@ -19,20 +19,22 @@ from django.urls import path
 from app import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
     path('create/', views.create),
     path('api/product', views.get_product, name='get_product'),
+    path('api/user', views.get_user, name='get_user'),
     path('api/product/<int:product_id>', views.get_product_detail, name='get_product_detail'),
     path('api/product_new', views.get_product_new, name='get_product_new'),
     path('api/product_hot', views.get_product_hot, name='get_product_hot'),
-    path('api/user_collect/<int:user_id>/', views.get_user_collect, name='get_user_collect'),
-    path('api/user_value/<int:user_id>/<int:value_flag>', views.get_user_value, name='get_user_value'),
-    path('api/user_new_break/<int:user_id>', views.get_user_new_break, name='get_user_new_break'),
-    path('api/user_hot_break/<int:user_id>', views.get_user_hot_break, name='get_user_hot_break'),
-    path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
+    path('api/front_product', views.get_front_product, name='get_front_product'),
+    # path('api/user_collect/<int:user_id>/', views.get_user_collect, name='get_user_collect'),
+    # path('api/user_value/<int:user_id>/<int:value_flag>', views.get_user_value, name='get_user_value'),
+    # path('api/user_new_break/<int:user_id>', views.get_user_new_break, name='get_user_new_break'),
+    # path('api/user_hot_break/<int:user_id>', views.get_user_hot_break, name='get_user_hot_break'),
+    # path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
     path('api/user_get_comment/<int:user_id>', views.get_comment, name='get_comment'),
-    path('api/user_hot_break/<int:user_id>', views.history_hot_product, name='history_hot_product'),
-    path('api/user_new_break/<int:user_id>', views.history_new_product, name='history_new_product'),
+    # path('api/user_hot_break/<int:user_id>', views.history_hot_product, name='history_hot_product'),
+    # # path('api/user_new_break/<int:user_id>', views.history_new_product, name='history_new_product'),
     path('api/create_user/', views.create_user, name="create_user"),
 
 ]
