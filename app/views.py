@@ -10,7 +10,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.core.serializers import serialize
 from rest_framework import serializers
 from django.db.models.functions import Random
-
+from django.db.models import Q
+from django.db import IntegrityError
 # Create your views here.
 def create(request):
     openid = ['ovN085f-qNQCT3YPKMfw3SXnzJ5w', 'odG6m4gNX7ePxlRlqSJO2KvMiJPs']
@@ -49,9 +50,9 @@ def create(request):
     # {
     #     'id': 1,
     #     'name': '笔记本礼盒套装2023年新款笔记本套装定制logo',
-    #     'image': '../../image/goods/goods1.png',
-    #     'pics': ['../../image/goods/goods1-1.png', '../../image/goods/goods1-2.png',
-    #                 '../../image/goods/goods1-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods1.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods1-1.png', 'http://47.115.221.21:8081/pic/goods/goods1-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods1-3.png'],
     #     'price': 28.8,
     #     'value': 90,
     #     'notvalue': 118,
@@ -74,9 +75,9 @@ def create(request):
     # {
     #     'id': 2,
     #     'name': '得力线圈本笔记本考研本子',
-    #     'image': '../../image/goods/goods2.png',
-    #     'pics': ['../../image/goods/goods2-1.png', '../../image/goods/goods2-2.png',
-    #                 '../../image/goods/goods2-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods2.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods2-1.png', 'http://47.115.221.21:8081/pic/goods/goods2-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods2-3.png'],
     #     'price': 7.6,
     #     'value': 190,
     #     'notvalue': 18,
@@ -99,9 +100,9 @@ def create(request):
     # {
     #     'id': 3,
     #     'name': '长尾夹彩色大中小号黑色燕尾夹',
-    #     'image': '../../image/goods/goods3.png',
-    #     'pics': ['../../image/goods/goods3-1.png', '../../image/goods/goods3-2.png',
-    #                 '../../image/goods/goods3-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods3.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods3-1.png', 'http://47.115.221.21:8081/pic/goods/goods3-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods3-3.png'],
     #     'price': 5.8,
     #     'value': 100,
     #     'notvalue': 15,
@@ -124,9 +125,9 @@ def create(request):
     # {
     #     'id': 4,
     #     'name': '金属文件架桌面文件收纳盒',
-    #     'image': '../../image/goods/goods4.png',
-    #     'pics': ['../../image/goods/goods4-1.png', '../../image/goods/goods4-2.png',
-    #                 '../../image/goods/goods4-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods4.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods4-1.png', 'http://47.115.221.21:8081/pic/goods/goods4-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods4-3.png'],
     #     'price': 26.9,
     #     'value': 48,
     #     'notvalue': 128,
@@ -150,9 +151,9 @@ def create(request):
     # {
     #     'id': 5,
     #     'name': '最生活小米毛巾',
-    #     'image': '../../image/goods/goods5.png',
-    #     'pics': ['../../image/goods/goods5-1.png', '../../image/goods/goods5-2.png',
-    #                 '../../image/goods/goods5-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods5.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods5-1.png', 'http://47.115.221.21:8081/pic/goods/goods5-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods5-3.png'],
     #     'price': 19.9,
     #     'value': 230,
     #     'notvalue': 45,
@@ -176,9 +177,9 @@ def create(request):
     # {
     #     'id': 6,
     #     'name': '海盐持久留香洗手液',
-    #     'image': '../../image/goods/goods6.png',
-    #     'pics': ['../../image/goods/goods6-1.png', '../../image/goods/goods6-2.png',
-    #                 '../../image/goods/goods6-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods6.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods6-1.png', 'http://47.115.221.21:8081/pic/goods/goods6-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods6-3.png'],
     #     'price': 15.5,
     #     'value': 20,
     #     'notvalue': 113,
@@ -202,9 +203,9 @@ def create(request):
     # {
     #     'id': 7,
     #     'name': '晾衣架落地卧室可移动家用晾衣架',
-    #     'image': '../../image/goods/goods7.png',
-    #     'pics': ['../../image/goods/goods7-1.png', '../../image/goods/goods7-2.png',
-    #                 '../../image/goods/goods7-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods7.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods7-1.png', 'http://47.115.221.21:8081/pic/goods/goods7-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods7-3.png'],
     #     'price': 56.0,
     #     'value': 36,
     #     'notvalue': 125,
@@ -227,9 +228,9 @@ def create(request):
     # {
     #     'id': 8,
     #     'name': 'SukGarden樱花洗衣液进口香氛',
-    #     'image': '../../image/goods/goods8.png',
-    #     'pics': ['../../image/goods/goods8-1.png', '../../image/goods/goods8-2.png',
-    #                 '../../image/goods/goods8-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods8.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods8-1.png', 'http://47.115.221.21:8081/pic/goods/goods8-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods8-3.png'],
     #     'price': 99.9,
     #     'value': 12,
     #     'notvalue': 118,
@@ -252,9 +253,9 @@ def create(request):
     # {
     #     'id': 9,
     #     'name': 'meyarn米妍正畸牙膏',
-    #     'image': '../../image/goods/goods9.png',
-    #     'pics': ['../../image/goods/goods9-1.png', '../../image/goods/goods9-2.png',
-    #                 '../../image/goods/goods9-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods9.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods9-1.png', 'http://47.115.221.21:8081/pic/goods/goods9-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods9-3.png'],
     #     'price': 35.9,
     #     'value': 112,
     #     'notvalue': 13,
@@ -277,9 +278,9 @@ def create(request):
     # {
     #     'id': 10,
     #     'name': '家用电脑椅子网红简约透明凳子',
-    #     'image': '../../image/goods/goods10.png',
-    #     'pics': ['../../image/goods/goods10-1.png', '../../image/goods/goods10-2.png',
-    #                 '../../image/goods/goods10-3.png'],
+    #     'image': 'http://47.115.221.21:8081/pic/goods/goods10.png',
+    #     'pics': ['http://47.115.221.21:8081/pic/goods/goods10-1.png', 'http://47.115.221.21:8081/pic/goods/goods10-2.png',
+    #                 'http://47.115.221.21:8081/pic/goods/goods10-3.png'],
     #     'price': 111.2,
     #     'value': 58,
     #     'notvalue': 156,
@@ -307,6 +308,14 @@ def create(request):
     #     Product(**data) for data in products_list
     # ])
     # Product.objects.all().delete()
+    
+    for i in range(1, 11):
+        product = Product.objects.get(id=i)
+        new_image = "http://47.115.221.21:8081/pic/goods{}.png".format(i)
+        new_pics = ['http://47.115.221.21:8081/pic/goods{}-1.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-2.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-3.png'.format(i)] 
+        product.image = new_image
+        product.pics = new_pics
+        product.save()
 
     # comment_list = [
     #     Comment(user=User.objects.get(openid=openid[randint(0,1)%2]),
@@ -351,6 +360,8 @@ def create(request):
     # UserCollect.objects.create(user_id=User.objects.get(openid=openid[1]), product_id=Product.objects.get(id=8))
     # UserCollect.objects.create(user_id=User.objects.get(openid=openid[1]), product_id=Product.objects.get(id=3))
     # UserCollect.objects.all().delete()
+    # UserCollect.objects.filter(id=1).delete()
+    # UserCollect.objects.filter(id=2).delete()
 
     # 待插入的10条数据
     # alter table app_userview AUTO_INCREMENT 1;
@@ -393,10 +404,8 @@ def create(request):
     # UserValue.objects.create(user_id=User.objects.get(openid=openid[1]), product_id=Product.objects.get(id=9),value_or_not=randint(0, 1))
 
     # UserValue.objects.all().delete()
-
-
-
-
+    User.objects.filter(id=3).delete()
+    User.objects.filter(id=4).delete()
     # User.objects.filter(id=8).delete()
     return HttpResponse("创建成功")
 
@@ -477,6 +486,7 @@ def get_product_hot(request):
 
     return JsonResponse(data)
 
+#放回首页商品
 def get_front_product(request):
     total_products = Product.objects.count()
     products = Product.objects.annotate(random_order=Random()).order_by('random_order')[:5]
@@ -491,23 +501,197 @@ def get_front_product(request):
 
     return JsonResponse(data)
 
+# 搜索商品
+def search_products(request):
+    if request.method == 'GET':
+        search_text = request.GET.get('str')
+        openid = request.GET.get('openid')
+        mode = request.GET.get('mode')
+
+        if mode == 'all':
+            products = Product.objects.filter(Q(name__icontains=search_text) | Q(image__icontains=search_text)| Q(pics__icontains=search_text)| 
+                                              Q(referrer_id__icontains=search_text)| Q(purchase_method__icontains=search_text) | 
+                                              Q(recommendation_reason__icontains=search_text)|Q(introduce__icontains=search_text))
+        elif mode == 'focus':
+            user = User.objects.get(openid=openid)
+            user_products = UserCollect.objects.filter(user_id=user).values_list('product_id', flat=True)
+            products = Product.objects.filter(Q(name__icontains=search_text) | Q(image__icontains=search_text)| Q(pics__icontains=search_text)| 
+                                              Q(referrer_id__icontains=search_text)| Q(purchase_method__icontains=search_text) | 
+                                              Q(recommendation_reason__icontains=search_text)|Q(introduce__icontains=search_text))
+        else:
+            return JsonResponse({'error': 'Invalid mode'})
+
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
+
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
+
+        return JsonResponse(data)
+    else:
+        return JsonResponse("无法搜索", safe=False)
+
+# 增加商品关注
+def add_collect(request):
+    if request.method == "GET":
+        good_id = request.GET.get('good_id')
+        openid = request.GET.get('openid')
+        try:
+            user = User.objects.get(openid=openid)
+            product = Product.objects.get(id=good_id)
+            try:
+                UserCollect.objects.create(user_id=user, product_id=product)
+                return JsonResponse("添加成功", safe=False)
+            except IntegrityError:
+                return JsonResponse("该商品已经在用户关注列表中", safe=False)
+        except (User.DoesNotExist, Product.DoesNotExist):
+            return JsonResponse("用户或商品不存在", safe=False)
+    else:
+        return JsonResponse("无法添加关注", safe=False)
+
+#删除关注
+def delete_collect(request):
+    if request.method == "GET":
+        try:
+            good_id = request.GET.get('good_id')
+            openid = request.GET.get('openid')
+            print(good_id, openid)
+            user = User.objects.get(openid=openid)
+            product = Product.objects.get(id=good_id)
+            try:
+                UserCollect.objects.filter(user_id=user, product_id=product).delete()
+                return JsonResponse("删除成功", safe=False)
+            except IntegrityError:
+                return JsonResponse("该商品不在在用户关注列表中", safe=False)
+        except (User.DoesNotExist, Product.DoesNotExist):
+            return JsonResponse("用户或商品不存在", safe=False)
+    else:
+        return JsonResponse("无法删除该商品", safe=False)
+
+# 返回商品图片
+def get_product_pic(request):
+    if request.method == "GET":
+        good_id = request.GET.get('good_id')
+        try:
+            product = Product.objects.get(id=good_id)
+            pics = product.pics
+            pics.insert(0, product.image)
+            return JsonResponse({'image_urls': pics})
+        except Product.DoesNotExist:
+            return JsonResponse({'error': 'Product not found'})
+    else:
+        return JsonResponse("无法获取商品的图片", safe=False)
+
+# 用户全部的评论
+def get_user_comment(request):
+    if request.method == "GET":
+        openid = request.GET.get('openid')
+        try:
+            user = User.objects.get(openid=openid)
+            comments = Comment.objects.filter(user=user)
+            comment_list = [
+                {   
+                    'content': comment.content,
+                    'time': comment.time,
+                    'product_id':comment.good_id.id
+                }
+                for comment in comments
+            ]
+            return JsonResponse({'comments': comment_list})
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'User not found'})
+    else:
+        return JsonResponse("获取用户评论失败", safe=False)
+
+
+# 增加商品评论
+def add_comment(request):
+    if request.method == "GET":
+        try:
+            openid = request.GET.get("openid")
+            good_id = request.GET.get("good_id")
+            user = User.objects.get(openid=openid)
+            product = Product.objects.get(id=good_id)
+            Comment.objects.create(user=user, good_id=product, content=content, time=datetime.now())
+            return JsonResponse("添加成功", safe=False)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'Product not found'})
+    else:
+        return JsonResponse("评论失败", safe=False)
+
+#返回商品所有评论
+def get_product_comment(request):
+    if request.method == "GET":
+        try:
+            good_id = request.GET.get("good_id")
+            product = Product.objects.get(id=good_id)
+            comments = Comment.objects.filter(good_id=product)
+            comment_list = [
+                    {
+                        'content': comment.content,
+                        'time': comment.time,
+                        'user':comment.user.openid
+                    }
+                    for comment in comments
+                ]
+            return JsonResponse({'comment': comment_list})
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'Product not found'})
+    else:
+        return JsonResponse("获取商品评论失败", safe=False)
+
+
+def test_products(request, good_id):
+    product = Product.objects.get(id=good_id)
+    comments = Comment.objects.filter(good_id=product)
+    comment_list = [
+            {
+                'content': comment.content,
+                'time': comment.time,
+                'user':comment.user.openid
+            }
+            for comment in comments
+        ]
+    return JsonResponse({'comment': comment_list})
+
+
+def add_product(request):
+    if request.method == "GET":
+        try:
+            name = request.GET.get("name")
+            price = request.GET.get("price")
+            description = request.GET.get("description")
+            purchaseChannel = request.GET.get("purchaseChannel")
+            recommendationReason = request.GET.get("recommendationReason")
+            openid = request.GET.get("userId")
+            print(name)
+            return JsonResponse('上传成功', safe=False)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'can not add'})
+    else:
+         return JsonResponse("获取你上传的数据", safe=False)
+
+
 
 # # 获取用户收藏
-# def get_user_collect(request, user_id):
-#     user_collect = UserCollect.objects.filter(user_id=user_id)
-#     product_ids = [collect.product_id_id for collect in user_collect]
-#     products = Product.objects.filter(id__in=product_ids)
+def get_user_collect(request, openid):
+    user = User.objects.get(openid=openid)
+    user_collect = UserCollect.objects.filter(user_id=user)
+    product_ids = [collect.product_id_id for collect in user_collect]
+    products = Product.objects.filter(id__in=product_ids)
 
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
+    # 序列化商品信息
+    serializer = ProductSerializer(products, many=True)
+    serialized_data = serializer.data
 
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
+    # 将序列化后的数据返回给前端
+    data = {
+        'products': serialized_data
+    }
 
-#     return JsonResponse(data)
+    return JsonResponse(data)
 
 
 # # 获取用户值/不值
@@ -578,20 +762,7 @@ def get_front_product(request):
 #     return JsonResponse(data)
 
 
-# 用户收到的评论
-def get_comment(request, user_id):
-    product_comment = Product.objects.filter(referrer_id=user_id)
-    product_ids = [collect.id for collect in product_comment]
-    user_get_comment = Comment.objects.filter(good_id__in=product_ids)
-    serializer = CommentSerializer(user_get_comment, many=True)
-    serialized_data = serializer.data
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'comments': serialized_data
-    }
-
-    return JsonResponse(data)
 
 
 # # 用户最热排序的浏览记录

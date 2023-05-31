@@ -26,15 +26,26 @@ urlpatterns = [
     path('api/product/<int:product_id>', views.get_product_detail, name='get_product_detail'),
     path('api/product_new', views.get_product_new, name='get_product_new'),
     path('api/product_hot', views.get_product_hot, name='get_product_hot'),
-    path('api/front_product', views.get_front_product, name='get_front_product'),
-    # path('api/user_collect/<int:user_id>/', views.get_user_collect, name='get_user_collect'),
+    path('api/create_user/', views.create_user, name="create_user"),
+    
     # path('api/user_value/<int:user_id>/<int:value_flag>', views.get_user_value, name='get_user_value'),
     # path('api/user_new_break/<int:user_id>', views.get_user_new_break, name='get_user_new_break'),
     # path('api/user_hot_break/<int:user_id>', views.get_user_hot_break, name='get_user_hot_break'),
     # path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
-    path('api/user_get_comment/<int:user_id>', views.get_comment, name='get_comment'),
     # path('api/user_hot_break/<int:user_id>', views.history_hot_product, name='history_hot_product'),
     # # path('api/user_new_break/<int:user_id>', views.history_new_product, name='history_new_product'),
-    path('api/create_user/', views.create_user, name="create_user"),
+    path('api/front_product/', views.get_front_product, name='get_front_product'),
+    path('api/search_products', views.search_products, name='search_products'),
+    path('api/add_collect', views.add_collect, name='add_collect'),
+    path('api/delete_collect', views.delete_collect, name='delete_collect'),
+    path('api/get_product_pic/', views.get_product_pic, name='get_product_pic'),
+    path('api/get_user_comment/', views.get_user_comment, name='get_user_comment'),
+    path('api/add_comment/', views.add_comment, name='add_comment'),
+    path('api/user_collect/<openid>/', views.get_user_collect, name='get_user_collect'),
+    path('api/get_product_comment/', views.get_product_comment, name='get_product_comment'),
+    path('api/add_product/', views.add_product, name='add_product'),
+
+
+    path('test/<int:good_id>', views.test_products, name="test_products"),
 
 ]
