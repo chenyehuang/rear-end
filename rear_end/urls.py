@@ -30,7 +30,8 @@ urlpatterns = [
     path('api/user_hot_break/<int:user_id>', views.get_user_hot_break, name='get_user_hot_break'),
     path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
     path('api/user_get_comment/<int:user_id>', views.get_comment, name='get_comment'),
-    path('api/user_hot_break/<int:user_id>', views.history_hot_product, name='history_hot_product'),
-    path('api/user_new_break/<int:user_id>', views.history_new_product, name='history_new_product'),
+    path('api/manager_get', manage.manager_get, name='manager_get'),
+    path('api/user_submit_break', tips-commit.submit_break, name='submit_break'),
+    path('api/user_get_goodsList/<int:user_id>', focus.getgoodsList1, name='getgoodsList1'),
 
 ]
