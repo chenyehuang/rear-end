@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app import views
+from app import manage
+from app import tips_commit
+from app import focus
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,7 +34,7 @@ urlpatterns = [
     path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
     path('api/user_get_comment/<int:user_id>', views.get_comment, name='get_comment'),
     path('api/manager_get', manage.manager_get, name='manager_get'),
-    path('api/user_submit_break', tips-commit.submit_break, name='submit_break'),
+    path('api/user_submit_break', tips_commit.submit_break, name='submit_break'),
     path('api/user_get_goodsList/<int:user_id>', focus.getgoodsList1, name='getgoodsList1'),
 
 ]
