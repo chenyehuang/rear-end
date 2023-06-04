@@ -408,7 +408,7 @@ def create(request):
     # UserValue.objects.all().delete()
     # User.objects.filter(id=3).delete()
     # User.objects.filter(id=4).delete()
-    # User.objects.filter(id=7).delete()
+    # User.objects.filter(id=11).delete()
     # Product.objects.filter(id=14).delete()
     return HttpResponse("创建成功")
 
@@ -808,6 +808,9 @@ def value_or_not(request):
             openid = request.GET.get("userId")
             goodInfo = request.GET.get("goodInfo")
             value = request.GET.get("value")
+            print("openid", openid)
+            print("goodInfo", goodInfo)
+            print("value", value)
             user = User.objects.get(openid=openid)
             product = Product.objects.get(name=goodInfo)
         except User.DoesNotExist:

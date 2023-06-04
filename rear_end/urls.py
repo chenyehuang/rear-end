@@ -40,6 +40,7 @@ urlpatterns = [
     path("api/delete_user/",views.delete_user, name='delete_user'),
     path("api/delete_product/",views.delete_product, name='delete_product'),
     path('api/delete_manage_comment/', views.delete_manage_comment, name='delete_manage_comment'),
+    path('api/value_or_not/', views.value_or_not, name='value_or_not'),
     path('test/<int:good_id>', views.test_products, name="test_products"),
 
 ]
