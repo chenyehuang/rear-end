@@ -126,3 +126,32 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#设置日志
+LOG_FILE_PATH = '/home/rear-end/app.log'
+
+# 配置日志
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',  # 设置日志级别为 INFO 或更高级别
+            'class': 'logging.FileHandler',
+            'filename': LOG_FILE_PATH,
+            'formatter': 'standard',
+        },
+    },
+    'formatters': {
+        'standard': {
+            'format': '%(asctime)s - %(levelname)s - %(message)s',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['file'],
+            'level': 'INFO',  # 设置日志级别为 INFO 或更高级别
+            'propagate': True,
+        },
+    },
+}

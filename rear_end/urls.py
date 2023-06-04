@@ -41,6 +41,6 @@ urlpatterns = [
     path("api/delete_product/",views.delete_product, name='delete_product'),
     path('api/delete_manage_comment/', views.delete_manage_comment, name='delete_manage_comment'),
     path('api/value_or_not/', views.value_or_not, name='value_or_not'),
-    path('test/<int:good_id>', views.test_products, name="test_products"),
+    path('api/get_user_value/', views.get_user_value, name='get_user_value'),
 
 ]

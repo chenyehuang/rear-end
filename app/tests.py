@@ -120,6 +120,17 @@ class URLRoutingTestCase(TestCase):
         response = self.client.get(url, {'openid': user.openid, "product_id":product.id, "content":content})  # 传递用户openid作为参数
         self.assertEqual(response.status_code, 200)
 
+    def test_value_or_not_url(self):
+        url = reverse('value_or_not')
+        response = self.client.post(url, {'openid': 'your_openid', 'goodInfo': 'your_good_info', 'value': 1})
+        self.assertEqual(response.status_code, 200)
+
+    def test_get_user_value_url(self):
+        url = reverse('get_user_value')
+        response = self.client.get(url, {'openid': "test_openid"})
+        self.assertEqual(response.status_code, 200)
+
+
 #对数据表的测试
 class ModelTestCase(TestCase):
     def setUp(self) -> None:
@@ -502,4 +513,28 @@ class ViewTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json(), {'删除成功': True})
 
+
+    def test_value_or_not(self):
+        url = reverse('value_or_not')
+        data = {
+            'userId': self.user.openid,
+            'goodInfo': self.product1.name,
+            'value': 1
+        }
+        response = self.client.get(url, data)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json(), {'message': '评价已添加'})
+
+    def test_get_user_value(self):
+        url = reverse('get_user_value')
+        data = {
+            'openid': self.user.openid
+        }
+        response = self.client.get(url, data)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()['user_values'], [])
     
+    def tearDown(self):
+        User.objects.all().delete()
+        Product.objects.all().delete()
+        Comment.objects.all().delete()

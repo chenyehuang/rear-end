@@ -14,6 +14,36 @@ from django.db.models import Q
 from django.db import IntegrityError
 from django.utils import timezone
 
+import logging
+
+# 创建 logger 实例
+logger = logging.getLogger(__name__)
+
+# 配置日志格式
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+# 创建日志处理器
+file_handler = logging.FileHandler('app.log')
+file_handler.setLevel(logging.INFO)
+file_handler.setFormatter(formatter)
+# 将处理器添加到 logger
+logger.addHandler(file_handler)
+
+# 创建报错日志处理器
+# Create a file handler
+file_handler_error = logging.FileHandler('/home/rear-end/logs/error.log')
+file_handler_error.setLevel(logging.ERROR)
+file_handler_error.setFormatter(formatter)
+logger.addHandler(file_handler_error)
+
+# 创建debug日志处理器
+# Create a file handler
+file_handler_debug = logging.FileHandler('/home/rear-end/logs/debug.log')
+file_handler_debug.setLevel(logging.DEBUG)
+file_handler_debug.setFormatter(formatter)
+logger.addHandler(file_handler_debug)
+
+
 # Create your views here.
 def create(request):
     openid = ['ovN085f-qNQCT3YPKMfw3SXnzJ5w', 'odG6m4gNX7ePxlRlqSJO2KvMiJPs']
@@ -431,81 +461,120 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = '__all__'  # 序列化所有字段
 
-
+# 获取全部商品信息
 def get_product(request):
-    products = Product.objects.all()
-    # 序列化商品信息
-    serializer = ProductSerializer(products, many=True)
-    serialized_data = serializer.data
+    logger.info('Fetching products')  # 记录日志信息
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'products': serialized_data
-    }
+    try:
+        products = Product.objects.all()
+        # 序列化商品信息
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
 
-    return JsonResponse(data)
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
 
-#获取当个商品信息
+        logger.info('Products retrieved successfully')  # 记录日志信息
+        return JsonResponse(data)
+    except Exception as e:
+        logger.error(f'Failed to fetch products: {str(e)}')  # 记录日志信息
+        return JsonResponse({'error': 'Failed to fetch products'})
+
+#获取单个商品信息
 def get_product_detail(request, product_id):
-    products = Product.objects.filter(id=product_id)
-    # 序列化商品信息
-    serializer = ProductSerializer(products, many=True)
-    serialized_data = serializer.data
+    logger.info(f'Fetching product details for product ID: {product_id}')
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'products': serialized_data
-    }
+    try:
+        products = Product.objects.filter(id=product_id)
+        # 序列化商品信息
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
 
-    return JsonResponse(data)
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
+
+        logger.info(f'Product details retrieved successfully for product ID: {product_id}')
+        return JsonResponse(data)
+    except Exception as e:
+        logger.error(f'Failed to fetch product details for product ID {product_id}: {str(e)}')
+        return JsonResponse({'error': 'Failed to fetch product details'})
+
 
 #按时间排序
 def get_product_new(request):
-    products = Product.objects.all()
-    products = products.order_by('-recommended_time')
-    # 序列化商品信息
-    serializer = ProductSerializer(products, many=True)
-    serialized_data = serializer.data
+    logger.info('Fetching products ordered by new')
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'products': serialized_data
-    }
+    try:
+        products = Product.objects.all()
+        products = products.order_by('-recommended_time')
+        # 序列化商品信息
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
 
-    return JsonResponse(data)
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
+
+        logger.info('Products ordered by new retrieved successfully')
+        return JsonResponse(data)
+    except Exception as e:
+        logger.error(f'Failed to fetch products ordered by new: {str(e)}')
+        return JsonResponse({'error': 'Failed to fetch products ordered by new'})
+
 
 #按热度排序
 def get_product_hot(request):
-    products = Product.objects.all()
-    products = products.order_by('-value')
-    # 序列化商品信息
-    serializer = ProductSerializer(products, many=True)
-    serialized_data = serializer.data
+    logger.info('Fetching products ordered by hot')
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'products': serialized_data
-    }
+    try:
+        products = Product.objects.all()
+        products = products.order_by('-value')
+        # 序列化商品信息
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
 
-    return JsonResponse(data)
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
+
+        logger.info('Products ordered by hot retrieved successfully')
+        return JsonResponse(data)
+    except Exception as e:
+        logger.error(f'Failed to fetch products ordered by hot: {str(e)}')
+        return JsonResponse({'error': 'Failed to fetch products ordered by hot'})
 
 #放回首页商品
 def get_front_product(request):
-    total_products = Product.objects.count()
-    products = Product.objects.annotate(random_order=Random()).order_by('random_order')[:5]
-    # products = Product.objects.all()[5:]
-    serializer = ProductSerializer(products, many=True)
-    serialized_data = serializer.data
+    logger.info('Fetching front page products')  # 记录日志信息
 
-    # 将序列化后的数据返回给前端
-    data = {
-        'products': serialized_data
-    }
+    try:
+        total_products = Product.objects.count()
+        products = Product.objects.annotate(random_order=Random()).order_by('random_order')[:5]
+        # products = Product.objects.all()[5:]
+        serializer = ProductSerializer(products, many=True)
+        serialized_data = serializer.data
 
-    return JsonResponse(data)
+        # 将序列化后的数据返回给前端
+        data = {
+            'products': serialized_data
+        }
+
+        logger.info('Front page products fetched successfully')  # 记录日志信息
+        return JsonResponse(data)
+    except Exception as e:
+        logger.error(f'Failed to fetch front page products. Error: {str(e)}')  # 记录日志信息
+        return JsonResponse({'error': 'Failed to fetch products'})
 
 # 搜索商品
 def search_products(request):
+    logger.info('Searching products')  # 记录日志信息
+
     if request.method == 'GET':
         search_text = request.GET.get('str')
         openid = request.GET.get('openid')
@@ -532,12 +601,16 @@ def search_products(request):
             'products': serialized_data
         }
 
+        logger.info('Products searched successfully')  # 记录日志信息
         return JsonResponse(data)
     else:
+        logger.error('Invalid request method for searching products')  # 记录日志信息
         return JsonResponse("无法搜索", safe=False)
 
 # 增加商品关注
 def add_collect(request):
+    logger.info('Adding product to user collection')  # 记录日志信息
+
     if request.method == "GET":
         good_id = request.GET.get('good_id')
         openid = request.GET.get('openid')
@@ -546,49 +619,66 @@ def add_collect(request):
             product = Product.objects.get(id=good_id)
             try:
                 UserCollect.objects.create(user_id=user, product_id=product)
+                logger.info('Product added to user collection successfully')  # 记录日志信息
                 return JsonResponse("添加成功", safe=False)
             except IntegrityError:
+                logger.warning('Product already exists in user collection')  # 记录日志信息
                 return JsonResponse("该商品已经在用户关注列表中", safe=False)
         except (User.DoesNotExist, Product.DoesNotExist):
+            logger.error('User or product does not exist')  # 记录日志信息
             return JsonResponse("用户或商品不存在", safe=False)
     else:
+        logger.error('Invalid request method for adding product to user collection')  # 记录日志信息
         return JsonResponse("无法添加关注", safe=False)
+
 
 #删除关注
 def delete_collect(request):
+    logger.info('Deleting product from user collection')  # 记录日志信息
+
     if request.method == "GET":
         try:
             good_id = request.GET.get('good_id')
             openid = request.GET.get('openid')
-            print(good_id, openid)
             user = User.objects.get(openid=openid)
             product = Product.objects.get(id=good_id)
             try:
                 UserCollect.objects.filter(user_id=user, product_id=product).delete()
+                logger.info('Product deleted from user collection successfully')  # 记录日志信息
                 return JsonResponse("删除成功", safe=False)
             except IntegrityError:
+                logger.warning('Product does not exist in user collection')  # 记录日志信息
                 return JsonResponse("该商品不在在用户关注列表中", safe=False)
         except (User.DoesNotExist, Product.DoesNotExist):
+            logger.error('User or product does not exist')  # 记录日志信息
             return JsonResponse("用户或商品不存在", safe=False)
     else:
+        logger.error('Invalid request method for deleting product from user collection')  # 记录日志信息
         return JsonResponse("无法删除该商品", safe=False)
 
 # 返回商品图片
 def get_product_pic(request):
+    logger.info('Fetching product images')  # 记录日志信息
+
     if request.method == "GET":
         good_id = request.GET.get('good_id')
         try:
             product = Product.objects.get(id=good_id)
             pics = product.pics
             pics.insert(0, product.image)
+            logger.info('Product images fetched successfully')  # 记录日志信息
             return JsonResponse({'image_urls': pics})
         except Product.DoesNotExist:
+            logger.error('Product does not exist')  # 记录日志信息
             return JsonResponse({'error': 'Product not found'})
     else:
+        logger.error('Invalid request method for fetching product images')  # 记录日志信息
         return JsonResponse("无法获取商品的图片", safe=False)
 
 # 用户全部的评论
 def get_user_comment(request):
+    logger.info('Fetching user comments')  # 记录日志信息
+
     if request.method == "GET":
         openid = request.GET.get('openid')
         try:
@@ -598,19 +688,24 @@ def get_user_comment(request):
                 {   
                     'content': comment.content,
                     'time': comment.time,
-                    'product_id':comment.good_id.id
+                    'product_id': comment.good_id.id
                 }
                 for comment in comments
             ]
+            logger.info('User comments fetched successfully')  # 记录日志信息
             return JsonResponse({'comments': comment_list})
         except User.DoesNotExist:
+            logger.error('User does not exist')  # 记录日志信息
             return JsonResponse({'error': 'User not found'})
     else:
+        logger.error('Invalid request method for fetching user comments')  # 记录日志信息
         return JsonResponse("获取用户评论失败", safe=False)
 
 
 # 增加商品评论
 def add_comment(request):
+    logger.info('Adding comment to product')  # 记录日志信息
+
     if request.method == "GET":
         try:
             openid = request.GET.get("openid")
@@ -619,14 +714,19 @@ def add_comment(request):
             user = User.objects.get(openid=openid)
             product = Product.objects.get(id=good_id)
             Comment.objects.create(user=user, good_id=product, content=content, time=datetime.now())
+            logger.info('Comment added successfully')  # 记录日志信息
             return JsonResponse("添加成功", safe=False)
         except User.DoesNotExist:
+            logger.error('User does not exist')  # 记录日志信息
             return JsonResponse({'error': 'Product not found'})
     else:
+        logger.error('Invalid request method for adding comment')  # 记录日志信息
         return JsonResponse("评论失败", safe=False)
 
 #返回商品所有评论
 def get_product_comment(request):
+    logger.info('Fetching comments for product')  # 记录日志信息
+
     if request.method == "GET":
         try:
             good_id = request.GET.get("good_id")
@@ -640,28 +740,20 @@ def get_product_comment(request):
                     }
                     for comment in comments
                 ]
+            logger.info('Product comments fetched successfully')  # 记录日志信息
             return JsonResponse({'comment': comment_list})
         except User.DoesNotExist:
+            logger.error('Product does not exist')  # 记录日志信息
             return JsonResponse({'error': 'Product not found'})
     else:
+        logger.error('Invalid request method for fetching product comments')  # 记录日志信息
         return JsonResponse("获取商品评论失败", safe=False)
 
 
-def test_products(request, good_id):
-    product = Product.objects.get(id=good_id)
-    comments = Comment.objects.filter(good_id=product)
-    comment_list = [
-            {
-                'content': comment.content,
-                'time': comment.time,
-                'user':comment.user.openid
-            }
-            for comment in comments
-        ]
-    return JsonResponse({'comment': comment_list})
-
-
+#增加商品
 def add_product(request):
+    logger.info('Adding product')  # 记录日志信息
+
     if request.method == "GET":
         try:
             name = request.GET.get("name")
@@ -673,10 +765,9 @@ def add_product(request):
             image_urls_2 = request.GET.get("imageUrl_2")
             image_urls_3 = request.GET.get("imageUrl_3")
             image_urls_4 = request.GET.get("imageUrl_4")
-            # print(image_urls_1, "##########", image_urls_2, "######", image_urls_3, "#########", image_urls_4) 
             openid = request.GET.get("userId")
             prices = request.GET.get("prices")
-            print(type(prices))
+            logger.info('Product data received')  # 记录日志信息
 
             # 解析JSON字符串
             data = json.loads(prices)
@@ -689,9 +780,6 @@ def add_product(request):
                     "price": float(item["Price"])
                 }
                 recent_prices.append(new_item)
-
-            # 转换为JSON字符串
-            # new_prices = json.dumps(output)
 
             current_time = timezone.now()
             formatted_time = current_time.strftime('%Y-%m-%dT%H:%M:%S')
@@ -710,21 +798,32 @@ def add_product(request):
                 'introduce': description
             }
             Product.objects.create(**product_data)
+            logger.info('Product added successfully')  # 记录日志信息
             return JsonResponse('上传成功', safe=False)
         except User.DoesNotExist:
+            logger.error('User does not exist')  # 记录日志信息
             return JsonResponse({'error': 'can not add'})
     else:
-         return JsonResponse("获取你上传的数据", safe=False)
+        logger.error('Invalid request method for adding product')  # 记录日志信息
+        return JsonResponse("获取你上传的数据", safe=False)
 
+#删除商品
 def delete_product(request):
+    logger.info('Deleting product')  # 记录日志信息
+
     if request.method == "GET":
         name = request.GET.get("name")
         Product.objects.filter(name=name).delete()
+        logger.info('Product deleted successfully')  # 记录日志信息
         return JsonResponse({'删除成功': True})
     else:
+        logger.error('Invalid request method for deleting product')  # 记录日志信息
         return JsonResponse({'不能删除商品': False})
 
+# 管理员删除评论
 def delete_manage_comment(request):
+    logger.info('Deleting managed comment')  # 记录日志信息
+
     if request.method == "GET":
         openid = request.GET.get("openid")
         user = User.objects.get(openid=openid)
@@ -732,12 +831,16 @@ def delete_manage_comment(request):
         product = Product.objects.get(id=product_id)
         content = request.GET.get("content")
         Comment.objects.filter(user=user, good_id=product, content=content).delete()
+        logger.info('Managed comment deleted successfully')  # 记录日志信息
         return JsonResponse({'删除成功': True})
     else:
+        logger.error('Invalid request method for deleting managed comment')  # 记录日志信息
         return JsonResponse({'不能删除评论': False})
 
-# # 获取用户收藏
+# 获取用户收藏
 def get_user_collect(request, openid):
+    logger.info('Fetching user collect')  # 记录日志信息
+
     user = User.objects.get(openid=openid)
     user_collect = UserCollect.objects.filter(user_id=user)
     product_ids = [collect.product_id_id for collect in user_collect]
@@ -752,35 +855,41 @@ def get_user_collect(request, openid):
         'products': serialized_data
     }
 
+    logger.info('User collect fetched successfully')  # 记录日志信息
     return JsonResponse(data)
 
 # 注册用户将其存储进数据库
 @csrf_exempt
 def create_user(request):
+    logger.info('Creating user')  # 记录日志信息
+
     if request.method == 'GET':
         openid = request.GET.get('openid')
         if openid is None:
+            logger.error('Failed to register user. Received empty openid')  # 记录日志信息
             return JsonResponse('注册失败, 发送的openid为空')
         else:
             userinfo = User.objects.filter(openid=openid)
             if userinfo.exists():
                 md_user = User.objects.get(openid=openid)
-                # if request.GET.get('nickName') != md_user.nickName:
-                # print(request.GET.get("forChangeName"))
-                # print(request.GET.get('nickName'))
                 if request.GET.get("forChangeName") == "yes":
                     User.objects.filter(openid=openid).update(nickName=request.GET.get('nickName'))
-                return JsonResponse({'is_registered': True,
-                                    'user_name':User.objects.get(openid=openid).nickName})
+                logger.info('User already registered')  # 记录日志信息
+                return JsonResponse({'is_registered': True, 'user_name': User.objects.get(openid=openid).nickName})
             else:
                 nickName = request.GET.get('nickName')
                 avatarUrl = request.GET.get('avatarUrl')
-                User.objects.create(openid=openid, nickName=nickName, avatarUrl=avatarUrl)  # 这里需要修改
+                User.objects.create(openid=openid, nickName=nickName, avatarUrl=avatarUrl)
+                logger.info('User registered successfully')  # 记录日志信息
                 return JsonResponse({'注册成功': True})
     else:
+        logger.error('Invalid request method for creating user')  # 记录日志信息
         return JsonResponse({'注册失败': False})
 
+#获取数据库中全部用户
 def get_user(request):
+    logger.info('Fetching users')  # 记录日志信息
+
     users = User.objects.all()
     serializer = UserSerializer(users, many=True)
     serialized_data = serializer.data
@@ -790,30 +899,88 @@ def get_user(request):
         'users': serialized_data
     }
 
+    logger.info('Users fetched successfully')  # 记录日志信息
     return JsonResponse(data)
 
+#删除用户-管理员功能
 def delete_user(request):
+    logger.info('Deleting user')  # 记录日志信息
+
     if request.method == 'GET':
         openid = request.GET.get('openid')
         User.objects.filter(openid=openid).delete()
+        logger.info('User deleted successfully')  # 记录日志信息
         return JsonResponse({'删除成功': True})
     else:
+        logger.error('Invalid request method for deleting user')  # 记录日志信息
         return JsonResponse({'不能删除用户': False})
 
 
 # 对商品评价值/不值
 def value_or_not(request):
-    if request.method == 'GET':
+    logger.info('Processing value or not evaluation')  # 记录日志信息
+
+    if request.method == "GET":
+        openid = request.GET.get("userId")
+        good_info = request.GET.get("goodInfo")
+        value = int(request.GET.get("value"))
+        print(good_info)
         try:
-            openid = request.GET.get("userId")
-            goodInfo = request.GET.get("goodInfo")
-            value = request.GET.get("value")
-            print("openid", openid)
-            print("goodInfo", goodInfo)
-            print("value", value)
             user = User.objects.get(openid=openid)
-            product = Product.objects.get(name=goodInfo)
+            product = Product.objects.get(name=good_info)
+
+            if value == 1:
+                product.value += 1
+            elif value == 0:
+                product.notvalue += 1
+
+            product.save()
+
+            try:
+                user_value = UserValue.objects.get(user_id=user, product_id=product)
+                user_value.value_or_not = value
+                user_value.save()
+                logger.info('Evaluation updated')  # 记录日志信息
+                return JsonResponse({'message': '评价已更新'})
+            except UserValue.DoesNotExist:
+                UserValue.objects.create(user_id=user, product_id=product, value_or_not=value)
+                logger.info('New evaluation added')  # 记录日志信息
+                return JsonResponse({'message': '评价已添加'})
         except User.DoesNotExist:
-            return JsonResponse({'error': 'can not process'})
+            logger.error('User does not exist')  # 记录日志信息
+            return JsonResponse({'error': '用户不存在'})
+        except Product.DoesNotExist:
+            logger.error('Product does not exist')  # 记录日志信息
+            return JsonResponse({'error': '商品不存在'})
     else:
-         return JsonResponse("获取你上传的数据", safe=False)
+        logger.error('Invalid request method for value or not evaluation')  # 记录日志信息
+        return JsonResponse({'error': '无效的请求方法'})
+
+def get_user_value(request):
+    if request.method == "GET":
+        try:
+            openid = request.GET.get("openid")
+            logger.info(f"Fetching user values for openid: {openid}")
+            user = User.objects.get(openid=openid)
+            user_values = UserValue.objects.filter(user_id=user)
+            user_values_list = [
+                {
+                    'product_name': user_value.product_id.name,
+                    'value_or_not': user_value.value_or_not
+                }
+                for user_value in user_values
+            ]
+            logger.info(f"User values retrieved successfully for openid: {openid}")
+            return JsonResponse({'user_values': user_values_list})
+        except UserValue.DoesNotExist:
+            logger.error(f"No user values found for openid: {openid}")
+            return JsonResponse({'error': 'User values not found'})
+        except User.DoesNotExist:
+            logger.error(f"User not found for openid: {openid}")
+            return JsonResponse({'error': 'User not found'})
+        except Exception as e:
+            logger.exception(f"An error occurred while fetching user values for openid: {openid}: {str(e)}")
+            return JsonResponse({'error': 'Failed to fetch user values'})
+    else:
+        logger.error('Invalid request method')
+        return JsonResponse({'error': 'Invalid request method'})

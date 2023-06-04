@@ -1,0 +1,399 @@
+2023-06-04 16:01:47,709 - INFO - Processing value or not evaluation
+2023-06-04 16:02:06,279 - INFO - Fetching products
+2023-06-04 16:02:06,285 - INFO - Products retrieved successfully
+2023-06-04 16:16:12,924 - INFO - Fetching products
+2023-06-04 16:16:12,928 - INFO - Products retrieved successfully
+2023-06-04 16:16:51,719 - INFO - Fetching products
+2023-06-04 16:16:51,722 - INFO - Products retrieved successfully
+2023-06-04 16:17:03,974 - INFO - Fetching products
+2023-06-04 16:17:03,977 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,337 - INFO - Adding product to user collection
+2023-06-04 16:18:21,337 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:18:21,341 - INFO - Adding comment to product
+2023-06-04 16:18:21,341 - ERROR - Invalid request method for adding comment
+2023-06-04 16:18:21,346 - INFO - Adding product
+2023-06-04 16:18:21,346 - ERROR - Invalid request method for adding product
+2023-06-04 16:18:21,350 - INFO - Creating user
+2023-06-04 16:18:21,350 - ERROR - Invalid request method for creating user
+2023-06-04 16:18:21,354 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,355 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:18:21,361 - INFO - Deleting managed comment
+2023-06-04 16:18:21,363 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,367 - INFO - Deleting product
+2023-06-04 16:18:21,367 - ERROR - Invalid request method for deleting product
+2023-06-04 16:18:21,371 - INFO - Deleting user
+2023-06-04 16:18:21,371 - ERROR - Invalid request method for deleting user
+2023-06-04 16:18:21,374 - INFO - Fetching front page products
+2023-06-04 16:18:21,377 - INFO - Front page products fetched successfully
+2023-06-04 16:18:21,383 - INFO - Fetching comments for product
+2023-06-04 16:18:21,385 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,390 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,392 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,396 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,398 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,402 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,404 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,408 - INFO - Fetching product images
+2023-06-04 16:18:21,409 - ERROR - Product does not exist
+2023-06-04 16:18:21,413 - INFO - Fetching products
+2023-06-04 16:18:21,415 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,419 - INFO - Fetching user collect
+2023-06-04 16:18:21,422 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,426 - INFO - Fetching user comments
+2023-06-04 16:18:21,427 - ERROR - User does not exist
+2023-06-04 16:18:21,431 - INFO - Fetching users
+2023-06-04 16:18:21,432 - INFO - Users fetched successfully
+2023-06-04 16:18:21,470 - INFO - Searching products
+2023-06-04 16:18:21,475 - INFO - Processing value or not evaluation
+2023-06-04 16:18:21,475 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:18:21,481 - INFO - Adding product to user collection
+2023-06-04 16:18:21,484 - INFO - Product added to user collection successfully
+2023-06-04 16:18:21,490 - INFO - Adding comment to product
+2023-06-04 16:18:21,492 - INFO - Comment added successfully
+2023-06-04 16:18:21,498 - INFO - Adding product
+2023-06-04 16:18:21,498 - INFO - Product data received
+2023-06-04 16:18:21,499 - INFO - Product added successfully
+2023-06-04 16:18:21,505 - INFO - Creating user
+2023-06-04 16:18:21,506 - INFO - User registered successfully
+2023-06-04 16:18:21,512 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,514 - INFO - Product deleted from user collection successfully
+2023-06-04 16:18:21,520 - INFO - Deleting managed comment
+2023-06-04 16:18:21,523 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,528 - INFO - Deleting product
+2023-06-04 16:18:21,529 - INFO - Product deleted successfully
+2023-06-04 16:18:21,533 - INFO - Deleting user
+2023-06-04 16:18:21,534 - INFO - User deleted successfully
+2023-06-04 16:18:21,540 - INFO - Fetching products
+2023-06-04 16:18:21,541 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,549 - INFO - Fetching comments for product
+2023-06-04 16:18:21,552 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,558 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,560 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,567 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,569 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,576 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,578 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,585 - INFO - Fetching product images
+2023-06-04 16:18:21,588 - INFO - Product images fetched successfully
+2023-06-04 16:18:21,613 - INFO - Fetching users
+2023-06-04 16:18:21,615 - INFO - Users fetched successfully
+2023-06-04 16:18:21,621 - INFO - Fetching user collect
+2023-06-04 16:18:21,624 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,632 - INFO - Fetching user comments
+2023-06-04 16:18:21,635 - INFO - User comments fetched successfully
+2023-06-04 16:18:21,646 - INFO - Searching products
+2023-06-04 16:18:21,649 - INFO - Products searched successfully
+2023-06-04 16:20:47,515 - INFO - Adding product to user collection
+2023-06-04 16:20:47,516 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:20:47,520 - INFO - Adding comment to product
+2023-06-04 16:20:47,520 - ERROR - Invalid request method for adding comment
+2023-06-04 16:20:47,524 - INFO - Adding product
+2023-06-04 16:20:47,524 - ERROR - Invalid request method for adding product
+2023-06-04 16:20:47,527 - INFO - Creating user
+2023-06-04 16:20:47,528 - ERROR - Invalid request method for creating user
+2023-06-04 16:20:47,531 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,531 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:20:47,536 - INFO - Deleting managed comment
+2023-06-04 16:20:47,539 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,544 - INFO - Deleting product
+2023-06-04 16:20:47,544 - ERROR - Invalid request method for deleting product
+2023-06-04 16:20:47,547 - INFO - Deleting user
+2023-06-04 16:20:47,547 - ERROR - Invalid request method for deleting user
+2023-06-04 16:20:47,550 - INFO - Fetching front page products
+2023-06-04 16:20:47,553 - INFO - Front page products fetched successfully
+2023-06-04 16:20:47,558 - INFO - Fetching comments for product
+2023-06-04 16:20:47,560 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,564 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,566 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,570 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,571 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,575 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,576 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,579 - INFO - Fetching product images
+2023-06-04 16:20:47,580 - ERROR - Product does not exist
+2023-06-04 16:20:47,583 - INFO - Fetching products
+2023-06-04 16:20:47,585 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,588 - INFO - Fetching user collect
+2023-06-04 16:20:47,590 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,594 - INFO - Fetching user comments
+2023-06-04 16:20:47,594 - ERROR - User does not exist
+2023-06-04 16:20:47,598 - INFO - Fetching users
+2023-06-04 16:20:47,599 - INFO - Users fetched successfully
+2023-06-04 16:20:47,609 - INFO - Searching products
+2023-06-04 16:20:47,612 - INFO - Processing value or not evaluation
+2023-06-04 16:20:47,612 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:20:47,619 - INFO - Adding product to user collection
+2023-06-04 16:20:47,621 - INFO - Product added to user collection successfully
+2023-06-04 16:20:47,627 - INFO - Adding comment to product
+2023-06-04 16:20:47,629 - INFO - Comment added successfully
+2023-06-04 16:20:47,636 - INFO - Adding product
+2023-06-04 16:20:47,638 - INFO - Product data received
+2023-06-04 16:20:47,639 - INFO - Product added successfully
+2023-06-04 16:20:47,645 - INFO - Creating user
+2023-06-04 16:20:47,647 - INFO - User registered successfully
+2023-06-04 16:20:47,652 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,655 - INFO - Product deleted from user collection successfully
+2023-06-04 16:20:47,662 - INFO - Deleting managed comment
+2023-06-04 16:20:47,665 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,671 - INFO - Deleting product
+2023-06-04 16:20:47,672 - INFO - Product deleted successfully
+2023-06-04 16:20:47,679 - INFO - Deleting user
+2023-06-04 16:20:47,680 - INFO - User deleted successfully
+2023-06-04 16:20:47,689 - INFO - Fetching products
+2023-06-04 16:20:47,691 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,702 - INFO - Fetching comments for product
+2023-06-04 16:20:47,706 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,716 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,719 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,729 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,731 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,741 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,744 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,752 - INFO - Fetching product images
+2023-06-04 16:20:47,753 - INFO - Product images fetched successfully
+2023-06-04 16:20:47,759 - INFO - Fetching users
+2023-06-04 16:20:47,760 - INFO - Users fetched successfully
+2023-06-04 16:20:47,766 - INFO - Fetching user collect
+2023-06-04 16:20:47,768 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,775 - INFO - Fetching user comments
+2023-06-04 16:20:47,778 - INFO - User comments fetched successfully
+2023-06-04 16:20:47,786 - INFO - Searching products
+2023-06-04 16:20:47,789 - INFO - Products searched successfully
+2023-06-04 16:22:02,572 - INFO - Adding product to user collection
+2023-06-04 16:22:02,572 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:02,576 - INFO - Adding comment to product
+2023-06-04 16:22:02,576 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:02,581 - INFO - Adding product
+2023-06-04 16:22:02,581 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:02,584 - INFO - Creating user
+2023-06-04 16:22:02,585 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:02,588 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,588 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:02,593 - INFO - Deleting managed comment
+2023-06-04 16:22:02,595 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,599 - INFO - Deleting product
+2023-06-04 16:22:02,600 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:02,603 - INFO - Deleting user
+2023-06-04 16:22:02,603 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:02,606 - INFO - Fetching front page products
+2023-06-04 16:22:02,609 - INFO - Front page products fetched successfully
+2023-06-04 16:22:02,614 - INFO - Fetching comments for product
+2023-06-04 16:22:02,616 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,620 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,621 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,624 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,627 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,631 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,633 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,637 - INFO - Fetching product images
+2023-06-04 16:22:02,638 - ERROR - Product does not exist
+2023-06-04 16:22:02,642 - INFO - Fetching products
+2023-06-04 16:22:02,645 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,649 - INFO - Fetching user collect
+2023-06-04 16:22:02,652 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,656 - INFO - Fetching user comments
+2023-06-04 16:22:02,657 - ERROR - User does not exist
+2023-06-04 16:22:02,662 - INFO - Fetching users
+2023-06-04 16:22:02,663 - INFO - Users fetched successfully
+2023-06-04 16:22:02,676 - INFO - Searching products
+2023-06-04 16:22:02,681 - INFO - Processing value or not evaluation
+2023-06-04 16:22:02,681 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:02,690 - INFO - Adding product to user collection
+2023-06-04 16:22:02,694 - INFO - Product added to user collection successfully
+2023-06-04 16:22:02,702 - INFO - Adding comment to product
+2023-06-04 16:22:02,705 - INFO - Comment added successfully
+2023-06-04 16:22:02,712 - INFO - Adding product
+2023-06-04 16:22:02,713 - INFO - Product data received
+2023-06-04 16:22:02,716 - INFO - Product added successfully
+2023-06-04 16:22:02,723 - INFO - Creating user
+2023-06-04 16:22:02,724 - INFO - User registered successfully
+2023-06-04 16:22:02,733 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,736 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:02,742 - INFO - Deleting managed comment
+2023-06-04 16:22:02,745 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,752 - INFO - Deleting product
+2023-06-04 16:22:02,753 - INFO - Product deleted successfully
+2023-06-04 16:22:02,761 - INFO - Deleting user
+2023-06-04 16:22:02,762 - INFO - User deleted successfully
+2023-06-04 16:22:02,767 - INFO - Fetching products
+2023-06-04 16:22:02,769 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,777 - INFO - Fetching comments for product
+2023-06-04 16:22:02,781 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,788 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,790 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,797 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,799 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,807 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,810 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,817 - INFO - Fetching product images
+2023-06-04 16:22:02,819 - INFO - Product images fetched successfully
+2023-06-04 16:22:02,826 - INFO - Fetching users
+2023-06-04 16:22:02,827 - INFO - Users fetched successfully
+2023-06-04 16:22:02,832 - INFO - Fetching user collect
+2023-06-04 16:22:02,835 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,841 - INFO - Fetching user comments
+2023-06-04 16:22:02,844 - INFO - User comments fetched successfully
+2023-06-04 16:22:02,859 - INFO - Searching products
+2023-06-04 16:22:02,863 - INFO - Products searched successfully
+2023-06-04 16:22:10,789 - INFO - Adding product to user collection
+2023-06-04 16:22:10,789 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:10,794 - INFO - Adding comment to product
+2023-06-04 16:22:10,794 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:10,799 - INFO - Adding product
+2023-06-04 16:22:10,799 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:10,804 - INFO - Creating user
+2023-06-04 16:22:10,804 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:10,807 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,808 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:10,813 - INFO - Deleting managed comment
+2023-06-04 16:22:10,819 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,825 - INFO - Deleting product
+2023-06-04 16:22:10,825 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:10,830 - INFO - Deleting user
+2023-06-04 16:22:10,830 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:10,835 - INFO - Fetching front page products
+2023-06-04 16:22:10,841 - INFO - Front page products fetched successfully
+2023-06-04 16:22:10,848 - INFO - Fetching comments for product
+2023-06-04 16:22:10,851 - INFO - Product comments fetched successfully
+2023-06-04 16:22:10,856 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:10,858 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:10,863 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:10,865 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:10,869 - INFO - Fetching products ordered by new
+2023-06-04 16:22:10,871 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:10,876 - INFO - Fetching product images
+2023-06-04 16:22:10,877 - ERROR - Product does not exist
+2023-06-04 16:22:10,880 - INFO - Fetching products
+2023-06-04 16:22:10,882 - INFO - Products retrieved successfully
+2023-06-04 16:22:10,887 - INFO - Fetching user collect
+2023-06-04 16:22:10,891 - INFO - User collect fetched successfully
+2023-06-04 16:22:10,895 - INFO - Fetching user comments
+2023-06-04 16:22:10,896 - ERROR - User does not exist
+2023-06-04 16:22:10,899 - INFO - Fetching users
+2023-06-04 16:22:10,901 - INFO - Users fetched successfully
+2023-06-04 16:22:10,910 - INFO - Searching products
+2023-06-04 16:22:10,914 - INFO - Processing value or not evaluation
+2023-06-04 16:22:10,914 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:10,921 - INFO - Adding product to user collection
+2023-06-04 16:22:10,923 - INFO - Product added to user collection successfully
+2023-06-04 16:22:10,929 - INFO - Adding comment to product
+2023-06-04 16:22:10,931 - INFO - Comment added successfully
+2023-06-04 16:22:10,936 - INFO - Adding product
+2023-06-04 16:22:10,937 - INFO - Product data received
+2023-06-04 16:22:10,938 - INFO - Product added successfully
+2023-06-04 16:22:10,944 - INFO - Creating user
+2023-06-04 16:22:10,946 - INFO - User registered successfully
+2023-06-04 16:22:10,953 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,956 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:10,968 - INFO - Deleting managed comment
+2023-06-04 16:22:10,972 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,978 - INFO - Deleting product
+2023-06-04 16:22:10,979 - INFO - Product deleted successfully
+2023-06-04 16:22:10,985 - INFO - Deleting user
+2023-06-04 16:22:10,986 - INFO - User deleted successfully
+2023-06-04 16:22:10,993 - INFO - Fetching products
+2023-06-04 16:22:10,995 - INFO - Products retrieved successfully
+2023-06-04 16:22:11,003 - INFO - Fetching comments for product
+2023-06-04 16:22:11,006 - INFO - Product comments fetched successfully
+2023-06-04 16:22:11,014 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:11,017 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:11,031 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:11,033 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:11,039 - INFO - Fetching products ordered by new
+2023-06-04 16:22:11,041 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:11,049 - INFO - Fetching product images
+2023-06-04 16:22:11,050 - INFO - Product images fetched successfully
+2023-06-04 16:22:11,056 - INFO - Fetching users
+2023-06-04 16:22:11,058 - INFO - Users fetched successfully
+2023-06-04 16:22:11,069 - INFO - Fetching user collect
+2023-06-04 16:22:11,071 - INFO - User collect fetched successfully
+2023-06-04 16:22:11,077 - INFO - Fetching user comments
+2023-06-04 16:22:11,080 - INFO - User comments fetched successfully
+2023-06-04 16:22:11,096 - INFO - Searching products
+2023-06-04 16:22:11,099 - INFO - Products searched successfully
+2023-06-04 16:22:11,107 - INFO - Processing value or not evaluation
+2023-06-04 16:22:11,112 - INFO - New evaluation added
+2023-06-04 16:22:55,043 - INFO - Adding product to user collection
+2023-06-04 16:22:55,043 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:55,048 - INFO - Adding comment to product
+2023-06-04 16:22:55,049 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:55,052 - INFO - Adding product
+2023-06-04 16:22:55,052 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:55,056 - INFO - Creating user
+2023-06-04 16:22:55,056 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:55,059 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,060 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:55,064 - INFO - Deleting managed comment
+2023-06-04 16:22:55,067 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,072 - INFO - Deleting product
+2023-06-04 16:22:55,072 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:55,075 - INFO - Deleting user
+2023-06-04 16:22:55,076 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:55,079 - INFO - Fetching front page products
+2023-06-04 16:22:55,082 - INFO - Front page products fetched successfully
+2023-06-04 16:22:55,088 - INFO - Fetching comments for product
+2023-06-04 16:22:55,089 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,093 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,095 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,099 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,100 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,104 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,106 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,110 - INFO - Fetching product images
+2023-06-04 16:22:55,111 - ERROR - Product does not exist
+2023-06-04 16:22:55,115 - INFO - Fetching products
+2023-06-04 16:22:55,117 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,120 - INFO - Fetching user collect
+2023-06-04 16:22:55,122 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,126 - INFO - Fetching user comments
+2023-06-04 16:22:55,127 - ERROR - User does not exist
+2023-06-04 16:22:55,131 - INFO - Fetching users
+2023-06-04 16:22:55,132 - INFO - Users fetched successfully
+2023-06-04 16:22:55,141 - INFO - Searching products
+2023-06-04 16:22:55,144 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,145 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:55,151 - INFO - Adding product to user collection
+2023-06-04 16:22:55,154 - INFO - Product added to user collection successfully
+2023-06-04 16:22:55,173 - INFO - Adding comment to product
+2023-06-04 16:22:55,175 - INFO - Comment added successfully
+2023-06-04 16:22:55,192 - INFO - Adding product
+2023-06-04 16:22:55,193 - INFO - Product data received
+2023-06-04 16:22:55,194 - INFO - Product added successfully
+2023-06-04 16:22:55,207 - INFO - Creating user
+2023-06-04 16:22:55,208 - INFO - User registered successfully
+2023-06-04 16:22:55,220 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,223 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:55,236 - INFO - Deleting managed comment
+2023-06-04 16:22:55,239 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,251 - INFO - Deleting product
+2023-06-04 16:22:55,252 - INFO - Product deleted successfully
+2023-06-04 16:22:55,264 - INFO - Deleting user
+2023-06-04 16:22:55,265 - INFO - User deleted successfully
+2023-06-04 16:22:55,277 - INFO - Fetching products
+2023-06-04 16:22:55,279 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,293 - INFO - Fetching comments for product
+2023-06-04 16:22:55,296 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,309 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,311 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,326 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,328 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,341 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,343 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,357 - INFO - Fetching product images
+2023-06-04 16:22:55,358 - INFO - Product images fetched successfully
+2023-06-04 16:22:55,370 - INFO - Fetching users
+2023-06-04 16:22:55,371 - INFO - Users fetched successfully
+2023-06-04 16:22:55,383 - INFO - Fetching user collect
+2023-06-04 16:22:55,385 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,396 - INFO - Fetching user comments
+2023-06-04 16:22:55,399 - INFO - User comments fetched successfully
+2023-06-04 16:22:55,425 - INFO - Searching products
+2023-06-04 16:22:55,428 - INFO - Products searched successfully
+2023-06-04 16:22:55,442 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,447 - INFO - New evaluation added
+2023-06-04 16:23:57,991 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:23:58,002 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:14,765 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:14,767 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:28,021 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:28,029 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w

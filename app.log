@@ -1,0 +1,1970 @@
+2023-06-04 09:35:11,654 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:35:54,063 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:35:54,372 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:37:22,036 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:37:22,345 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:37:47,242 - INFO - Fetching products
+2023-06-04 09:37:47,242 - INFO - Fetching products
+2023-06-04 09:37:47,247 - INFO - Products retrieved successfully
+2023-06-04 09:37:47,247 - INFO - Products retrieved successfully
+2023-06-04 09:40:27,584 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:40:27,879 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:40:56,297 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:40:56,297 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:40:56,302 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:40:56,302 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:41:06,322 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:41:06,606 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:41:12,803 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:41:13,088 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:41:28,336 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:41:28,619 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:41:38,724 - INFO - Fetching products ordered by new
+2023-06-04 09:41:38,724 - INFO - Fetching products ordered by new
+2023-06-04 09:41:38,730 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:41:38,730 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:42:01,000 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:42:01,285 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:43:33,954 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:43:34,246 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:43:59,545 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:43:59,825 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:44:01,003 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:44:01,330 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:44:17,606 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:44:17,896 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:44:19,075 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:44:19,370 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:44:29,857 - INFO - Fetching products
+2023-06-04 09:44:29,857 - INFO - Fetching products
+2023-06-04 09:44:29,862 - INFO - Products retrieved successfully
+2023-06-04 09:44:29,862 - INFO - Products retrieved successfully
+2023-06-04 09:45:26,956 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:45:27,244 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:45:40,480 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:45:40,774 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:45:51,004 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:45:51,282 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:46:37,706 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:46:37,990 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:46:41,172 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:46:41,462 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:46:56,714 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:46:57,009 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:47:05,227 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:47:05,520 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:47:23,930 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:47:24,216 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:47:32,424 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:47:32,730 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:47:42,991 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:47:43,317 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:47:49,565 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:47:49,851 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:48:08,146 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:48:08,440 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:48:16,676 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:48:16,967 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:48:20,152 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:48:20,448 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:51:27,636 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:51:27,913 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:51:40,152 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:51:40,434 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:51:48,641 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:51:48,925 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:51:58,143 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:51:58,449 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:52:04,663 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:52:04,996 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:52:45,406 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:52:45,699 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:52:55,950 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:52:56,262 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:53:24,596 - INFO - /home/rear-end/rear_end/urls.py changed, reloading.
+2023-06-04 09:53:24,890 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:53:28,092 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:53:28,387 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:53:41,723 - INFO - Fetching products
+2023-06-04 09:53:41,723 - INFO - Fetching products
+2023-06-04 09:53:41,729 - INFO - Products retrieved successfully
+2023-06-04 09:53:41,729 - INFO - Products retrieved successfully
+2023-06-04 09:53:43,695 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:53:43,994 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:53:44,779 - INFO - Fetching products
+2023-06-04 09:53:44,779 - INFO - Fetching products
+2023-06-04 09:53:44,783 - INFO - Products retrieved successfully
+2023-06-04 09:53:44,783 - INFO - Products retrieved successfully
+2023-06-04 09:53:46,196 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:53:46,484 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:53:47,659 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 09:53:47,990 - INFO - Watching for file changes with StatReloader
+2023-06-04 09:54:02,956 - INFO - Adding product to user collection
+2023-06-04 09:54:02,956 - INFO - Adding product to user collection
+2023-06-04 09:54:02,956 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 09:54:02,956 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 09:54:02,961 - INFO - Adding comment to product
+2023-06-04 09:54:02,961 - INFO - Adding comment to product
+2023-06-04 09:54:02,961 - ERROR - Invalid request method for adding comment
+2023-06-04 09:54:02,961 - ERROR - Invalid request method for adding comment
+2023-06-04 09:54:02,965 - INFO - Adding product
+2023-06-04 09:54:02,965 - INFO - Adding product
+2023-06-04 09:54:02,965 - ERROR - Invalid request method for adding product
+2023-06-04 09:54:02,965 - ERROR - Invalid request method for adding product
+2023-06-04 09:54:02,968 - INFO - Creating user
+2023-06-04 09:54:02,968 - INFO - Creating user
+2023-06-04 09:54:02,969 - ERROR - Invalid request method for creating user
+2023-06-04 09:54:02,969 - ERROR - Invalid request method for creating user
+2023-06-04 09:54:02,972 - INFO - Deleting product from user collection
+2023-06-04 09:54:02,972 - INFO - Deleting product from user collection
+2023-06-04 09:54:02,973 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 09:54:02,973 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 09:54:02,978 - INFO - Deleting managed comment
+2023-06-04 09:54:02,978 - INFO - Deleting managed comment
+2023-06-04 09:54:02,981 - INFO - Managed comment deleted successfully
+2023-06-04 09:54:02,981 - INFO - Managed comment deleted successfully
+2023-06-04 09:54:02,985 - INFO - Deleting product
+2023-06-04 09:54:02,985 - INFO - Deleting product
+2023-06-04 09:54:02,985 - ERROR - Invalid request method for deleting product
+2023-06-04 09:54:02,985 - ERROR - Invalid request method for deleting product
+2023-06-04 09:54:02,988 - INFO - Deleting user
+2023-06-04 09:54:02,988 - INFO - Deleting user
+2023-06-04 09:54:02,989 - ERROR - Invalid request method for deleting user
+2023-06-04 09:54:02,989 - ERROR - Invalid request method for deleting user
+2023-06-04 09:54:02,992 - INFO - Fetching front page products
+2023-06-04 09:54:02,992 - INFO - Fetching front page products
+2023-06-04 09:54:03,001 - INFO - Front page products fetched successfully
+2023-06-04 09:54:03,001 - INFO - Front page products fetched successfully
+2023-06-04 09:54:03,006 - INFO - Fetching comments for product
+2023-06-04 09:54:03,006 - INFO - Fetching comments for product
+2023-06-04 09:54:03,008 - INFO - Product comments fetched successfully
+2023-06-04 09:54:03,008 - INFO - Product comments fetched successfully
+2023-06-04 09:54:03,012 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:54:03,012 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:54:03,014 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:54:03,014 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:54:03,018 - INFO - Fetching products ordered by hot
+2023-06-04 09:54:03,018 - INFO - Fetching products ordered by hot
+2023-06-04 09:54:03,019 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 09:54:03,019 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 09:54:03,023 - INFO - Fetching products ordered by new
+2023-06-04 09:54:03,023 - INFO - Fetching products ordered by new
+2023-06-04 09:54:03,025 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:54:03,025 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:54:03,028 - INFO - Fetching product images
+2023-06-04 09:54:03,028 - INFO - Fetching product images
+2023-06-04 09:54:03,029 - ERROR - Product does not exist
+2023-06-04 09:54:03,029 - ERROR - Product does not exist
+2023-06-04 09:54:03,032 - INFO - Fetching products
+2023-06-04 09:54:03,032 - INFO - Fetching products
+2023-06-04 09:54:03,033 - INFO - Products retrieved successfully
+2023-06-04 09:54:03,033 - INFO - Products retrieved successfully
+2023-06-04 09:54:03,037 - INFO - Fetching user collect
+2023-06-04 09:54:03,037 - INFO - Fetching user collect
+2023-06-04 09:54:03,039 - INFO - User collect fetched successfully
+2023-06-04 09:54:03,039 - INFO - User collect fetched successfully
+2023-06-04 09:54:03,042 - INFO - Fetching user comments
+2023-06-04 09:54:03,042 - INFO - Fetching user comments
+2023-06-04 09:54:03,043 - ERROR - User does not exist
+2023-06-04 09:54:03,043 - ERROR - User does not exist
+2023-06-04 09:54:03,046 - INFO - Fetching users
+2023-06-04 09:54:03,046 - INFO - Fetching users
+2023-06-04 09:54:03,047 - INFO - Users fetched successfully
+2023-06-04 09:54:03,047 - INFO - Users fetched successfully
+2023-06-04 09:54:03,051 - INFO - Searching products
+2023-06-04 09:54:03,051 - INFO - Searching products
+2023-06-04 09:54:03,057 - INFO - Adding product to user collection
+2023-06-04 09:54:03,057 - INFO - Adding product to user collection
+2023-06-04 09:54:03,059 - INFO - Product added to user collection successfully
+2023-06-04 09:54:03,059 - INFO - Product added to user collection successfully
+2023-06-04 09:54:03,065 - INFO - Adding comment to product
+2023-06-04 09:54:03,065 - INFO - Adding comment to product
+2023-06-04 09:54:03,067 - INFO - Comment added successfully
+2023-06-04 09:54:03,067 - INFO - Comment added successfully
+2023-06-04 09:54:03,072 - INFO - Adding product
+2023-06-04 09:54:03,072 - INFO - Adding product
+2023-06-04 09:54:03,072 - INFO - Product data received
+2023-06-04 09:54:03,072 - INFO - Product data received
+2023-06-04 09:54:03,073 - INFO - Product added successfully
+2023-06-04 09:54:03,073 - INFO - Product added successfully
+2023-06-04 09:54:03,077 - INFO - Creating user
+2023-06-04 09:54:03,077 - INFO - Creating user
+2023-06-04 09:54:03,079 - INFO - User registered successfully
+2023-06-04 09:54:03,079 - INFO - User registered successfully
+2023-06-04 09:54:03,084 - INFO - Deleting product from user collection
+2023-06-04 09:54:03,084 - INFO - Deleting product from user collection
+2023-06-04 09:54:03,086 - INFO - Product deleted from user collection successfully
+2023-06-04 09:54:03,086 - INFO - Product deleted from user collection successfully
+2023-06-04 09:54:03,092 - INFO - Deleting managed comment
+2023-06-04 09:54:03,092 - INFO - Deleting managed comment
+2023-06-04 09:54:03,094 - INFO - Managed comment deleted successfully
+2023-06-04 09:54:03,094 - INFO - Managed comment deleted successfully
+2023-06-04 09:54:03,100 - INFO - Deleting product
+2023-06-04 09:54:03,100 - INFO - Deleting product
+2023-06-04 09:54:03,101 - INFO - Product deleted successfully
+2023-06-04 09:54:03,101 - INFO - Product deleted successfully
+2023-06-04 09:54:03,105 - INFO - Deleting user
+2023-06-04 09:54:03,105 - INFO - Deleting user
+2023-06-04 09:54:03,106 - INFO - User deleted successfully
+2023-06-04 09:54:03,106 - INFO - User deleted successfully
+2023-06-04 09:54:03,111 - INFO - Fetching products
+2023-06-04 09:54:03,111 - INFO - Fetching products
+2023-06-04 09:54:03,113 - INFO - Products retrieved successfully
+2023-06-04 09:54:03,113 - INFO - Products retrieved successfully
+2023-06-04 09:54:03,120 - INFO - Fetching comments for product
+2023-06-04 09:54:03,120 - INFO - Fetching comments for product
+2023-06-04 09:54:03,122 - INFO - Product comments fetched successfully
+2023-06-04 09:54:03,122 - INFO - Product comments fetched successfully
+2023-06-04 09:54:03,130 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:54:03,130 - INFO - Fetching product details for product ID: 1
+2023-06-04 09:54:03,132 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:54:03,132 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 09:54:03,139 - INFO - Fetching products ordered by hot
+2023-06-04 09:54:03,139 - INFO - Fetching products ordered by hot
+2023-06-04 09:54:03,141 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 09:54:03,141 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 09:54:03,148 - INFO - Fetching products ordered by new
+2023-06-04 09:54:03,148 - INFO - Fetching products ordered by new
+2023-06-04 09:54:03,150 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:54:03,150 - INFO - Products ordered by new retrieved successfully
+2023-06-04 09:54:03,156 - INFO - Fetching product images
+2023-06-04 09:54:03,156 - INFO - Fetching product images
+2023-06-04 09:54:03,157 - INFO - Product images fetched successfully
+2023-06-04 09:54:03,157 - INFO - Product images fetched successfully
+2023-06-04 09:54:03,163 - INFO - Fetching users
+2023-06-04 09:54:03,163 - INFO - Fetching users
+2023-06-04 09:54:03,163 - INFO - Users fetched successfully
+2023-06-04 09:54:03,163 - INFO - Users fetched successfully
+2023-06-04 09:54:03,168 - INFO - Fetching user collect
+2023-06-04 09:54:03,168 - INFO - Fetching user collect
+2023-06-04 09:54:03,170 - INFO - User collect fetched successfully
+2023-06-04 09:54:03,170 - INFO - User collect fetched successfully
+2023-06-04 09:54:03,175 - INFO - Fetching user comments
+2023-06-04 09:54:03,175 - INFO - Fetching user comments
+2023-06-04 09:54:03,178 - INFO - User comments fetched successfully
+2023-06-04 09:54:03,178 - INFO - User comments fetched successfully
+2023-06-04 09:54:03,184 - INFO - Searching products
+2023-06-04 09:54:03,184 - INFO - Searching products
+2023-06-04 09:54:03,186 - INFO - Products searched successfully
+2023-06-04 09:54:03,186 - INFO - Products searched successfully
+2023-06-04 09:55:01,590 - INFO - Fetching products
+2023-06-04 09:55:01,590 - INFO - Fetching products
+2023-06-04 09:55:01,595 - INFO - Products retrieved successfully
+2023-06-04 09:55:01,595 - INFO - Products retrieved successfully
+2023-06-04 09:55:02,784 - INFO - Fetching products
+2023-06-04 09:55:02,784 - INFO - Fetching products
+2023-06-04 09:55:02,787 - INFO - Products retrieved successfully
+2023-06-04 09:55:02,787 - INFO - Products retrieved successfully
+2023-06-04 09:55:39,234 - INFO - Fetching products
+2023-06-04 09:55:39,234 - INFO - Fetching products
+2023-06-04 09:55:39,239 - INFO - Products retrieved successfully
+2023-06-04 09:55:39,239 - INFO - Products retrieved successfully
+2023-06-04 09:55:41,280 - INFO - Fetching products
+2023-06-04 09:55:41,280 - INFO - Fetching products
+2023-06-04 09:55:41,284 - INFO - Products retrieved successfully
+2023-06-04 09:55:41,284 - INFO - Products retrieved successfully
+2023-06-04 09:59:29,662 - INFO - Fetching products
+2023-06-04 09:59:29,662 - INFO - Fetching products
+2023-06-04 09:59:29,666 - INFO - Products retrieved successfully
+2023-06-04 09:59:29,666 - INFO - Products retrieved successfully
+2023-06-04 10:00:24,699 - INFO - Fetching products
+2023-06-04 10:00:24,699 - INFO - Fetching products
+2023-06-04 10:00:24,702 - INFO - Products retrieved successfully
+2023-06-04 10:00:24,702 - INFO - Products retrieved successfully
+2023-06-04 10:00:36,008 - INFO - Fetching products
+2023-06-04 10:00:36,008 - INFO - Fetching products
+2023-06-04 10:00:36,012 - INFO - Products retrieved successfully
+2023-06-04 10:00:36,012 - INFO - Products retrieved successfully
+2023-06-04 10:01:10,418 - INFO - Fetching products
+2023-06-04 10:01:10,418 - INFO - Fetching products
+2023-06-04 10:01:10,421 - INFO - Products retrieved successfully
+2023-06-04 10:01:10,421 - INFO - Products retrieved successfully
+2023-06-04 10:01:13,189 - INFO - Fetching products
+2023-06-04 10:01:13,189 - INFO - Fetching products
+2023-06-04 10:01:13,193 - INFO - Products retrieved successfully
+2023-06-04 10:01:13,193 - INFO - Products retrieved successfully
+2023-06-04 10:09:04,869 - INFO - Fetching products ordered by hot
+2023-06-04 10:09:04,869 - INFO - Fetching products ordered by hot
+2023-06-04 10:09:04,874 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:09:04,874 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:09:05,142 - WARNING - Not Found: /favicon.ico
+2023-06-04 10:20:49,024 - INFO - Fetching products
+2023-06-04 10:20:49,024 - INFO - Fetching products
+2023-06-04 10:20:49,028 - INFO - Products retrieved successfully
+2023-06-04 10:20:49,028 - INFO - Products retrieved successfully
+2023-06-04 10:20:51,059 - INFO - Fetching products
+2023-06-04 10:20:51,059 - INFO - Fetching products
+2023-06-04 10:20:51,063 - INFO - Products retrieved successfully
+2023-06-04 10:20:51,063 - INFO - Products retrieved successfully
+2023-06-04 10:21:27,259 - INFO - Fetching products
+2023-06-04 10:21:27,259 - INFO - Fetching products
+2023-06-04 10:21:27,263 - INFO - Products retrieved successfully
+2023-06-04 10:21:27,263 - INFO - Products retrieved successfully
+2023-06-04 10:21:29,892 - INFO - Fetching products
+2023-06-04 10:21:29,892 - INFO - Fetching products
+2023-06-04 10:21:29,895 - INFO - Products retrieved successfully
+2023-06-04 10:21:29,895 - INFO - Products retrieved successfully
+2023-06-04 10:23:44,741 - INFO - Fetching products
+2023-06-04 10:23:44,741 - INFO - Fetching products
+2023-06-04 10:23:44,744 - INFO - Products retrieved successfully
+2023-06-04 10:23:44,744 - INFO - Products retrieved successfully
+2023-06-04 10:23:46,212 - INFO - Fetching products
+2023-06-04 10:23:46,212 - INFO - Fetching products
+2023-06-04 10:23:46,216 - INFO - Products retrieved successfully
+2023-06-04 10:23:46,216 - INFO - Products retrieved successfully
+2023-06-04 10:25:42,039 - INFO - Fetching products ordered by new
+2023-06-04 10:25:42,039 - INFO - Fetching products ordered by new
+2023-06-04 10:25:42,043 - INFO - Products ordered by new retrieved successfully
+2023-06-04 10:25:42,043 - INFO - Products ordered by new retrieved successfully
+2023-06-04 10:25:42,637 - INFO - Fetching products ordered by hot
+2023-06-04 10:25:42,637 - INFO - Fetching products ordered by hot
+2023-06-04 10:25:42,641 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:25:42,641 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:25:43,410 - INFO - Fetching products
+2023-06-04 10:25:43,410 - INFO - Fetching products
+2023-06-04 10:25:43,414 - INFO - Products retrieved successfully
+2023-06-04 10:25:43,414 - INFO - Products retrieved successfully
+2023-06-04 10:27:17,007 - INFO - Fetching products ordered by hot
+2023-06-04 10:27:17,007 - INFO - Fetching products ordered by hot
+2023-06-04 10:27:17,012 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:27:17,012 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 10:27:31,391 - INFO - Fetching products
+2023-06-04 10:27:31,391 - INFO - Fetching products
+2023-06-04 10:27:31,396 - INFO - Products retrieved successfully
+2023-06-04 10:27:31,396 - INFO - Products retrieved successfully
+2023-06-04 10:31:37,889 - INFO - Fetching products
+2023-06-04 10:31:37,889 - INFO - Fetching products
+2023-06-04 10:31:37,892 - INFO - Products retrieved successfully
+2023-06-04 10:31:37,892 - INFO - Products retrieved successfully
+2023-06-04 10:31:39,446 - INFO - Fetching products
+2023-06-04 10:31:39,446 - INFO - Fetching products
+2023-06-04 10:31:39,449 - INFO - Products retrieved successfully
+2023-06-04 10:31:39,449 - INFO - Products retrieved successfully
+2023-06-04 10:32:06,975 - INFO - Fetching products
+2023-06-04 10:32:06,975 - INFO - Fetching products
+2023-06-04 10:32:06,978 - INFO - Products retrieved successfully
+2023-06-04 10:32:06,978 - INFO - Products retrieved successfully
+2023-06-04 10:32:08,434 - INFO - Fetching products
+2023-06-04 10:32:08,434 - INFO - Fetching products
+2023-06-04 10:32:08,439 - INFO - Products retrieved successfully
+2023-06-04 10:32:08,439 - INFO - Products retrieved successfully
+2023-06-04 10:32:39,213 - INFO - Fetching products
+2023-06-04 10:32:39,213 - INFO - Fetching products
+2023-06-04 10:32:39,217 - INFO - Products retrieved successfully
+2023-06-04 10:32:39,217 - INFO - Products retrieved successfully
+2023-06-04 10:32:40,723 - INFO - Fetching products
+2023-06-04 10:32:40,723 - INFO - Fetching products
+2023-06-04 10:32:40,727 - INFO - Products retrieved successfully
+2023-06-04 10:32:40,727 - INFO - Products retrieved successfully
+2023-06-04 10:37:29,100 - INFO - Fetching products
+2023-06-04 10:37:29,100 - INFO - Fetching products
+2023-06-04 10:37:29,104 - INFO - Products retrieved successfully
+2023-06-04 10:37:29,104 - INFO - Products retrieved successfully
+2023-06-04 10:37:31,188 - INFO - Fetching products
+2023-06-04 10:37:31,188 - INFO - Fetching products
+2023-06-04 10:37:31,192 - INFO - Products retrieved successfully
+2023-06-04 10:37:31,192 - INFO - Products retrieved successfully
+2023-06-04 10:39:19,645 - INFO - Fetching products
+2023-06-04 10:39:19,645 - INFO - Fetching products
+2023-06-04 10:39:19,649 - INFO - Products retrieved successfully
+2023-06-04 10:39:19,649 - INFO - Products retrieved successfully
+2023-06-04 10:39:19,716 - INFO - Fetching products
+2023-06-04 10:39:19,716 - INFO - Fetching products
+2023-06-04 10:39:19,719 - INFO - Products retrieved successfully
+2023-06-04 10:39:19,719 - INFO - Products retrieved successfully
+2023-06-04 10:41:24,063 - ERROR - Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+2023-06-04 10:41:24,087 - WARNING - Bad Request: /google.com:443
+2023-06-04 10:52:55,512 - INFO - Fetching products
+2023-06-04 10:52:55,512 - INFO - Fetching products
+2023-06-04 10:52:55,516 - INFO - Products retrieved successfully
+2023-06-04 10:52:55,516 - INFO - Products retrieved successfully
+2023-06-04 10:55:44,997 - INFO - Fetching products
+2023-06-04 10:55:44,997 - INFO - Fetching products
+2023-06-04 10:55:45,001 - INFO - Products retrieved successfully
+2023-06-04 10:55:45,001 - INFO - Products retrieved successfully
+2023-06-04 10:55:45,063 - INFO - Fetching products
+2023-06-04 10:55:45,063 - INFO - Fetching products
+2023-06-04 10:55:45,067 - INFO - Products retrieved successfully
+2023-06-04 10:55:45,067 - INFO - Products retrieved successfully
+2023-06-04 10:55:46,493 - INFO - Fetching products
+2023-06-04 10:55:46,493 - INFO - Fetching products
+2023-06-04 10:55:46,497 - INFO - Products retrieved successfully
+2023-06-04 10:55:46,497 - INFO - Products retrieved successfully
+2023-06-04 11:03:29,143 - INFO - Fetching products
+2023-06-04 11:03:29,143 - INFO - Fetching products
+2023-06-04 11:03:29,147 - INFO - Products retrieved successfully
+2023-06-04 11:03:29,147 - INFO - Products retrieved successfully
+2023-06-04 11:03:29,251 - INFO - Fetching products
+2023-06-04 11:03:29,251 - INFO - Fetching products
+2023-06-04 11:03:29,255 - INFO - Products retrieved successfully
+2023-06-04 11:03:29,255 - INFO - Products retrieved successfully
+2023-06-04 11:04:17,930 - INFO - /home/rear-end/rear_end/settings.py changed, reloading.
+2023-06-04 11:04:18,255 - INFO - Watching for file changes with StatReloader
+2023-06-04 11:04:59,426 - ERROR - Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+2023-06-04 11:04:59,449 - WARNING - Bad Request: /www.baidu.com:443
+2023-06-04 11:06:53,838 - INFO - Fetching products
+2023-06-04 11:06:53,838 - INFO - Fetching products
+2023-06-04 11:06:53,843 - INFO - Products retrieved successfully
+2023-06-04 11:06:53,843 - INFO - Products retrieved successfully
+2023-06-04 11:06:53,885 - INFO - Fetching products
+2023-06-04 11:06:53,885 - INFO - Fetching products
+2023-06-04 11:06:53,888 - INFO - Products retrieved successfully
+2023-06-04 11:06:53,888 - INFO - Products retrieved successfully
+2023-06-04 11:10:08,948 - INFO - Fetching products
+2023-06-04 11:10:08,948 - INFO - Fetching products
+2023-06-04 11:10:08,951 - INFO - Products retrieved successfully
+2023-06-04 11:10:08,951 - INFO - Products retrieved successfully
+2023-06-04 11:10:09,019 - INFO - Fetching products
+2023-06-04 11:10:09,019 - INFO - Fetching products
+2023-06-04 11:10:09,024 - INFO - Products retrieved successfully
+2023-06-04 11:10:09,024 - INFO - Products retrieved successfully
+2023-06-04 11:10:23,350 - INFO - Fetching products
+2023-06-04 11:10:23,350 - INFO - Fetching products
+2023-06-04 11:10:23,353 - INFO - Products retrieved successfully
+2023-06-04 11:10:23,353 - INFO - Products retrieved successfully
+2023-06-04 11:15:57,064 - INFO - Fetching products
+2023-06-04 11:15:57,064 - INFO - Fetching products
+2023-06-04 11:15:57,068 - INFO - Products retrieved successfully
+2023-06-04 11:15:57,068 - INFO - Products retrieved successfully
+2023-06-04 11:15:58,893 - INFO - Fetching products
+2023-06-04 11:15:58,893 - INFO - Fetching products
+2023-06-04 11:15:58,897 - INFO - Products retrieved successfully
+2023-06-04 11:15:58,897 - INFO - Products retrieved successfully
+2023-06-04 11:17:21,372 - INFO - Fetching products
+2023-06-04 11:17:21,372 - INFO - Fetching products
+2023-06-04 11:17:21,375 - INFO - Products retrieved successfully
+2023-06-04 11:17:21,375 - INFO - Products retrieved successfully
+2023-06-04 11:17:22,886 - INFO - Fetching products
+2023-06-04 11:17:22,886 - INFO - Fetching products
+2023-06-04 11:17:22,891 - INFO - Products retrieved successfully
+2023-06-04 11:17:22,891 - INFO - Products retrieved successfully
+2023-06-04 11:18:38,099 - INFO - Fetching products
+2023-06-04 11:18:38,099 - INFO - Fetching products
+2023-06-04 11:18:38,103 - INFO - Products retrieved successfully
+2023-06-04 11:18:38,103 - INFO - Products retrieved successfully
+2023-06-04 11:18:39,493 - INFO - Fetching products
+2023-06-04 11:18:39,493 - INFO - Fetching products
+2023-06-04 11:18:39,497 - INFO - Products retrieved successfully
+2023-06-04 11:18:39,497 - INFO - Products retrieved successfully
+2023-06-04 11:19:35,217 - INFO - Fetching products
+2023-06-04 11:19:35,217 - INFO - Fetching products
+2023-06-04 11:19:35,221 - INFO - Products retrieved successfully
+2023-06-04 11:19:35,221 - INFO - Products retrieved successfully
+2023-06-04 11:19:36,260 - INFO - Fetching products
+2023-06-04 11:19:36,260 - INFO - Fetching products
+2023-06-04 11:19:36,264 - INFO - Products retrieved successfully
+2023-06-04 11:19:36,264 - INFO - Products retrieved successfully
+2023-06-04 11:22:06,099 - INFO - Fetching products
+2023-06-04 11:22:06,099 - INFO - Fetching products
+2023-06-04 11:22:06,103 - INFO - Products retrieved successfully
+2023-06-04 11:22:06,103 - INFO - Products retrieved successfully
+2023-06-04 11:22:09,388 - INFO - Fetching products
+2023-06-04 11:22:09,388 - INFO - Fetching products
+2023-06-04 11:22:09,392 - INFO - Products retrieved successfully
+2023-06-04 11:22:09,392 - INFO - Products retrieved successfully
+2023-06-04 11:23:15,393 - INFO - Fetching products
+2023-06-04 11:23:15,393 - INFO - Fetching products
+2023-06-04 11:23:15,397 - INFO - Products retrieved successfully
+2023-06-04 11:23:15,397 - INFO - Products retrieved successfully
+2023-06-04 11:23:16,771 - INFO - Fetching products
+2023-06-04 11:23:16,771 - INFO - Fetching products
+2023-06-04 11:23:16,774 - INFO - Products retrieved successfully
+2023-06-04 11:23:16,774 - INFO - Products retrieved successfully
+2023-06-04 11:23:24,387 - INFO - Processing value or not evaluation
+2023-06-04 11:23:24,387 - INFO - Processing value or not evaluation
+2023-06-04 11:23:24,387 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:23:24,387 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:23:28,319 - INFO - Processing value or not evaluation
+2023-06-04 11:23:28,319 - INFO - Processing value or not evaluation
+2023-06-04 11:23:28,319 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:23:28,319 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:23:35,920 - INFO - Fetching products
+2023-06-04 11:23:35,920 - INFO - Fetching products
+2023-06-04 11:23:35,923 - INFO - Products retrieved successfully
+2023-06-04 11:23:35,923 - INFO - Products retrieved successfully
+2023-06-04 11:36:47,504 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 11:36:47,807 - INFO - Watching for file changes with StatReloader
+2023-06-04 11:38:58,299 - INFO - Fetching products
+2023-06-04 11:38:58,299 - INFO - Fetching products
+2023-06-04 11:38:58,305 - INFO - Products retrieved successfully
+2023-06-04 11:38:58,305 - INFO - Products retrieved successfully
+2023-06-04 11:39:02,152 - INFO - Fetching products
+2023-06-04 11:39:02,152 - INFO - Fetching products
+2023-06-04 11:39:02,155 - INFO - Products retrieved successfully
+2023-06-04 11:39:02,155 - INFO - Products retrieved successfully
+2023-06-04 11:39:03,209 - INFO - Fetching products
+2023-06-04 11:39:03,209 - INFO - Fetching products
+2023-06-04 11:39:03,214 - INFO - Products retrieved successfully
+2023-06-04 11:39:03,214 - INFO - Products retrieved successfully
+2023-06-04 11:39:06,786 - INFO - Fetching products
+2023-06-04 11:39:06,786 - INFO - Fetching products
+2023-06-04 11:39:06,792 - INFO - Products retrieved successfully
+2023-06-04 11:39:06,792 - INFO - Products retrieved successfully
+2023-06-04 11:39:10,224 - INFO - Fetching products
+2023-06-04 11:39:10,224 - INFO - Fetching products
+2023-06-04 11:39:10,228 - INFO - Products retrieved successfully
+2023-06-04 11:39:10,228 - INFO - Products retrieved successfully
+2023-06-04 11:39:40,071 - INFO - Processing value or not evaluation
+2023-06-04 11:39:40,071 - INFO - Processing value or not evaluation
+2023-06-04 11:39:40,071 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:39:40,071 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 11:39:51,033 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 11:39:51,329 - INFO - Watching for file changes with StatReloader
+2023-06-04 11:39:52,936 - INFO - Processing value or not evaluation
+2023-06-04 11:39:52,936 - INFO - Processing value or not evaluation
+2023-06-04 11:39:52,958 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 914, in value_or_not
+    value = int(request.POST.get("value"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-06-04 11:40:07,490 - INFO - Processing value or not evaluation
+2023-06-04 11:40:07,490 - INFO - Processing value or not evaluation
+2023-06-04 11:40:07,510 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 914, in value_or_not
+    value = int(request.POST.get("value"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-06-04 11:40:30,761 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 11:40:31,061 - INFO - Watching for file changes with StatReloader
+2023-06-04 11:40:33,562 - INFO - Processing value or not evaluation
+2023-06-04 11:40:33,562 - INFO - Processing value or not evaluation
+2023-06-04 11:40:33,578 - INFO - New evaluation added
+2023-06-04 11:40:33,578 - INFO - New evaluation added
+2023-06-04 11:41:03,847 - INFO - Processing value or not evaluation
+2023-06-04 11:41:03,847 - INFO - Processing value or not evaluation
+2023-06-04 11:41:03,857 - INFO - Evaluation updated
+2023-06-04 11:41:03,857 - INFO - Evaluation updated
+2023-06-04 11:41:17,504 - INFO - Processing value or not evaluation
+2023-06-04 11:41:17,504 - INFO - Processing value or not evaluation
+2023-06-04 11:41:17,515 - INFO - Evaluation updated
+2023-06-04 11:41:17,515 - INFO - Evaluation updated
+2023-06-04 11:42:49,470 - INFO - Fetching products
+2023-06-04 11:42:49,470 - INFO - Fetching products
+2023-06-04 11:42:49,475 - INFO - Products retrieved successfully
+2023-06-04 11:42:49,475 - INFO - Products retrieved successfully
+2023-06-04 11:42:51,275 - INFO - Fetching products
+2023-06-04 11:42:51,275 - INFO - Fetching products
+2023-06-04 11:42:51,279 - INFO - Products retrieved successfully
+2023-06-04 11:42:51,279 - INFO - Products retrieved successfully
+2023-06-04 11:43:44,992 - INFO - Fetching products
+2023-06-04 11:43:44,992 - INFO - Fetching products
+2023-06-04 11:43:44,995 - INFO - Products retrieved successfully
+2023-06-04 11:43:44,995 - INFO - Products retrieved successfully
+2023-06-04 11:43:48,044 - INFO - Fetching products
+2023-06-04 11:43:48,044 - INFO - Fetching products
+2023-06-04 11:43:48,048 - INFO - Products retrieved successfully
+2023-06-04 11:43:48,048 - INFO - Products retrieved successfully
+2023-06-04 11:44:31,491 - INFO - Fetching products
+2023-06-04 11:44:31,491 - INFO - Fetching products
+2023-06-04 11:44:31,495 - INFO - Products retrieved successfully
+2023-06-04 11:44:31,495 - INFO - Products retrieved successfully
+2023-06-04 11:44:32,681 - INFO - Fetching products
+2023-06-04 11:44:32,681 - INFO - Fetching products
+2023-06-04 11:44:32,684 - INFO - Products retrieved successfully
+2023-06-04 11:44:32,684 - INFO - Products retrieved successfully
+2023-06-04 11:46:46,408 - INFO - Fetching products
+2023-06-04 11:46:46,408 - INFO - Fetching products
+2023-06-04 11:46:46,411 - INFO - Products retrieved successfully
+2023-06-04 11:46:46,411 - INFO - Products retrieved successfully
+2023-06-04 11:50:16,387 - INFO - Fetching products
+2023-06-04 11:50:16,387 - INFO - Fetching products
+2023-06-04 11:50:16,391 - INFO - Products retrieved successfully
+2023-06-04 11:50:16,391 - INFO - Products retrieved successfully
+2023-06-04 11:50:19,159 - INFO - Fetching products
+2023-06-04 11:50:19,159 - INFO - Fetching products
+2023-06-04 11:50:19,163 - INFO - Products retrieved successfully
+2023-06-04 11:50:19,163 - INFO - Products retrieved successfully
+2023-06-04 11:50:45,980 - INFO - Fetching products
+2023-06-04 11:50:45,980 - INFO - Fetching products
+2023-06-04 11:50:45,984 - INFO - Products retrieved successfully
+2023-06-04 11:50:45,984 - INFO - Products retrieved successfully
+2023-06-04 11:50:47,590 - INFO - Fetching products
+2023-06-04 11:50:47,590 - INFO - Fetching products
+2023-06-04 11:50:47,593 - INFO - Products retrieved successfully
+2023-06-04 11:50:47,593 - INFO - Products retrieved successfully
+2023-06-04 12:01:58,478 - WARNING - Not Found: /
+2023-06-04 12:02:22,959 - INFO - Processing value or not evaluation
+2023-06-04 12:02:22,959 - INFO - Processing value or not evaluation
+2023-06-04 12:02:22,962 - ERROR - User does not exist
+2023-06-04 12:02:22,962 - ERROR - User does not exist
+2023-06-04 12:06:01,723 - INFO - Processing value or not evaluation
+2023-06-04 12:06:01,723 - INFO - Processing value or not evaluation
+2023-06-04 12:06:01,725 - ERROR - User does not exist
+2023-06-04 12:06:01,725 - ERROR - User does not exist
+2023-06-04 12:06:56,778 - INFO - Fetching products
+2023-06-04 12:06:56,778 - INFO - Fetching products
+2023-06-04 12:06:56,782 - INFO - Products retrieved successfully
+2023-06-04 12:06:56,782 - INFO - Products retrieved successfully
+2023-06-04 12:08:44,114 - INFO - Fetching products
+2023-06-04 12:08:44,114 - INFO - Fetching products
+2023-06-04 12:08:44,118 - INFO - Products retrieved successfully
+2023-06-04 12:08:44,118 - INFO - Products retrieved successfully
+2023-06-04 12:08:47,288 - INFO - Fetching products
+2023-06-04 12:08:47,288 - INFO - Fetching products
+2023-06-04 12:08:47,292 - INFO - Products retrieved successfully
+2023-06-04 12:08:47,292 - INFO - Products retrieved successfully
+2023-06-04 12:09:25,049 - INFO - Processing value or not evaluation
+2023-06-04 12:09:25,049 - INFO - Processing value or not evaluation
+2023-06-04 12:09:25,051 - ERROR - User does not exist
+2023-06-04 12:09:25,051 - ERROR - User does not exist
+2023-06-04 12:10:21,290 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 12:10:21,590 - INFO - Watching for file changes with StatReloader
+2023-06-04 12:10:22,778 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 12:10:23,086 - INFO - Watching for file changes with StatReloader
+2023-06-04 12:13:01,331 - INFO - Fetching products
+2023-06-04 12:13:01,331 - INFO - Fetching products
+2023-06-04 12:13:01,337 - INFO - Products retrieved successfully
+2023-06-04 12:13:01,337 - INFO - Products retrieved successfully
+2023-06-04 12:13:06,068 - INFO - Fetching products
+2023-06-04 12:13:06,068 - INFO - Fetching products
+2023-06-04 12:13:06,071 - INFO - Products retrieved successfully
+2023-06-04 12:13:06,071 - INFO - Products retrieved successfully
+2023-06-04 12:13:09,711 - INFO - Fetching products
+2023-06-04 12:13:09,711 - INFO - Fetching products
+2023-06-04 12:13:09,716 - INFO - Products retrieved successfully
+2023-06-04 12:13:09,716 - INFO - Products retrieved successfully
+2023-06-04 12:13:30,286 - INFO - Fetching products
+2023-06-04 12:13:30,286 - INFO - Fetching products
+2023-06-04 12:13:30,290 - INFO - Products retrieved successfully
+2023-06-04 12:13:30,290 - INFO - Products retrieved successfully
+2023-06-04 12:13:31,706 - INFO - Fetching products
+2023-06-04 12:13:31,706 - INFO - Fetching products
+2023-06-04 12:13:31,710 - INFO - Products retrieved successfully
+2023-06-04 12:13:31,710 - INFO - Products retrieved successfully
+2023-06-04 12:13:34,485 - INFO - Processing value or not evaluation
+2023-06-04 12:13:34,485 - INFO - Processing value or not evaluation
+2023-06-04 12:13:34,487 - ERROR - User does not exist
+2023-06-04 12:13:34,487 - ERROR - User does not exist
+2023-06-04 12:16:05,199 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 12:16:05,485 - INFO - Watching for file changes with StatReloader
+2023-06-04 12:16:57,107 - INFO - Fetching products
+2023-06-04 12:16:57,107 - INFO - Fetching products
+2023-06-04 12:16:57,113 - INFO - Products retrieved successfully
+2023-06-04 12:16:57,113 - INFO - Products retrieved successfully
+2023-06-04 12:16:59,772 - INFO - Processing value or not evaluation
+2023-06-04 12:16:59,772 - INFO - Processing value or not evaluation
+2023-06-04 12:16:59,775 - ERROR - User does not exist
+2023-06-04 12:16:59,775 - ERROR - User does not exist
+2023-06-04 12:18:59,663 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 12:18:59,969 - INFO - Watching for file changes with StatReloader
+2023-06-04 12:19:25,344 - INFO - Fetching products
+2023-06-04 12:19:25,344 - INFO - Fetching products
+2023-06-04 12:19:25,349 - INFO - Products retrieved successfully
+2023-06-04 12:19:25,349 - INFO - Products retrieved successfully
+2023-06-04 12:19:28,316 - INFO - Processing value or not evaluation
+2023-06-04 12:19:28,316 - INFO - Processing value or not evaluation
+2023-06-04 12:19:28,331 - INFO - New evaluation added
+2023-06-04 12:19:28,331 - INFO - New evaluation added
+2023-06-04 12:24:45,307 - INFO - Fetching products
+2023-06-04 12:24:45,307 - INFO - Fetching products
+2023-06-04 12:24:45,311 - INFO - Products retrieved successfully
+2023-06-04 12:24:45,311 - INFO - Products retrieved successfully
+2023-06-04 12:42:00,957 - INFO - Fetching products
+2023-06-04 12:42:00,957 - INFO - Fetching products
+2023-06-04 12:42:00,963 - INFO - Products retrieved successfully
+2023-06-04 12:42:00,963 - INFO - Products retrieved successfully
+2023-06-04 12:42:04,612 - INFO - Processing value or not evaluation
+2023-06-04 12:42:04,612 - INFO - Processing value or not evaluation
+2023-06-04 12:42:04,624 - INFO - Evaluation updated
+2023-06-04 12:42:04,624 - INFO - Evaluation updated
+2023-06-04 12:44:22,155 - ERROR - Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+2023-06-04 12:44:22,179 - WARNING - Bad Request: /manager/html
+2023-06-04 13:17:35,638 - ERROR - Invalid HTTP_HOST header: 'ipinfo.io:443'. You may need to add 'ipinfo.io' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'ipinfo.io:443'. You may need to add 'ipinfo.io' to ALLOWED_HOSTS.
+2023-06-04 13:17:35,661 - WARNING - Bad Request: /ipinfo.io:443
+2023-06-04 13:36:35,479 - WARNING - Not Found: /
+2023-06-04 13:45:44,530 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:45:44,861 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:46:10,088 - WARNING - Not Found: /
+2023-06-04 13:46:14,385 - INFO - Fetching products
+2023-06-04 13:46:14,385 - INFO - Fetching products
+2023-06-04 13:46:14,385 - ERROR - Failed to fetch products: name 'products' is not defined
+2023-06-04 13:46:14,385 - ERROR - Failed to fetch products: name 'products' is not defined
+2023-06-04 13:46:38,373 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:46:38,728 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:47:02,029 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:47:02,315 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:47:05,084 - INFO - Fetching products
+2023-06-04 13:47:05,084 - INFO - Fetching products
+2023-06-04 13:47:05,084 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:47:05,084 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:47:19,607 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:47:19,918 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:52:32,859 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:52:33,141 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:52:45,383 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:52:45,681 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:52:50,255 - INFO - Fetching products
+2023-06-04 13:52:50,255 - INFO - Fetching products
+2023-06-04 13:52:50,255 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:52:50,255 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:09,745 - INFO - Fetching products
+2023-06-04 13:53:09,745 - INFO - Fetching products
+2023-06-04 13:53:09,745 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:09,745 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:14,068 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:53:14,359 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:53:22,235 - INFO - Fetching products
+2023-06-04 13:53:22,235 - INFO - Fetching products
+2023-06-04 13:53:22,235 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:22,235 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:45,936 - INFO - Fetching products
+2023-06-04 13:53:45,936 - INFO - Fetching products
+2023-06-04 13:53:45,937 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:45,937 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 13:53:54,793 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 13:53:55,099 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:53:57,549 - INFO - Fetching products
+2023-06-04 13:53:57,549 - INFO - Fetching products
+2023-06-04 13:53:57,555 - INFO - Products retrieved successfully
+2023-06-04 13:53:57,555 - INFO - Products retrieved successfully
+2023-06-04 13:54:07,998 - INFO - Fetching products
+2023-06-04 13:54:07,998 - INFO - Fetching products
+2023-06-04 13:54:08,002 - INFO - Products retrieved successfully
+2023-06-04 13:54:08,002 - INFO - Products retrieved successfully
+2023-06-04 13:54:10,621 - INFO - Processing value or not evaluation
+2023-06-04 13:54:10,621 - INFO - Processing value or not evaluation
+2023-06-04 13:54:10,635 - INFO - New evaluation added
+2023-06-04 13:54:10,635 - INFO - New evaluation added
+2023-06-04 13:54:33,738 - INFO - Watching for file changes with StatReloader
+2023-06-04 13:56:01,480 - INFO - Fetching products
+2023-06-04 13:56:01,480 - INFO - Fetching products
+2023-06-04 13:56:01,485 - INFO - Products retrieved successfully
+2023-06-04 13:56:01,485 - INFO - Products retrieved successfully
+2023-06-04 14:04:54,354 - INFO - Fetching products
+2023-06-04 14:04:54,354 - INFO - Fetching products
+2023-06-04 14:04:54,358 - INFO - Products retrieved successfully
+2023-06-04 14:04:54,358 - INFO - Products retrieved successfully
+2023-06-04 14:04:57,583 - INFO - Fetching products
+2023-06-04 14:04:57,583 - INFO - Fetching products
+2023-06-04 14:04:57,588 - INFO - Products retrieved successfully
+2023-06-04 14:04:57,588 - INFO - Products retrieved successfully
+2023-06-04 14:04:59,964 - INFO - Processing value or not evaluation
+2023-06-04 14:04:59,964 - INFO - Processing value or not evaluation
+2023-06-04 14:04:59,989 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:05:01,698 - INFO - Processing value or not evaluation
+2023-06-04 14:05:01,698 - INFO - Processing value or not evaluation
+2023-06-04 14:05:01,716 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:05:29,774 - INFO - Fetching products
+2023-06-04 14:05:29,774 - INFO - Fetching products
+2023-06-04 14:05:29,778 - INFO - Products retrieved successfully
+2023-06-04 14:05:29,778 - INFO - Products retrieved successfully
+2023-06-04 14:09:50,855 - INFO - Fetching products
+2023-06-04 14:09:50,855 - INFO - Fetching products
+2023-06-04 14:09:50,858 - INFO - Products retrieved successfully
+2023-06-04 14:09:50,858 - INFO - Products retrieved successfully
+2023-06-04 14:09:53,078 - INFO - Fetching products
+2023-06-04 14:09:53,078 - INFO - Fetching products
+2023-06-04 14:09:53,082 - INFO - Products retrieved successfully
+2023-06-04 14:09:53,082 - INFO - Products retrieved successfully
+2023-06-04 14:09:56,601 - INFO - Processing value or not evaluation
+2023-06-04 14:09:56,601 - INFO - Processing value or not evaluation
+2023-06-04 14:09:56,619 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:11:37,698 - INFO - Fetching products
+2023-06-04 14:11:37,698 - INFO - Fetching products
+2023-06-04 14:11:37,702 - INFO - Products retrieved successfully
+2023-06-04 14:11:37,702 - INFO - Products retrieved successfully
+2023-06-04 14:11:38,826 - INFO - Fetching products
+2023-06-04 14:11:38,826 - INFO - Fetching products
+2023-06-04 14:11:38,830 - INFO - Products retrieved successfully
+2023-06-04 14:11:38,830 - INFO - Products retrieved successfully
+2023-06-04 14:11:41,484 - INFO - Processing value or not evaluation
+2023-06-04 14:11:41,484 - INFO - Processing value or not evaluation
+2023-06-04 14:11:41,504 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:12:48,663 - INFO - Fetching products
+2023-06-04 14:12:48,663 - INFO - Fetching products
+2023-06-04 14:12:48,667 - INFO - Products retrieved successfully
+2023-06-04 14:12:48,667 - INFO - Products retrieved successfully
+2023-06-04 14:13:04,648 - INFO - Fetching products
+2023-06-04 14:13:04,648 - INFO - Fetching products
+2023-06-04 14:13:04,652 - INFO - Products retrieved successfully
+2023-06-04 14:13:04,652 - INFO - Products retrieved successfully
+2023-06-04 14:19:42,940 - WARNING - Not Found: /favicon.ico
+2023-06-04 14:20:09,036 - ERROR - Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.baidu.com:443'. You may need to add 'www.baidu.com' to ALLOWED_HOSTS.
+2023-06-04 14:20:09,055 - WARNING - Bad Request: /www.baidu.com:443
+2023-06-04 14:23:18,703 - ERROR - Invalid HTTP_HOST header: 'check.best-proxies.ru:443'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'check.best-proxies.ru:443'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+2023-06-04 14:23:18,721 - WARNING - Bad Request: /check.best-proxies.ru:443
+2023-06-04 14:23:29,522 - ERROR - Invalid HTTP_HOST header: 'check.best-proxies.ru'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/http/request.py", line 167, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'check.best-proxies.ru'. You may need to add 'check.best-proxies.ru' to ALLOWED_HOSTS.
+2023-06-04 14:23:29,539 - WARNING - Bad Request: /http:/check.best-proxies.ru/ip.php
+2023-06-04 14:31:01,091 - INFO - Fetching products
+2023-06-04 14:31:01,091 - INFO - Fetching products
+2023-06-04 14:31:01,096 - INFO - Products retrieved successfully
+2023-06-04 14:31:01,096 - INFO - Products retrieved successfully
+2023-06-04 14:31:06,752 - INFO - Fetching products
+2023-06-04 14:31:06,752 - INFO - Fetching products
+2023-06-04 14:31:06,756 - INFO - Products retrieved successfully
+2023-06-04 14:31:06,756 - INFO - Products retrieved successfully
+2023-06-04 14:31:09,986 - INFO - Fetching products
+2023-06-04 14:31:09,986 - INFO - Fetching products
+2023-06-04 14:31:09,989 - INFO - Products retrieved successfully
+2023-06-04 14:31:09,989 - INFO - Products retrieved successfully
+2023-06-04 14:31:24,179 - INFO - Fetching products
+2023-06-04 14:31:24,179 - INFO - Fetching products
+2023-06-04 14:31:24,183 - INFO - Products retrieved successfully
+2023-06-04 14:31:24,183 - INFO - Products retrieved successfully
+2023-06-04 14:31:25,948 - INFO - Processing value or not evaluation
+2023-06-04 14:31:25,948 - INFO - Processing value or not evaluation
+2023-06-04 14:31:25,966 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:31:33,949 - INFO - Fetching products
+2023-06-04 14:31:33,949 - INFO - Fetching products
+2023-06-04 14:31:33,953 - INFO - Products retrieved successfully
+2023-06-04 14:31:33,953 - INFO - Products retrieved successfully
+2023-06-04 14:31:36,486 - INFO - Processing value or not evaluation
+2023-06-04 14:31:36,486 - INFO - Processing value or not evaluation
+2023-06-04 14:31:36,503 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:32:47,044 - INFO - Fetching products
+2023-06-04 14:32:47,044 - INFO - Fetching products
+2023-06-04 14:32:47,048 - INFO - Products retrieved successfully
+2023-06-04 14:32:47,048 - INFO - Products retrieved successfully
+2023-06-04 14:33:07,020 - INFO - Processing value or not evaluation
+2023-06-04 14:33:07,020 - INFO - Processing value or not evaluation
+2023-06-04 14:33:07,038 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 922, in value_or_not
+    print(good_info)
+OSError: [Errno 5] Input/output error
+2023-06-04 14:42:07,978 - INFO - Fetching products
+2023-06-04 14:42:07,978 - INFO - Fetching products
+2023-06-04 14:42:07,982 - INFO - Products retrieved successfully
+2023-06-04 14:42:07,982 - INFO - Products retrieved successfully
+2023-06-04 14:43:00,705 - INFO - Fetching products
+2023-06-04 14:43:00,705 - INFO - Fetching products
+2023-06-04 14:43:00,709 - INFO - Products retrieved successfully
+2023-06-04 14:43:00,709 - INFO - Products retrieved successfully
+2023-06-04 14:44:34,596 - INFO - Fetching products
+2023-06-04 14:44:34,596 - INFO - Fetching products
+2023-06-04 14:44:34,600 - INFO - Products retrieved successfully
+2023-06-04 14:44:34,600 - INFO - Products retrieved successfully
+2023-06-04 14:45:58,022 - INFO - Fetching products
+2023-06-04 14:45:58,022 - INFO - Fetching products
+2023-06-04 14:45:58,026 - INFO - Products retrieved successfully
+2023-06-04 14:45:58,026 - INFO - Products retrieved successfully
+2023-06-04 14:48:12,192 - INFO - Fetching products
+2023-06-04 14:48:12,192 - INFO - Fetching products
+2023-06-04 14:48:12,196 - INFO - Products retrieved successfully
+2023-06-04 14:48:12,196 - INFO - Products retrieved successfully
+2023-06-04 15:16:49,824 - INFO - Fetching products
+2023-06-04 15:16:49,824 - INFO - Fetching products
+2023-06-04 15:16:49,828 - INFO - Products retrieved successfully
+2023-06-04 15:16:49,828 - INFO - Products retrieved successfully
+2023-06-04 15:16:52,361 - WARNING - Not Found: /GponForm/diag_Form
+2023-06-04 15:20:07,946 - INFO - Fetching products
+2023-06-04 15:20:07,946 - INFO - Fetching products
+2023-06-04 15:20:07,951 - INFO - Products retrieved successfully
+2023-06-04 15:20:07,951 - INFO - Products retrieved successfully
+2023-06-04 15:43:48,907 - INFO - Fetching products
+2023-06-04 15:43:48,907 - INFO - Fetching products
+2023-06-04 15:43:48,911 - INFO - Products retrieved successfully
+2023-06-04 15:43:48,911 - INFO - Products retrieved successfully
+2023-06-04 15:46:36,954 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:48:57,919 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:48:58,222 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:49:17,505 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:49:17,788 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:50:02,463 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:50:10,601 - INFO - Fetching products
+2023-06-04 15:50:10,601 - INFO - Fetching products
+2023-06-04 15:50:10,606 - INFO - Products retrieved successfully
+2023-06-04 15:50:10,606 - INFO - Products retrieved successfully
+2023-06-04 15:50:12,920 - INFO - Fetching products
+2023-06-04 15:50:12,920 - INFO - Fetching products
+2023-06-04 15:50:12,924 - INFO - Products retrieved successfully
+2023-06-04 15:50:12,924 - INFO - Products retrieved successfully
+2023-06-04 15:50:15,757 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:50:16,046 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:50:16,432 - INFO - Processing value or not evaluation
+2023-06-04 15:50:16,432 - INFO - Processing value or not evaluation
+2023-06-04 15:50:16,444 - INFO - Evaluation updated
+2023-06-04 15:50:16,444 - INFO - Evaluation updated
+2023-06-04 15:50:34,525 - INFO - Fetching products
+2023-06-04 15:50:34,525 - INFO - Fetching products
+2023-06-04 15:50:34,525 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:50:34,525 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:50:53,416 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:50:53,725 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:52:47,531 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:52:47,819 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:52:48,996 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:52:49,324 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:52:52,256 - INFO - Fetching products
+2023-06-04 15:52:52,256 - INFO - Fetching products
+2023-06-04 15:52:52,262 - INFO - Products retrieved successfully
+2023-06-04 15:52:52,262 - INFO - Products retrieved successfully
+2023-06-04 15:53:02,621 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:53:02,906 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:53:05,713 - INFO - Fetching products
+2023-06-04 15:53:05,713 - INFO - Fetching products
+2023-06-04 15:53:05,713 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:53:05,713 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:53:22,217 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:53:22,522 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:55:18,315 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:55:18,606 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:55:23,807 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:55:24,097 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:55:27,087 - INFO - Fetching products
+2023-06-04 15:55:27,087 - INFO - Fetching products
+2023-06-04 15:55:27,087 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:55:27,087 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:55:37,373 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:55:37,660 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:56:19,080 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:56:19,380 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:57:22,923 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:57:23,207 - INFO - Watching for file changes with StatReloader
+2023-06-04 15:57:31,436 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 15:57:31,738 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:00:14,905 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:00:19,091 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:00:19,376 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:00:21,552 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:00:21,830 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:00:29,056 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:00:29,343 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:01:47,709 - INFO - Processing value or not evaluation
+2023-06-04 16:01:47,709 - INFO - Processing value or not evaluation
+2023-06-04 16:01:47,732 - ERROR - Internal Server Error: /api/value_or_not/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 926, in value_or_not
+    value = int(request.GET.get("value"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-06-04 16:01:59,034 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:01:59,341 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:02:06,279 - INFO - Fetching products
+2023-06-04 16:02:06,279 - INFO - Fetching products
+2023-06-04 16:02:06,285 - INFO - Products retrieved successfully
+2023-06-04 16:02:06,285 - INFO - Products retrieved successfully
+2023-06-04 16:02:15,646 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:02:15,943 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:02:18,135 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:02:18,428 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:02:39,715 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:02:39,996 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:03:16,378 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:03:16,672 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:04:10,175 - WARNING - Not Found: /
+2023-06-04 16:07:29,322 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:07:29,619 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:07:37,838 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:07:38,123 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:07:46,339 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:07:46,627 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:08:19,981 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:08:20,277 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:08:35,531 - INFO - /home/rear-end/rear_end/urls.py changed, reloading.
+2023-06-04 16:08:35,816 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:08:45,026 - INFO - /home/rear-end/rear_end/urls.py changed, reloading.
+2023-06-04 16:08:45,313 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:08:47,490 - INFO - /home/rear-end/rear_end/urls.py changed, reloading.
+2023-06-04 16:08:47,780 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:09:25,070 - ERROR - Internal Server Error: /api/get_user_value/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 963, in get_user_value
+    user = Product.objects.get(openid=openid)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1498, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1529, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1379, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1189, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1677, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'openid' into field. Choices are: comment, id, image, introduce, name, notvalue, pics, price, purchase_method, recent_prices, recommendation_reason, recommended_time, referrer_id, usercollect, uservalue, userview, value
+2023-06-04 16:09:59,389 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:09:59,672 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:10:01,687 - ERROR - Internal Server Error: /api/get_user_value/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 970, in get_user_value
+    for user_value in user_values
+NameError: name 'user_values' is not defined
+2023-06-04 16:10:16,989 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:10:17,275 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:10:30,548 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:10:30,828 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:15:56,522 - ERROR - Internal Server Error: /api/get_user_value/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 963, in get_user_value
+    user = User.objects.get(openid=openid)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+app.models.User.DoesNotExist: User matching query does not exist.
+2023-06-04 16:15:56,771 - WARNING - Not Found: /favicon.ico
+2023-06-04 16:16:12,924 - INFO - Fetching products
+2023-06-04 16:16:12,924 - INFO - Fetching products
+2023-06-04 16:16:12,928 - INFO - Products retrieved successfully
+2023-06-04 16:16:12,928 - INFO - Products retrieved successfully
+2023-06-04 16:16:17,754 - ERROR - Internal Server Error: /api/get_user_value/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 963, in get_user_value
+    user = User.objects.get(openid=openid)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+app.models.User.DoesNotExist: User matching query does not exist.
+2023-06-04 16:16:51,719 - INFO - Fetching products
+2023-06-04 16:16:51,719 - INFO - Fetching products
+2023-06-04 16:16:51,722 - INFO - Products retrieved successfully
+2023-06-04 16:16:51,722 - INFO - Products retrieved successfully
+2023-06-04 16:17:03,974 - INFO - Fetching products
+2023-06-04 16:17:03,974 - INFO - Fetching products
+2023-06-04 16:17:03,977 - INFO - Products retrieved successfully
+2023-06-04 16:17:03,977 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,337 - INFO - Adding product to user collection
+2023-06-04 16:18:21,337 - INFO - Adding product to user collection
+2023-06-04 16:18:21,337 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:18:21,337 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:18:21,341 - INFO - Adding comment to product
+2023-06-04 16:18:21,341 - INFO - Adding comment to product
+2023-06-04 16:18:21,341 - ERROR - Invalid request method for adding comment
+2023-06-04 16:18:21,341 - ERROR - Invalid request method for adding comment
+2023-06-04 16:18:21,346 - INFO - Adding product
+2023-06-04 16:18:21,346 - INFO - Adding product
+2023-06-04 16:18:21,346 - ERROR - Invalid request method for adding product
+2023-06-04 16:18:21,346 - ERROR - Invalid request method for adding product
+2023-06-04 16:18:21,350 - INFO - Creating user
+2023-06-04 16:18:21,350 - INFO - Creating user
+2023-06-04 16:18:21,350 - ERROR - Invalid request method for creating user
+2023-06-04 16:18:21,350 - ERROR - Invalid request method for creating user
+2023-06-04 16:18:21,354 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,354 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,355 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:18:21,355 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:18:21,361 - INFO - Deleting managed comment
+2023-06-04 16:18:21,361 - INFO - Deleting managed comment
+2023-06-04 16:18:21,363 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,363 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,367 - INFO - Deleting product
+2023-06-04 16:18:21,367 - INFO - Deleting product
+2023-06-04 16:18:21,367 - ERROR - Invalid request method for deleting product
+2023-06-04 16:18:21,367 - ERROR - Invalid request method for deleting product
+2023-06-04 16:18:21,371 - INFO - Deleting user
+2023-06-04 16:18:21,371 - INFO - Deleting user
+2023-06-04 16:18:21,371 - ERROR - Invalid request method for deleting user
+2023-06-04 16:18:21,371 - ERROR - Invalid request method for deleting user
+2023-06-04 16:18:21,374 - INFO - Fetching front page products
+2023-06-04 16:18:21,374 - INFO - Fetching front page products
+2023-06-04 16:18:21,377 - INFO - Front page products fetched successfully
+2023-06-04 16:18:21,377 - INFO - Front page products fetched successfully
+2023-06-04 16:18:21,383 - INFO - Fetching comments for product
+2023-06-04 16:18:21,383 - INFO - Fetching comments for product
+2023-06-04 16:18:21,385 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,385 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,390 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,390 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,392 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,392 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,396 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,396 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,398 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,398 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,402 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,402 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,404 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,404 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,408 - INFO - Fetching product images
+2023-06-04 16:18:21,408 - INFO - Fetching product images
+2023-06-04 16:18:21,409 - ERROR - Product does not exist
+2023-06-04 16:18:21,409 - ERROR - Product does not exist
+2023-06-04 16:18:21,413 - INFO - Fetching products
+2023-06-04 16:18:21,413 - INFO - Fetching products
+2023-06-04 16:18:21,415 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,415 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,419 - INFO - Fetching user collect
+2023-06-04 16:18:21,419 - INFO - Fetching user collect
+2023-06-04 16:18:21,422 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,422 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,426 - INFO - Fetching user comments
+2023-06-04 16:18:21,426 - INFO - Fetching user comments
+2023-06-04 16:18:21,427 - ERROR - User does not exist
+2023-06-04 16:18:21,427 - ERROR - User does not exist
+2023-06-04 16:18:21,431 - INFO - Fetching users
+2023-06-04 16:18:21,431 - INFO - Fetching users
+2023-06-04 16:18:21,432 - INFO - Users fetched successfully
+2023-06-04 16:18:21,432 - INFO - Users fetched successfully
+2023-06-04 16:18:21,438 - ERROR - Internal Server Error: /api/get_user_value/
+Traceback (most recent call last):
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rear-end/app/views.py", line 963, in get_user_value
+    user = User.objects.get(openid=openid)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/miniconda3/envs/django/lib/python3.9/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+app.models.User.DoesNotExist: User matching query does not exist.
+2023-06-04 16:18:21,470 - INFO - Searching products
+2023-06-04 16:18:21,470 - INFO - Searching products
+2023-06-04 16:18:21,475 - INFO - Processing value or not evaluation
+2023-06-04 16:18:21,475 - INFO - Processing value or not evaluation
+2023-06-04 16:18:21,475 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:18:21,475 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:18:21,481 - INFO - Adding product to user collection
+2023-06-04 16:18:21,481 - INFO - Adding product to user collection
+2023-06-04 16:18:21,484 - INFO - Product added to user collection successfully
+2023-06-04 16:18:21,484 - INFO - Product added to user collection successfully
+2023-06-04 16:18:21,490 - INFO - Adding comment to product
+2023-06-04 16:18:21,490 - INFO - Adding comment to product
+2023-06-04 16:18:21,492 - INFO - Comment added successfully
+2023-06-04 16:18:21,492 - INFO - Comment added successfully
+2023-06-04 16:18:21,498 - INFO - Adding product
+2023-06-04 16:18:21,498 - INFO - Adding product
+2023-06-04 16:18:21,498 - INFO - Product data received
+2023-06-04 16:18:21,498 - INFO - Product data received
+2023-06-04 16:18:21,499 - INFO - Product added successfully
+2023-06-04 16:18:21,499 - INFO - Product added successfully
+2023-06-04 16:18:21,505 - INFO - Creating user
+2023-06-04 16:18:21,505 - INFO - Creating user
+2023-06-04 16:18:21,506 - INFO - User registered successfully
+2023-06-04 16:18:21,506 - INFO - User registered successfully
+2023-06-04 16:18:21,512 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,512 - INFO - Deleting product from user collection
+2023-06-04 16:18:21,514 - INFO - Product deleted from user collection successfully
+2023-06-04 16:18:21,514 - INFO - Product deleted from user collection successfully
+2023-06-04 16:18:21,520 - INFO - Deleting managed comment
+2023-06-04 16:18:21,520 - INFO - Deleting managed comment
+2023-06-04 16:18:21,523 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,523 - INFO - Managed comment deleted successfully
+2023-06-04 16:18:21,528 - INFO - Deleting product
+2023-06-04 16:18:21,528 - INFO - Deleting product
+2023-06-04 16:18:21,529 - INFO - Product deleted successfully
+2023-06-04 16:18:21,529 - INFO - Product deleted successfully
+2023-06-04 16:18:21,533 - INFO - Deleting user
+2023-06-04 16:18:21,533 - INFO - Deleting user
+2023-06-04 16:18:21,534 - INFO - User deleted successfully
+2023-06-04 16:18:21,534 - INFO - User deleted successfully
+2023-06-04 16:18:21,540 - INFO - Fetching products
+2023-06-04 16:18:21,540 - INFO - Fetching products
+2023-06-04 16:18:21,541 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,541 - INFO - Products retrieved successfully
+2023-06-04 16:18:21,549 - INFO - Fetching comments for product
+2023-06-04 16:18:21,549 - INFO - Fetching comments for product
+2023-06-04 16:18:21,552 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,552 - INFO - Product comments fetched successfully
+2023-06-04 16:18:21,558 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,558 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:18:21,560 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,560 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:18:21,567 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,567 - INFO - Fetching products ordered by hot
+2023-06-04 16:18:21,569 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,569 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:18:21,576 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,576 - INFO - Fetching products ordered by new
+2023-06-04 16:18:21,578 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,578 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:18:21,585 - INFO - Fetching product images
+2023-06-04 16:18:21,585 - INFO - Fetching product images
+2023-06-04 16:18:21,588 - INFO - Product images fetched successfully
+2023-06-04 16:18:21,588 - INFO - Product images fetched successfully
+2023-06-04 16:18:21,613 - INFO - Fetching users
+2023-06-04 16:18:21,613 - INFO - Fetching users
+2023-06-04 16:18:21,615 - INFO - Users fetched successfully
+2023-06-04 16:18:21,615 - INFO - Users fetched successfully
+2023-06-04 16:18:21,621 - INFO - Fetching user collect
+2023-06-04 16:18:21,621 - INFO - Fetching user collect
+2023-06-04 16:18:21,624 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,624 - INFO - User collect fetched successfully
+2023-06-04 16:18:21,632 - INFO - Fetching user comments
+2023-06-04 16:18:21,632 - INFO - Fetching user comments
+2023-06-04 16:18:21,635 - INFO - User comments fetched successfully
+2023-06-04 16:18:21,635 - INFO - User comments fetched successfully
+2023-06-04 16:18:21,646 - INFO - Searching products
+2023-06-04 16:18:21,646 - INFO - Searching products
+2023-06-04 16:18:21,649 - INFO - Products searched successfully
+2023-06-04 16:18:21,649 - INFO - Products searched successfully
+2023-06-04 16:20:47,515 - INFO - Adding product to user collection
+2023-06-04 16:20:47,515 - INFO - Adding product to user collection
+2023-06-04 16:20:47,516 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:20:47,516 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:20:47,520 - INFO - Adding comment to product
+2023-06-04 16:20:47,520 - INFO - Adding comment to product
+2023-06-04 16:20:47,520 - ERROR - Invalid request method for adding comment
+2023-06-04 16:20:47,520 - ERROR - Invalid request method for adding comment
+2023-06-04 16:20:47,524 - INFO - Adding product
+2023-06-04 16:20:47,524 - INFO - Adding product
+2023-06-04 16:20:47,524 - ERROR - Invalid request method for adding product
+2023-06-04 16:20:47,524 - ERROR - Invalid request method for adding product
+2023-06-04 16:20:47,527 - INFO - Creating user
+2023-06-04 16:20:47,527 - INFO - Creating user
+2023-06-04 16:20:47,528 - ERROR - Invalid request method for creating user
+2023-06-04 16:20:47,528 - ERROR - Invalid request method for creating user
+2023-06-04 16:20:47,531 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,531 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,531 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:20:47,531 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:20:47,536 - INFO - Deleting managed comment
+2023-06-04 16:20:47,536 - INFO - Deleting managed comment
+2023-06-04 16:20:47,539 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,539 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,544 - INFO - Deleting product
+2023-06-04 16:20:47,544 - INFO - Deleting product
+2023-06-04 16:20:47,544 - ERROR - Invalid request method for deleting product
+2023-06-04 16:20:47,544 - ERROR - Invalid request method for deleting product
+2023-06-04 16:20:47,547 - INFO - Deleting user
+2023-06-04 16:20:47,547 - INFO - Deleting user
+2023-06-04 16:20:47,547 - ERROR - Invalid request method for deleting user
+2023-06-04 16:20:47,547 - ERROR - Invalid request method for deleting user
+2023-06-04 16:20:47,550 - INFO - Fetching front page products
+2023-06-04 16:20:47,550 - INFO - Fetching front page products
+2023-06-04 16:20:47,553 - INFO - Front page products fetched successfully
+2023-06-04 16:20:47,553 - INFO - Front page products fetched successfully
+2023-06-04 16:20:47,558 - INFO - Fetching comments for product
+2023-06-04 16:20:47,558 - INFO - Fetching comments for product
+2023-06-04 16:20:47,560 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,560 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,564 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,564 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,566 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,566 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,570 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,570 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,571 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,571 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,575 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,575 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,576 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,576 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,579 - INFO - Fetching product images
+2023-06-04 16:20:47,579 - INFO - Fetching product images
+2023-06-04 16:20:47,580 - ERROR - Product does not exist
+2023-06-04 16:20:47,580 - ERROR - Product does not exist
+2023-06-04 16:20:47,583 - INFO - Fetching products
+2023-06-04 16:20:47,583 - INFO - Fetching products
+2023-06-04 16:20:47,585 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,585 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,588 - INFO - Fetching user collect
+2023-06-04 16:20:47,588 - INFO - Fetching user collect
+2023-06-04 16:20:47,590 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,590 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,594 - INFO - Fetching user comments
+2023-06-04 16:20:47,594 - INFO - Fetching user comments
+2023-06-04 16:20:47,594 - ERROR - User does not exist
+2023-06-04 16:20:47,594 - ERROR - User does not exist
+2023-06-04 16:20:47,598 - INFO - Fetching users
+2023-06-04 16:20:47,598 - INFO - Fetching users
+2023-06-04 16:20:47,599 - INFO - Users fetched successfully
+2023-06-04 16:20:47,599 - INFO - Users fetched successfully
+2023-06-04 16:20:47,609 - INFO - Searching products
+2023-06-04 16:20:47,609 - INFO - Searching products
+2023-06-04 16:20:47,612 - INFO - Processing value or not evaluation
+2023-06-04 16:20:47,612 - INFO - Processing value or not evaluation
+2023-06-04 16:20:47,612 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:20:47,612 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:20:47,619 - INFO - Adding product to user collection
+2023-06-04 16:20:47,619 - INFO - Adding product to user collection
+2023-06-04 16:20:47,621 - INFO - Product added to user collection successfully
+2023-06-04 16:20:47,621 - INFO - Product added to user collection successfully
+2023-06-04 16:20:47,627 - INFO - Adding comment to product
+2023-06-04 16:20:47,627 - INFO - Adding comment to product
+2023-06-04 16:20:47,629 - INFO - Comment added successfully
+2023-06-04 16:20:47,629 - INFO - Comment added successfully
+2023-06-04 16:20:47,636 - INFO - Adding product
+2023-06-04 16:20:47,636 - INFO - Adding product
+2023-06-04 16:20:47,638 - INFO - Product data received
+2023-06-04 16:20:47,638 - INFO - Product data received
+2023-06-04 16:20:47,639 - INFO - Product added successfully
+2023-06-04 16:20:47,639 - INFO - Product added successfully
+2023-06-04 16:20:47,645 - INFO - Creating user
+2023-06-04 16:20:47,645 - INFO - Creating user
+2023-06-04 16:20:47,647 - INFO - User registered successfully
+2023-06-04 16:20:47,647 - INFO - User registered successfully
+2023-06-04 16:20:47,652 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,652 - INFO - Deleting product from user collection
+2023-06-04 16:20:47,655 - INFO - Product deleted from user collection successfully
+2023-06-04 16:20:47,655 - INFO - Product deleted from user collection successfully
+2023-06-04 16:20:47,662 - INFO - Deleting managed comment
+2023-06-04 16:20:47,662 - INFO - Deleting managed comment
+2023-06-04 16:20:47,665 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,665 - INFO - Managed comment deleted successfully
+2023-06-04 16:20:47,671 - INFO - Deleting product
+2023-06-04 16:20:47,671 - INFO - Deleting product
+2023-06-04 16:20:47,672 - INFO - Product deleted successfully
+2023-06-04 16:20:47,672 - INFO - Product deleted successfully
+2023-06-04 16:20:47,679 - INFO - Deleting user
+2023-06-04 16:20:47,679 - INFO - Deleting user
+2023-06-04 16:20:47,680 - INFO - User deleted successfully
+2023-06-04 16:20:47,680 - INFO - User deleted successfully
+2023-06-04 16:20:47,689 - INFO - Fetching products
+2023-06-04 16:20:47,689 - INFO - Fetching products
+2023-06-04 16:20:47,691 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,691 - INFO - Products retrieved successfully
+2023-06-04 16:20:47,702 - INFO - Fetching comments for product
+2023-06-04 16:20:47,702 - INFO - Fetching comments for product
+2023-06-04 16:20:47,706 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,706 - INFO - Product comments fetched successfully
+2023-06-04 16:20:47,716 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,716 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:20:47,719 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,719 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:20:47,729 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,729 - INFO - Fetching products ordered by hot
+2023-06-04 16:20:47,731 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,731 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:20:47,741 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,741 - INFO - Fetching products ordered by new
+2023-06-04 16:20:47,744 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,744 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:20:47,752 - INFO - Fetching product images
+2023-06-04 16:20:47,752 - INFO - Fetching product images
+2023-06-04 16:20:47,753 - INFO - Product images fetched successfully
+2023-06-04 16:20:47,753 - INFO - Product images fetched successfully
+2023-06-04 16:20:47,759 - INFO - Fetching users
+2023-06-04 16:20:47,759 - INFO - Fetching users
+2023-06-04 16:20:47,760 - INFO - Users fetched successfully
+2023-06-04 16:20:47,760 - INFO - Users fetched successfully
+2023-06-04 16:20:47,766 - INFO - Fetching user collect
+2023-06-04 16:20:47,766 - INFO - Fetching user collect
+2023-06-04 16:20:47,768 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,768 - INFO - User collect fetched successfully
+2023-06-04 16:20:47,775 - INFO - Fetching user comments
+2023-06-04 16:20:47,775 - INFO - Fetching user comments
+2023-06-04 16:20:47,778 - INFO - User comments fetched successfully
+2023-06-04 16:20:47,778 - INFO - User comments fetched successfully
+2023-06-04 16:20:47,786 - INFO - Searching products
+2023-06-04 16:20:47,786 - INFO - Searching products
+2023-06-04 16:20:47,789 - INFO - Products searched successfully
+2023-06-04 16:20:47,789 - INFO - Products searched successfully
+2023-06-04 16:22:02,572 - INFO - Adding product to user collection
+2023-06-04 16:22:02,572 - INFO - Adding product to user collection
+2023-06-04 16:22:02,572 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:02,572 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:02,576 - INFO - Adding comment to product
+2023-06-04 16:22:02,576 - INFO - Adding comment to product
+2023-06-04 16:22:02,576 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:02,576 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:02,581 - INFO - Adding product
+2023-06-04 16:22:02,581 - INFO - Adding product
+2023-06-04 16:22:02,581 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:02,581 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:02,584 - INFO - Creating user
+2023-06-04 16:22:02,584 - INFO - Creating user
+2023-06-04 16:22:02,585 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:02,585 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:02,588 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,588 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,588 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:02,588 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:02,593 - INFO - Deleting managed comment
+2023-06-04 16:22:02,593 - INFO - Deleting managed comment
+2023-06-04 16:22:02,595 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,595 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,599 - INFO - Deleting product
+2023-06-04 16:22:02,599 - INFO - Deleting product
+2023-06-04 16:22:02,600 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:02,600 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:02,603 - INFO - Deleting user
+2023-06-04 16:22:02,603 - INFO - Deleting user
+2023-06-04 16:22:02,603 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:02,603 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:02,606 - INFO - Fetching front page products
+2023-06-04 16:22:02,606 - INFO - Fetching front page products
+2023-06-04 16:22:02,609 - INFO - Front page products fetched successfully
+2023-06-04 16:22:02,609 - INFO - Front page products fetched successfully
+2023-06-04 16:22:02,614 - INFO - Fetching comments for product
+2023-06-04 16:22:02,614 - INFO - Fetching comments for product
+2023-06-04 16:22:02,616 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,616 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,620 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,620 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,621 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,621 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,624 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,624 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,627 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,627 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,631 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,631 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,633 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,633 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,637 - INFO - Fetching product images
+2023-06-04 16:22:02,637 - INFO - Fetching product images
+2023-06-04 16:22:02,638 - ERROR - Product does not exist
+2023-06-04 16:22:02,638 - ERROR - Product does not exist
+2023-06-04 16:22:02,642 - INFO - Fetching products
+2023-06-04 16:22:02,642 - INFO - Fetching products
+2023-06-04 16:22:02,645 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,645 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,649 - INFO - Fetching user collect
+2023-06-04 16:22:02,649 - INFO - Fetching user collect
+2023-06-04 16:22:02,652 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,652 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,656 - INFO - Fetching user comments
+2023-06-04 16:22:02,656 - INFO - Fetching user comments
+2023-06-04 16:22:02,657 - ERROR - User does not exist
+2023-06-04 16:22:02,657 - ERROR - User does not exist
+2023-06-04 16:22:02,662 - INFO - Fetching users
+2023-06-04 16:22:02,662 - INFO - Fetching users
+2023-06-04 16:22:02,663 - INFO - Users fetched successfully
+2023-06-04 16:22:02,663 - INFO - Users fetched successfully
+2023-06-04 16:22:02,676 - INFO - Searching products
+2023-06-04 16:22:02,676 - INFO - Searching products
+2023-06-04 16:22:02,681 - INFO - Processing value or not evaluation
+2023-06-04 16:22:02,681 - INFO - Processing value or not evaluation
+2023-06-04 16:22:02,681 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:02,681 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:02,690 - INFO - Adding product to user collection
+2023-06-04 16:22:02,690 - INFO - Adding product to user collection
+2023-06-04 16:22:02,694 - INFO - Product added to user collection successfully
+2023-06-04 16:22:02,694 - INFO - Product added to user collection successfully
+2023-06-04 16:22:02,702 - INFO - Adding comment to product
+2023-06-04 16:22:02,702 - INFO - Adding comment to product
+2023-06-04 16:22:02,705 - INFO - Comment added successfully
+2023-06-04 16:22:02,705 - INFO - Comment added successfully
+2023-06-04 16:22:02,712 - INFO - Adding product
+2023-06-04 16:22:02,712 - INFO - Adding product
+2023-06-04 16:22:02,713 - INFO - Product data received
+2023-06-04 16:22:02,713 - INFO - Product data received
+2023-06-04 16:22:02,716 - INFO - Product added successfully
+2023-06-04 16:22:02,716 - INFO - Product added successfully
+2023-06-04 16:22:02,723 - INFO - Creating user
+2023-06-04 16:22:02,723 - INFO - Creating user
+2023-06-04 16:22:02,724 - INFO - User registered successfully
+2023-06-04 16:22:02,724 - INFO - User registered successfully
+2023-06-04 16:22:02,733 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,733 - INFO - Deleting product from user collection
+2023-06-04 16:22:02,736 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:02,736 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:02,742 - INFO - Deleting managed comment
+2023-06-04 16:22:02,742 - INFO - Deleting managed comment
+2023-06-04 16:22:02,745 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,745 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:02,752 - INFO - Deleting product
+2023-06-04 16:22:02,752 - INFO - Deleting product
+2023-06-04 16:22:02,753 - INFO - Product deleted successfully
+2023-06-04 16:22:02,753 - INFO - Product deleted successfully
+2023-06-04 16:22:02,761 - INFO - Deleting user
+2023-06-04 16:22:02,761 - INFO - Deleting user
+2023-06-04 16:22:02,762 - INFO - User deleted successfully
+2023-06-04 16:22:02,762 - INFO - User deleted successfully
+2023-06-04 16:22:02,767 - INFO - Fetching products
+2023-06-04 16:22:02,767 - INFO - Fetching products
+2023-06-04 16:22:02,769 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,769 - INFO - Products retrieved successfully
+2023-06-04 16:22:02,777 - INFO - Fetching comments for product
+2023-06-04 16:22:02,777 - INFO - Fetching comments for product
+2023-06-04 16:22:02,781 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,781 - INFO - Product comments fetched successfully
+2023-06-04 16:22:02,788 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,788 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:02,790 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,790 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:02,797 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,797 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:02,799 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,799 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:02,807 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,807 - INFO - Fetching products ordered by new
+2023-06-04 16:22:02,810 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,810 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:02,817 - INFO - Fetching product images
+2023-06-04 16:22:02,817 - INFO - Fetching product images
+2023-06-04 16:22:02,819 - INFO - Product images fetched successfully
+2023-06-04 16:22:02,819 - INFO - Product images fetched successfully
+2023-06-04 16:22:02,826 - INFO - Fetching users
+2023-06-04 16:22:02,826 - INFO - Fetching users
+2023-06-04 16:22:02,827 - INFO - Users fetched successfully
+2023-06-04 16:22:02,827 - INFO - Users fetched successfully
+2023-06-04 16:22:02,832 - INFO - Fetching user collect
+2023-06-04 16:22:02,832 - INFO - Fetching user collect
+2023-06-04 16:22:02,835 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,835 - INFO - User collect fetched successfully
+2023-06-04 16:22:02,841 - INFO - Fetching user comments
+2023-06-04 16:22:02,841 - INFO - Fetching user comments
+2023-06-04 16:22:02,844 - INFO - User comments fetched successfully
+2023-06-04 16:22:02,844 - INFO - User comments fetched successfully
+2023-06-04 16:22:02,859 - INFO - Searching products
+2023-06-04 16:22:02,859 - INFO - Searching products
+2023-06-04 16:22:02,863 - INFO - Products searched successfully
+2023-06-04 16:22:02,863 - INFO - Products searched successfully
+2023-06-04 16:22:10,789 - INFO - Adding product to user collection
+2023-06-04 16:22:10,789 - INFO - Adding product to user collection
+2023-06-04 16:22:10,789 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:10,789 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:10,794 - INFO - Adding comment to product
+2023-06-04 16:22:10,794 - INFO - Adding comment to product
+2023-06-04 16:22:10,794 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:10,794 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:10,799 - INFO - Adding product
+2023-06-04 16:22:10,799 - INFO - Adding product
+2023-06-04 16:22:10,799 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:10,799 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:10,804 - INFO - Creating user
+2023-06-04 16:22:10,804 - INFO - Creating user
+2023-06-04 16:22:10,804 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:10,804 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:10,807 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,807 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,808 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:10,808 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:10,813 - INFO - Deleting managed comment
+2023-06-04 16:22:10,813 - INFO - Deleting managed comment
+2023-06-04 16:22:10,819 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,819 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,825 - INFO - Deleting product
+2023-06-04 16:22:10,825 - INFO - Deleting product
+2023-06-04 16:22:10,825 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:10,825 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:10,830 - INFO - Deleting user
+2023-06-04 16:22:10,830 - INFO - Deleting user
+2023-06-04 16:22:10,830 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:10,830 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:10,835 - INFO - Fetching front page products
+2023-06-04 16:22:10,835 - INFO - Fetching front page products
+2023-06-04 16:22:10,841 - INFO - Front page products fetched successfully
+2023-06-04 16:22:10,841 - INFO - Front page products fetched successfully
+2023-06-04 16:22:10,848 - INFO - Fetching comments for product
+2023-06-04 16:22:10,848 - INFO - Fetching comments for product
+2023-06-04 16:22:10,851 - INFO - Product comments fetched successfully
+2023-06-04 16:22:10,851 - INFO - Product comments fetched successfully
+2023-06-04 16:22:10,856 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:10,856 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:10,858 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:10,858 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:10,863 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:10,863 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:10,865 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:10,865 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:10,869 - INFO - Fetching products ordered by new
+2023-06-04 16:22:10,869 - INFO - Fetching products ordered by new
+2023-06-04 16:22:10,871 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:10,871 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:10,876 - INFO - Fetching product images
+2023-06-04 16:22:10,876 - INFO - Fetching product images
+2023-06-04 16:22:10,877 - ERROR - Product does not exist
+2023-06-04 16:22:10,877 - ERROR - Product does not exist
+2023-06-04 16:22:10,880 - INFO - Fetching products
+2023-06-04 16:22:10,880 - INFO - Fetching products
+2023-06-04 16:22:10,882 - INFO - Products retrieved successfully
+2023-06-04 16:22:10,882 - INFO - Products retrieved successfully
+2023-06-04 16:22:10,887 - INFO - Fetching user collect
+2023-06-04 16:22:10,887 - INFO - Fetching user collect
+2023-06-04 16:22:10,891 - INFO - User collect fetched successfully
+2023-06-04 16:22:10,891 - INFO - User collect fetched successfully
+2023-06-04 16:22:10,895 - INFO - Fetching user comments
+2023-06-04 16:22:10,895 - INFO - Fetching user comments
+2023-06-04 16:22:10,896 - ERROR - User does not exist
+2023-06-04 16:22:10,896 - ERROR - User does not exist
+2023-06-04 16:22:10,899 - INFO - Fetching users
+2023-06-04 16:22:10,899 - INFO - Fetching users
+2023-06-04 16:22:10,901 - INFO - Users fetched successfully
+2023-06-04 16:22:10,901 - INFO - Users fetched successfully
+2023-06-04 16:22:10,910 - INFO - Searching products
+2023-06-04 16:22:10,910 - INFO - Searching products
+2023-06-04 16:22:10,914 - INFO - Processing value or not evaluation
+2023-06-04 16:22:10,914 - INFO - Processing value or not evaluation
+2023-06-04 16:22:10,914 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:10,914 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:10,921 - INFO - Adding product to user collection
+2023-06-04 16:22:10,921 - INFO - Adding product to user collection
+2023-06-04 16:22:10,923 - INFO - Product added to user collection successfully
+2023-06-04 16:22:10,923 - INFO - Product added to user collection successfully
+2023-06-04 16:22:10,929 - INFO - Adding comment to product
+2023-06-04 16:22:10,929 - INFO - Adding comment to product
+2023-06-04 16:22:10,931 - INFO - Comment added successfully
+2023-06-04 16:22:10,931 - INFO - Comment added successfully
+2023-06-04 16:22:10,936 - INFO - Adding product
+2023-06-04 16:22:10,936 - INFO - Adding product
+2023-06-04 16:22:10,937 - INFO - Product data received
+2023-06-04 16:22:10,937 - INFO - Product data received
+2023-06-04 16:22:10,938 - INFO - Product added successfully
+2023-06-04 16:22:10,938 - INFO - Product added successfully
+2023-06-04 16:22:10,944 - INFO - Creating user
+2023-06-04 16:22:10,944 - INFO - Creating user
+2023-06-04 16:22:10,946 - INFO - User registered successfully
+2023-06-04 16:22:10,946 - INFO - User registered successfully
+2023-06-04 16:22:10,953 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,953 - INFO - Deleting product from user collection
+2023-06-04 16:22:10,956 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:10,956 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:10,968 - INFO - Deleting managed comment
+2023-06-04 16:22:10,968 - INFO - Deleting managed comment
+2023-06-04 16:22:10,972 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,972 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:10,978 - INFO - Deleting product
+2023-06-04 16:22:10,978 - INFO - Deleting product
+2023-06-04 16:22:10,979 - INFO - Product deleted successfully
+2023-06-04 16:22:10,979 - INFO - Product deleted successfully
+2023-06-04 16:22:10,985 - INFO - Deleting user
+2023-06-04 16:22:10,985 - INFO - Deleting user
+2023-06-04 16:22:10,986 - INFO - User deleted successfully
+2023-06-04 16:22:10,986 - INFO - User deleted successfully
+2023-06-04 16:22:10,993 - INFO - Fetching products
+2023-06-04 16:22:10,993 - INFO - Fetching products
+2023-06-04 16:22:10,995 - INFO - Products retrieved successfully
+2023-06-04 16:22:10,995 - INFO - Products retrieved successfully
+2023-06-04 16:22:11,003 - INFO - Fetching comments for product
+2023-06-04 16:22:11,003 - INFO - Fetching comments for product
+2023-06-04 16:22:11,006 - INFO - Product comments fetched successfully
+2023-06-04 16:22:11,006 - INFO - Product comments fetched successfully
+2023-06-04 16:22:11,014 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:11,014 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:11,017 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:11,017 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:11,031 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:11,031 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:11,033 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:11,033 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:11,039 - INFO - Fetching products ordered by new
+2023-06-04 16:22:11,039 - INFO - Fetching products ordered by new
+2023-06-04 16:22:11,041 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:11,041 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:11,049 - INFO - Fetching product images
+2023-06-04 16:22:11,049 - INFO - Fetching product images
+2023-06-04 16:22:11,050 - INFO - Product images fetched successfully
+2023-06-04 16:22:11,050 - INFO - Product images fetched successfully
+2023-06-04 16:22:11,056 - INFO - Fetching users
+2023-06-04 16:22:11,056 - INFO - Fetching users
+2023-06-04 16:22:11,058 - INFO - Users fetched successfully
+2023-06-04 16:22:11,058 - INFO - Users fetched successfully
+2023-06-04 16:22:11,069 - INFO - Fetching user collect
+2023-06-04 16:22:11,069 - INFO - Fetching user collect
+2023-06-04 16:22:11,071 - INFO - User collect fetched successfully
+2023-06-04 16:22:11,071 - INFO - User collect fetched successfully
+2023-06-04 16:22:11,077 - INFO - Fetching user comments
+2023-06-04 16:22:11,077 - INFO - Fetching user comments
+2023-06-04 16:22:11,080 - INFO - User comments fetched successfully
+2023-06-04 16:22:11,080 - INFO - User comments fetched successfully
+2023-06-04 16:22:11,096 - INFO - Searching products
+2023-06-04 16:22:11,096 - INFO - Searching products
+2023-06-04 16:22:11,099 - INFO - Products searched successfully
+2023-06-04 16:22:11,099 - INFO - Products searched successfully
+2023-06-04 16:22:11,107 - INFO - Processing value or not evaluation
+2023-06-04 16:22:11,107 - INFO - Processing value or not evaluation
+2023-06-04 16:22:11,112 - INFO - New evaluation added
+2023-06-04 16:22:11,112 - INFO - New evaluation added
+2023-06-04 16:22:55,043 - INFO - Adding product to user collection
+2023-06-04 16:22:55,043 - INFO - Adding product to user collection
+2023-06-04 16:22:55,043 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:55,043 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:55,048 - INFO - Adding comment to product
+2023-06-04 16:22:55,048 - INFO - Adding comment to product
+2023-06-04 16:22:55,049 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:55,049 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:55,052 - INFO - Adding product
+2023-06-04 16:22:55,052 - INFO - Adding product
+2023-06-04 16:22:55,052 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:55,052 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:55,056 - INFO - Creating user
+2023-06-04 16:22:55,056 - INFO - Creating user
+2023-06-04 16:22:55,056 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:55,056 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:55,059 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,059 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,060 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:55,060 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:55,064 - INFO - Deleting managed comment
+2023-06-04 16:22:55,064 - INFO - Deleting managed comment
+2023-06-04 16:22:55,067 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,067 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,072 - INFO - Deleting product
+2023-06-04 16:22:55,072 - INFO - Deleting product
+2023-06-04 16:22:55,072 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:55,072 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:55,075 - INFO - Deleting user
+2023-06-04 16:22:55,075 - INFO - Deleting user
+2023-06-04 16:22:55,076 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:55,076 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:55,079 - INFO - Fetching front page products
+2023-06-04 16:22:55,079 - INFO - Fetching front page products
+2023-06-04 16:22:55,082 - INFO - Front page products fetched successfully
+2023-06-04 16:22:55,082 - INFO - Front page products fetched successfully
+2023-06-04 16:22:55,088 - INFO - Fetching comments for product
+2023-06-04 16:22:55,088 - INFO - Fetching comments for product
+2023-06-04 16:22:55,089 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,089 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,093 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,093 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,095 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,095 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,099 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,099 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,100 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,100 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,104 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,104 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,106 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,106 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,110 - INFO - Fetching product images
+2023-06-04 16:22:55,110 - INFO - Fetching product images
+2023-06-04 16:22:55,111 - ERROR - Product does not exist
+2023-06-04 16:22:55,111 - ERROR - Product does not exist
+2023-06-04 16:22:55,115 - INFO - Fetching products
+2023-06-04 16:22:55,115 - INFO - Fetching products
+2023-06-04 16:22:55,117 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,117 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,120 - INFO - Fetching user collect
+2023-06-04 16:22:55,120 - INFO - Fetching user collect
+2023-06-04 16:22:55,122 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,122 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,126 - INFO - Fetching user comments
+2023-06-04 16:22:55,126 - INFO - Fetching user comments
+2023-06-04 16:22:55,127 - ERROR - User does not exist
+2023-06-04 16:22:55,127 - ERROR - User does not exist
+2023-06-04 16:22:55,131 - INFO - Fetching users
+2023-06-04 16:22:55,131 - INFO - Fetching users
+2023-06-04 16:22:55,132 - INFO - Users fetched successfully
+2023-06-04 16:22:55,132 - INFO - Users fetched successfully
+2023-06-04 16:22:55,141 - INFO - Searching products
+2023-06-04 16:22:55,141 - INFO - Searching products
+2023-06-04 16:22:55,144 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,144 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,145 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:55,145 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:55,151 - INFO - Adding product to user collection
+2023-06-04 16:22:55,151 - INFO - Adding product to user collection
+2023-06-04 16:22:55,154 - INFO - Product added to user collection successfully
+2023-06-04 16:22:55,154 - INFO - Product added to user collection successfully
+2023-06-04 16:22:55,173 - INFO - Adding comment to product
+2023-06-04 16:22:55,173 - INFO - Adding comment to product
+2023-06-04 16:22:55,175 - INFO - Comment added successfully
+2023-06-04 16:22:55,175 - INFO - Comment added successfully
+2023-06-04 16:22:55,192 - INFO - Adding product
+2023-06-04 16:22:55,192 - INFO - Adding product
+2023-06-04 16:22:55,193 - INFO - Product data received
+2023-06-04 16:22:55,193 - INFO - Product data received
+2023-06-04 16:22:55,194 - INFO - Product added successfully
+2023-06-04 16:22:55,194 - INFO - Product added successfully
+2023-06-04 16:22:55,207 - INFO - Creating user
+2023-06-04 16:22:55,207 - INFO - Creating user
+2023-06-04 16:22:55,208 - INFO - User registered successfully
+2023-06-04 16:22:55,208 - INFO - User registered successfully
+2023-06-04 16:22:55,220 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,220 - INFO - Deleting product from user collection
+2023-06-04 16:22:55,223 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:55,223 - INFO - Product deleted from user collection successfully
+2023-06-04 16:22:55,236 - INFO - Deleting managed comment
+2023-06-04 16:22:55,236 - INFO - Deleting managed comment
+2023-06-04 16:22:55,239 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,239 - INFO - Managed comment deleted successfully
+2023-06-04 16:22:55,251 - INFO - Deleting product
+2023-06-04 16:22:55,251 - INFO - Deleting product
+2023-06-04 16:22:55,252 - INFO - Product deleted successfully
+2023-06-04 16:22:55,252 - INFO - Product deleted successfully
+2023-06-04 16:22:55,264 - INFO - Deleting user
+2023-06-04 16:22:55,264 - INFO - Deleting user
+2023-06-04 16:22:55,265 - INFO - User deleted successfully
+2023-06-04 16:22:55,265 - INFO - User deleted successfully
+2023-06-04 16:22:55,277 - INFO - Fetching products
+2023-06-04 16:22:55,277 - INFO - Fetching products
+2023-06-04 16:22:55,279 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,279 - INFO - Products retrieved successfully
+2023-06-04 16:22:55,293 - INFO - Fetching comments for product
+2023-06-04 16:22:55,293 - INFO - Fetching comments for product
+2023-06-04 16:22:55,296 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,296 - INFO - Product comments fetched successfully
+2023-06-04 16:22:55,309 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,309 - INFO - Fetching product details for product ID: 1
+2023-06-04 16:22:55,311 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,311 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-04 16:22:55,326 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,326 - INFO - Fetching products ordered by hot
+2023-06-04 16:22:55,328 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,328 - INFO - Products ordered by hot retrieved successfully
+2023-06-04 16:22:55,341 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,341 - INFO - Fetching products ordered by new
+2023-06-04 16:22:55,343 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,343 - INFO - Products ordered by new retrieved successfully
+2023-06-04 16:22:55,357 - INFO - Fetching product images
+2023-06-04 16:22:55,357 - INFO - Fetching product images
+2023-06-04 16:22:55,358 - INFO - Product images fetched successfully
+2023-06-04 16:22:55,358 - INFO - Product images fetched successfully
+2023-06-04 16:22:55,370 - INFO - Fetching users
+2023-06-04 16:22:55,370 - INFO - Fetching users
+2023-06-04 16:22:55,371 - INFO - Users fetched successfully
+2023-06-04 16:22:55,371 - INFO - Users fetched successfully
+2023-06-04 16:22:55,383 - INFO - Fetching user collect
+2023-06-04 16:22:55,383 - INFO - Fetching user collect
+2023-06-04 16:22:55,385 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,385 - INFO - User collect fetched successfully
+2023-06-04 16:22:55,396 - INFO - Fetching user comments
+2023-06-04 16:22:55,396 - INFO - Fetching user comments
+2023-06-04 16:22:55,399 - INFO - User comments fetched successfully
+2023-06-04 16:22:55,399 - INFO - User comments fetched successfully
+2023-06-04 16:22:55,425 - INFO - Searching products
+2023-06-04 16:22:55,425 - INFO - Searching products
+2023-06-04 16:22:55,428 - INFO - Products searched successfully
+2023-06-04 16:22:55,428 - INFO - Products searched successfully
+2023-06-04 16:22:55,442 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,442 - INFO - Processing value or not evaluation
+2023-06-04 16:22:55,447 - INFO - New evaluation added
+2023-06-04 16:22:55,447 - INFO - New evaluation added
+2023-06-04 16:23:51,591 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-04 16:23:51,915 - INFO - Watching for file changes with StatReloader
+2023-06-04 16:23:57,991 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:23:57,991 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:23:58,002 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:23:58,002 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:14,765 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:14,765 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:14,767 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:14,767 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:24:28,021 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:28,021 - INFO - Fetching user values for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:28,029 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w
+2023-06-04 16:24:28,029 - INFO - User values retrieved successfully for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5w

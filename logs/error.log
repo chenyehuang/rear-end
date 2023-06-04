@@ -1,0 +1,54 @@
+Failed to fetch products: name 'serialized_data' is not defined
+Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 15:55:27,087 - ERROR - Failed to fetch products: name 'serialized_data' is not defined
+2023-06-04 16:18:21,337 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:18:21,341 - ERROR - Invalid request method for adding comment
+2023-06-04 16:18:21,346 - ERROR - Invalid request method for adding product
+2023-06-04 16:18:21,350 - ERROR - Invalid request method for creating user
+2023-06-04 16:18:21,355 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:18:21,367 - ERROR - Invalid request method for deleting product
+2023-06-04 16:18:21,371 - ERROR - Invalid request method for deleting user
+2023-06-04 16:18:21,409 - ERROR - Product does not exist
+2023-06-04 16:18:21,427 - ERROR - User does not exist
+2023-06-04 16:18:21,475 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:20:47,516 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:20:47,520 - ERROR - Invalid request method for adding comment
+2023-06-04 16:20:47,524 - ERROR - Invalid request method for adding product
+2023-06-04 16:20:47,528 - ERROR - Invalid request method for creating user
+2023-06-04 16:20:47,531 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:20:47,544 - ERROR - Invalid request method for deleting product
+2023-06-04 16:20:47,547 - ERROR - Invalid request method for deleting user
+2023-06-04 16:20:47,580 - ERROR - Product does not exist
+2023-06-04 16:20:47,594 - ERROR - User does not exist
+2023-06-04 16:20:47,612 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:02,572 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:02,576 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:02,581 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:02,585 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:02,588 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:02,600 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:02,603 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:02,638 - ERROR - Product does not exist
+2023-06-04 16:22:02,657 - ERROR - User does not exist
+2023-06-04 16:22:02,681 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:10,789 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:10,794 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:10,799 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:10,804 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:10,808 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:10,825 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:10,830 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:10,877 - ERROR - Product does not exist
+2023-06-04 16:22:10,896 - ERROR - User does not exist
+2023-06-04 16:22:10,914 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:22:55,043 - ERROR - Invalid request method for adding product to user collection
+2023-06-04 16:22:55,049 - ERROR - Invalid request method for adding comment
+2023-06-04 16:22:55,052 - ERROR - Invalid request method for adding product
+2023-06-04 16:22:55,056 - ERROR - Invalid request method for creating user
+2023-06-04 16:22:55,060 - ERROR - Invalid request method for deleting product from user collection
+2023-06-04 16:22:55,072 - ERROR - Invalid request method for deleting product
+2023-06-04 16:22:55,076 - ERROR - Invalid request method for deleting user
+2023-06-04 16:22:55,111 - ERROR - Product does not exist
+2023-06-04 16:22:55,127 - ERROR - User does not exist
+2023-06-04 16:22:55,145 - ERROR - Invalid request method for value or not evaluation
+2023-06-04 16:24:14,767 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
