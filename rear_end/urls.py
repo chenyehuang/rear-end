@@ -27,13 +27,6 @@ urlpatterns = [
     path('api/product_new', views.get_product_new, name='get_product_new'),
     path('api/product_hot', views.get_product_hot, name='get_product_hot'),
     path('api/create_user/', views.create_user, name="create_user"),
-    
-    # path('api/user_value/<int:user_id>/<int:value_flag>', views.get_user_value, name='get_user_value'),
-    # path('api/user_new_break/<int:user_id>', views.get_user_new_break, name='get_user_new_break'),
-    # path('api/user_hot_break/<int:user_id>', views.get_user_hot_break, name='get_user_hot_break'),
-    # path('api/user_make_comment/<int:user_id>', views.get_make_comment, name='get_make_comment'),
-    # path('api/user_hot_break/<int:user_id>', views.history_hot_product, name='history_hot_product'),
-    # # path('api/user_new_break/<int:user_id>', views.history_new_product, name='history_new_product'),
     path('api/front_product/', views.get_front_product, name='get_front_product'),
     path('api/search_products', views.search_products, name='search_products'),
     path('api/add_collect', views.add_collect, name='add_collect'),
@@ -44,8 +37,9 @@ urlpatterns = [
     path('api/user_collect/<openid>/', views.get_user_collect, name='get_user_collect'),
     path('api/get_product_comment/', views.get_product_comment, name='get_product_comment'),
     path('api/add_product/', views.add_product, name='add_product'),
-
-
+    path("api/delete_user/",views.delete_user, name='delete_user'),
+    path("api/delete_product/",views.delete_product, name='delete_product'),
+    path('api/delete_manage_comment/', views.delete_manage_comment, name='delete_manage_comment'),
     path('test/<int:good_id>', views.test_products, name="test_products"),
 
 ]

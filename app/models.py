@@ -2,21 +2,12 @@ from django.db import models
 
 
 # Create your models here.
-# class User(models.Model):
-#     user_id = models.AutoField(primary_key=True)
-#     user_name = models.CharField(max_length=200)
-#     user_wechat = models.CharField(max_length=200)
-#     phone_number = models.BigIntegerField()
 
 class User(models.Model):
     openid = models.CharField(max_length=200)
     nickName = models.CharField(max_length=200)
     avatarUrl = models.CharField(max_length=200)
 
-# class User_new(models.Model):
-#     openid = models.CharField(max_length=200)
-#     nickName = models.CharField(max_length=200)
-#     avatarUrl = models.CharField(max_length=200)
 
 class Product(models.Model):
     id = models.AutoField(primary_key=True)

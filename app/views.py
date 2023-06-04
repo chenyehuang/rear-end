@@ -12,6 +12,8 @@ from rest_framework import serializers
 from django.db.models.functions import Random
 from django.db.models import Q
 from django.db import IntegrityError
+from django.utils import timezone
+
 # Create your views here.
 def create(request):
     openid = ['ovN085f-qNQCT3YPKMfw3SXnzJ5w', 'odG6m4gNX7ePxlRlqSJO2KvMiJPs']
@@ -309,13 +311,13 @@ def create(request):
     # ])
     # Product.objects.all().delete()
     
-    for i in range(1, 11):
-        product = Product.objects.get(id=i)
-        new_image = "http://47.115.221.21:8081/pic/goods{}.png".format(i)
-        new_pics = ['http://47.115.221.21:8081/pic/goods{}-1.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-2.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-3.png'.format(i)] 
-        product.image = new_image
-        product.pics = new_pics
-        product.save()
+    # for i in range(1, 11):
+    #     product = Product.objects.get(id=i)
+    #     new_image = "http://47.115.221.21:8081/pic/goods{}.png".format(i)
+    #     new_pics = ['http://47.115.221.21:8081/pic/goods{}-1.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-2.png'.format(i), 'http://47.115.221.21:8081/pic/goods{}-3.png'.format(i)] 
+    #     product.image = new_image
+    #     product.pics = new_pics
+    #     product.save()
 
     # comment_list = [
     #     Comment(user=User.objects.get(openid=openid[randint(0,1)%2]),
@@ -364,7 +366,7 @@ def create(request):
     # UserCollect.objects.filter(id=2).delete()
 
     # 待插入的10条数据
-    # alter table app_userview AUTO_INCREMENT 1;
+    # alter table app_userview AUTO_INCREMENT 1
     # user_view_list = [
     #     UserView(user_id=User.objects.get(user_id=openid[randint(0,1)%2]), product_id=Product.objects.get(id=randint(1, 10)),
     #              time=datetime.now())
@@ -404,9 +406,10 @@ def create(request):
     # UserValue.objects.create(user_id=User.objects.get(openid=openid[1]), product_id=Product.objects.get(id=9),value_or_not=randint(0, 1))
 
     # UserValue.objects.all().delete()
-    User.objects.filter(id=3).delete()
-    User.objects.filter(id=4).delete()
-    # User.objects.filter(id=8).delete()
+    # User.objects.filter(id=3).delete()
+    # User.objects.filter(id=4).delete()
+    # User.objects.filter(id=7).delete()
+    # Product.objects.filter(id=14).delete()
     return HttpResponse("创建成功")
 
 
@@ -612,6 +615,7 @@ def add_comment(request):
         try:
             openid = request.GET.get("openid")
             good_id = request.GET.get("good_id")
+            content = request.GET.get("commentStr")
             user = User.objects.get(openid=openid)
             product = Product.objects.get(id=good_id)
             Comment.objects.create(user=user, good_id=product, content=content, time=datetime.now())
@@ -665,15 +669,72 @@ def add_product(request):
             description = request.GET.get("description")
             purchaseChannel = request.GET.get("purchaseChannel")
             recommendationReason = request.GET.get("recommendationReason")
+            image_urls_1 = request.GET.get("imageUrl_1")
+            image_urls_2 = request.GET.get("imageUrl_2")
+            image_urls_3 = request.GET.get("imageUrl_3")
+            image_urls_4 = request.GET.get("imageUrl_4")
+            # print(image_urls_1, "##########", image_urls_2, "######", image_urls_3, "#########", image_urls_4) 
             openid = request.GET.get("userId")
-            print(name)
+            prices = request.GET.get("prices")
+            print(type(prices))
+
+            # 解析JSON字符串
+            data = json.loads(prices)
+
+            # 转换为新格式
+            recent_prices = []
+            for item in data:
+                new_item = {
+                    "time": item["Date"],
+                    "price": float(item["Price"])
+                }
+                recent_prices.append(new_item)
+
+            # 转换为JSON字符串
+            # new_prices = json.dumps(output)
+
+            current_time = timezone.now()
+            formatted_time = current_time.strftime('%Y-%m-%dT%H:%M:%S')
+            product_data = {
+                'name': name,
+                'image': image_urls_1,
+                'pics': [image_urls_2, image_urls_3, image_urls_4],
+                'price': price,
+                'value': 0,
+                'notvalue': 0,
+                'referrer_id': openid,
+                'recommended_time': formatted_time,
+                'purchase_method': purchaseChannel,
+                'recommendation_reason': recommendationReason,
+                'recent_prices': recent_prices,
+                'introduce': description
+            }
+            Product.objects.create(**product_data)
             return JsonResponse('上传成功', safe=False)
         except User.DoesNotExist:
             return JsonResponse({'error': 'can not add'})
     else:
          return JsonResponse("获取你上传的数据", safe=False)
 
+def delete_product(request):
+    if request.method == "GET":
+        name = request.GET.get("name")
+        Product.objects.filter(name=name).delete()
+        return JsonResponse({'删除成功': True})
+    else:
+        return JsonResponse({'不能删除商品': False})
 
+def delete_manage_comment(request):
+    if request.method == "GET":
+        openid = request.GET.get("openid")
+        user = User.objects.get(openid=openid)
+        product_id = request.GET.get("product_id")
+        product = Product.objects.get(id=product_id)
+        content = request.GET.get("content")
+        Comment.objects.filter(user=user, good_id=product, content=content).delete()
+        return JsonResponse({'删除成功': True})
+    else:
+        return JsonResponse({'不能删除评论': False})
 
 # # 获取用户收藏
 def get_user_collect(request, openid):
@@ -692,111 +753,6 @@ def get_user_collect(request, openid):
     }
 
     return JsonResponse(data)
-
-
-# # 获取用户值/不值
-# def get_user_value(request, user_id, value_flag):
-#     user_value = UserValue.objects.filter(user_id=user_id, value_or_not=value_flag)
-#     product_ids = [collect.product_id_id for collect in user_value]
-#     products = Product.objects.filter(id__in=product_ids)
-
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
-
-#     return JsonResponse(data)
-
-
-# # 用户最新爆料
-# def get_User_break(request, user_id):
-#     User_break = Product.objects.filter(referrer_id=user_id)
-#     # 按时间从新到旧排序
-#     products = User_break.order_by('-recommended_time')
-
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
-
-#     return JsonResponse(data)
-
-
-# # 用户最热爆料
-# def get_user_hot_break(request, user_id):
-#     user_hot_break = Product.objects.filter(referrer_id=user_id)
-#     # 按热度从高到低排序
-#     products = user_hot_break.order_by('-value')
-
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
-
-#     return JsonResponse(data)
-
-
-# # 用户发出的评论
-# def get_make_comment(request, user_id):
-#     user_make_comment = Comment.objects.filter(user=user_id)
-#     serializer = CommentSerializer(user_make_comment, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'comments': serialized_data
-#     }
-
-#     return JsonResponse(data)
-
-
-
-
-
-# # 用户最热排序的浏览记录
-# def history_hot_product(request, user_id):
-#     user_view = UserView.objects.filter(user_id=user_id)
-#     product_ids = [collect.product_id for collect in user_view]
-#     products = Product.objects.filter(id__in=product_ids).order_by('-value')
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
-
-#     return JsonResponse(data)
-
-
-# # 用户最新排序的浏览记录
-# def history_new_product(request, user_id):
-#     user_view = UserView.objects.filter(user_id=user_id)
-#     product_ids = [collect.product_id for collect in user_view]
-#     products = Product.objects.filter(id__in=product_ids).order_by('-recommended_time')
-#     # 序列化商品信息
-#     serializer = ProductSerializer(products, many=True)
-#     serialized_data = serializer.data
-
-#     # 将序列化后的数据返回给前端
-#     data = {
-#         'products': serialized_data
-#     }
-
-#     return JsonResponse(data)
 
 # 注册用户将其存储进数据库
 @csrf_exempt
@@ -826,7 +782,6 @@ def create_user(request):
 
 def get_user(request):
     users = User.objects.all()
-    # 序列化商品信息
     serializer = UserSerializer(users, many=True)
     serialized_data = serializer.data
 
@@ -836,3 +791,26 @@ def get_user(request):
     }
 
     return JsonResponse(data)
+
+def delete_user(request):
+    if request.method == 'GET':
+        openid = request.GET.get('openid')
+        User.objects.filter(openid=openid).delete()
+        return JsonResponse({'删除成功': True})
+    else:
+        return JsonResponse({'不能删除用户': False})
+
+
+# 对商品评价值/不值
+def value_or_not(request):
+    if request.method == 'GET':
+        try:
+            openid = request.GET.get("userId")
+            goodInfo = request.GET.get("goodInfo")
+            value = request.GET.get("value")
+            user = User.objects.get(openid=openid)
+            product = Product.objects.get(name=goodInfo)
+        except User.DoesNotExist:
+            return JsonResponse({'error': 'can not process'})
+    else:
+         return JsonResponse("获取你上传的数据", safe=False)
