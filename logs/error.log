@@ -52,3 +52,79 @@ Failed to fetch products: name 'serialized_data' is not defined
 2023-06-04 16:22:55,127 - ERROR - User does not exist
 2023-06-04 16:22:55,145 - ERROR - Invalid request method for value or not evaluation
 2023-06-04 16:24:14,767 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ
+2023-06-04 16:27:02,511 - ERROR - User not found for openid: ovN085f-qNQCT3YPKMfw3SXnzJ5
+2023-06-05 12:31:29,142 - ERROR - User not found for openid: 
+2023-06-06 08:10:41,024 - ERROR - User not found for openid: 
+2023-06-06 08:12:47,136 - ERROR - User not found for openid: 
+2023-06-06 09:28:05,835 - ERROR - User or product does not exist
+2023-06-06 09:28:05,838 - ERROR - User or product does not exist
+2023-06-06 09:28:05,862 - ERROR - User or product does not exist
+2023-06-06 09:28:05,864 - ERROR - User or product does not exist
+2023-06-06 09:28:37,475 - ERROR - User or product does not exist
+2023-06-06 09:28:37,478 - ERROR - User or product does not exist
+2023-06-06 09:28:37,479 - ERROR - User or product does not exist
+2023-06-06 09:28:37,485 - ERROR - User or product does not exist
+2023-06-06 11:01:41,580 - ERROR - No user values found for openid: None
+2023-06-06 11:37:02,226 - ERROR - No user values found for openid: None
+2023-06-06 12:03:23,067 - ERROR - Failed to fetch break details: name 'product_id' is not defined
+2023-06-06 12:04:20,084 - ERROR - Failed to fetch break details: name 'product_id' is not defined
+2023-06-06 12:04:57,205 - ERROR - Failed to fetch break details: name 'product_id' is not defined
+2023-06-06 12:05:23,193 - ERROR - Failed to fetch break details: name 'product_id' is not defined
+2023-06-06 12:06:30,976 - ERROR - Failed to fetch break details: name 'product_id' is not defined
+2023-06-06 12:29:37,931 - ERROR - Invalid request method for adding product to user collection
+2023-06-06 12:29:37,938 - ERROR - Invalid request method for adding comment
+2023-06-06 12:29:37,943 - ERROR - Invalid request method for adding product
+2023-06-06 12:29:37,947 - ERROR - Invalid request method for creating user
+2023-06-06 12:29:37,951 - ERROR - Invalid request method for deleting product from user collection
+2023-06-06 12:29:37,960 - ERROR - Invalid request method for deleting product
+2023-06-06 12:29:37,964 - ERROR - Invalid request method for deleting user
+2023-06-06 12:29:37,997 - ERROR - Product does not exist
+2023-06-06 12:29:38,019 - ERROR - User does not exist
+2023-06-06 12:29:38,040 - ERROR - Invalid request method for value or not evaluation
+2023-06-06 12:33:14,345 - ERROR - Invalid request method for adding product to user collection
+2023-06-06 12:33:14,351 - ERROR - Invalid request method for adding comment
+2023-06-06 12:33:14,356 - ERROR - Invalid request method for adding product
+2023-06-06 12:33:14,360 - ERROR - Invalid request method for creating user
+2023-06-06 12:33:14,363 - ERROR - Invalid request method for deleting product from user collection
+2023-06-06 12:33:14,373 - ERROR - Invalid request method for deleting product
+2023-06-06 12:33:14,378 - ERROR - Invalid request method for deleting user
+2023-06-06 12:33:14,420 - ERROR - Product does not exist
+2023-06-06 12:33:14,439 - ERROR - User does not exist
+2023-06-06 12:33:14,463 - ERROR - Invalid request method for value or not evaluation
+2023-06-06 12:36:56,316 - ERROR - User does not exist
+2023-06-06 13:16:25,133 - ERROR - No user values found for openid: None
+2023-06-06 13:18:00,796 - ERROR - No user values found for openid: None
+2023-06-06 13:20:19,583 - ERROR - No user values found for openid: None
+2023-06-06 13:20:48,517 - ERROR - No user values found for openid: None
+2023-06-06 13:52:29,086 - ERROR - User does not exist
+2023-06-06 13:52:35,253 - ERROR - User does not exist
+2023-06-06 14:10:23,608 - ERROR - Invalid request method for adding product to user collection
+2023-06-06 14:10:23,612 - ERROR - Invalid request method for adding comment
+2023-06-06 14:10:23,615 - ERROR - Invalid request method for adding product
+2023-06-06 14:10:23,619 - ERROR - Invalid request method for creating user
+2023-06-06 14:10:23,623 - ERROR - Invalid request method for deleting product from user collection
+2023-06-06 14:10:23,633 - ERROR - Invalid request method for deleting product
+2023-06-06 14:10:23,636 - ERROR - Invalid request method for deleting user
+2023-06-06 14:10:23,675 - ERROR - Product does not exist
+2023-06-06 14:10:23,692 - ERROR - User does not exist
+2023-06-06 14:10:23,714 - ERROR - Invalid request method for value or not evaluation
+2023-06-06 14:12:01,786 - ERROR - Invalid request method for adding product to user collection
+2023-06-06 14:12:01,794 - ERROR - Invalid request method for adding comment
+2023-06-06 14:12:01,800 - ERROR - Invalid request method for adding product
+2023-06-06 14:12:01,808 - ERROR - Invalid request method for creating user
+2023-06-06 14:12:01,813 - ERROR - Invalid request method for deleting product from user collection
+2023-06-06 14:12:01,828 - ERROR - Invalid request method for deleting product
+2023-06-06 14:12:01,833 - ERROR - Invalid request method for deleting user
+2023-06-06 14:12:01,886 - ERROR - Product does not exist
+2023-06-06 14:12:01,912 - ERROR - User does not exist
+2023-06-06 14:12:01,940 - ERROR - Invalid request method for value or not evaluation
+2023-06-07 11:10:32,731 - ERROR - Invalid request method for adding product to user collection
+2023-06-07 11:10:32,736 - ERROR - Invalid request method for adding comment
+2023-06-07 11:10:32,740 - ERROR - Invalid request method for adding product
+2023-06-07 11:10:32,744 - ERROR - Invalid request method for creating user
+2023-06-07 11:10:32,750 - ERROR - Invalid request method for deleting product from user collection
+2023-06-07 11:10:32,767 - ERROR - Invalid request method for deleting product
+2023-06-07 11:10:32,773 - ERROR - Invalid request method for deleting user
+2023-06-07 11:10:32,821 - ERROR - Product does not exist
+2023-06-07 11:10:32,842 - ERROR - User does not exist
+2023-06-07 11:10:32,871 - ERROR - Invalid request method for value or not evaluation

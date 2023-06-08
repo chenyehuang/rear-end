@@ -2,7 +2,7 @@ import json
 
 from django.http import JsonResponse
 from django.shortcuts import render, HttpResponse
-from app.models import User, Product, Comment, UserCollect, UserView, UserValue
+from app.models import User, Product, Comment, UserCollect, UserView, UserValue, UserOpinion
 from datetime import datetime, timedelta
 from random import randint
 import random
@@ -438,7 +438,7 @@ def create(request):
     # UserValue.objects.all().delete()
     # User.objects.filter(id=3).delete()
     # User.objects.filter(id=4).delete()
-    # User.objects.filter(id=11).delete()
+    # User.objects.filter(id=13).delete()
     # Product.objects.filter(id=14).delete()
     return HttpResponse("创建成功")
 
@@ -614,6 +614,7 @@ def add_collect(request):
     if request.method == "GET":
         good_id = request.GET.get('good_id')
         openid = request.GET.get('openid')
+
         try:
             user = User.objects.get(openid=openid)
             product = Product.objects.get(id=good_id)
@@ -684,11 +685,13 @@ def get_user_comment(request):
         try:
             user = User.objects.get(openid=openid)
             comments = Comment.objects.filter(user=user)
+            # time = comments.time.split('T')[0]
             comment_list = [
                 {   
                     'content': comment.content,
-                    'time': comment.time,
-                    'product_id': comment.good_id.id
+                    'time': comment.time.strftime('%Y-%m-%d'),
+                    'prodct_name':comment.good_id.name,
+                    'prodct_image':comment.good_id.image,
                 }
                 for comment in comments
             ]
@@ -734,9 +737,9 @@ def get_product_comment(request):
             comments = Comment.objects.filter(good_id=product)
             comment_list = [
                     {
+                        'user_name':comment.user.nickName,
                         'content': comment.content,
-                        'time': comment.time,
-                        'user':comment.user.openid
+                        'time': comment.time.strftime("%Y-%m-%d")
                     }
                     for comment in comments
                 ]
@@ -820,17 +823,15 @@ def delete_product(request):
         logger.error('Invalid request method for deleting product')  # 记录日志信息
         return JsonResponse({'不能删除商品': False})
 
-# 管理员删除评论
+# 用户删除评论
 def delete_manage_comment(request):
     logger.info('Deleting managed comment')  # 记录日志信息
 
     if request.method == "GET":
         openid = request.GET.get("openid")
         user = User.objects.get(openid=openid)
-        product_id = request.GET.get("product_id")
-        product = Product.objects.get(id=product_id)
         content = request.GET.get("content")
-        Comment.objects.filter(user=user, good_id=product, content=content).delete()
+        Comment.objects.filter(user=user, content=content).delete()
         logger.info('Managed comment deleted successfully')  # 记录日志信息
         return JsonResponse({'删除成功': True})
     else:
@@ -984,3 +985,79 @@ def get_user_value(request):
     else:
         logger.error('Invalid request method')
         return JsonResponse({'error': 'Invalid request method'})
+
+def opinion(request):
+    if request.method == "GET":
+        try:
+            openid = request.GET.get("userId")
+            content = request.GET.get("content")
+            user = User.objects.get(openid=openid)
+            UserOpinion.objects.create(user_id=user, opinion_content=content, time=datetime.now())
+            # 日志记录
+            logging.info(f"Opinion created for user {user} - Content: {content}")
+            return JsonResponse({'message': '意见已反馈'})
+        except User.DoesNotExist:
+            logger.error(f"No user values found for openid: {openid}")
+            return JsonResponse({'error': 'User values not found'})
+    else:
+        return JsonResponse({'error': 'Invalid request method'})
+
+def get_break(request):
+    logger.info('Fetching break')
+    if request.method == "GET":
+        try:
+            openid = request.GET.get('openid')
+            products = Product.objects.filter(referrer_id=openid)
+            # 序列化商品信息
+            serializer = ProductSerializer(products, many=True)
+            serialized_data = serializer.data
+
+            # 将序列化后的数据返回给前端
+            data = {
+                'products': serialized_data
+            }
+            logger.info('Successful')
+            return JsonResponse(data)
+        except Exception as e:
+            logger.error(f'Failed to fetch break details: {str(e)}')
+            return JsonResponse({'error': 'Failed to fetch break details'})
+    else:
+        return JsonResponse({'error': 'Invalid request method'})
+
+def get_all_comment(request):
+    try:
+        comments = Comment.objects.all()
+        comment_list = []
+        for comment in comments:
+            comment_data = {
+                'commenter_name': comment.user.nickName,
+                'openid': comment.user.openid,
+                'product_image': comment.good_id.image,
+                'product_name': comment.good_id.name,
+                'content': comment.content,
+                'time': comment.time.strftime("%Y-%m-%d")  # 格式化评论时间
+            }
+            comment_list.append(comment_data)
+        # 记录日志
+        logging.info("Successfully retrieved all comments")
+        return JsonResponse({'comments': comment_list})
+
+    except Exception as e:
+        # 处理异常情况
+        # 记录日志并打印异常信息
+        logging.exception("Failed to retrieve all comments")
+        return JsonResponse({'error': "无法获取全部评论"})
+
+# # 管理员删除评论
+# def delete_comment(request):
+#     logger.info('Deleting managed comment')  # 记录日志信息
+#     if request.method == "GET":
+#         openid = request.GET.get("openid")
+#         user = User.objects.get(openid=openid)
+#         content = request.GET.get("content")
+#         Comment.objects.filter(user=user, content=content).delete()
+#         logger.info('Managed comment deleted successfully')  # 记录日志信息
+#         return JsonResponse({'删除成功': True})
+#     else:
+#         logger.error('Invalid request method for deleting managed comment')  # 记录日志信息
+#         return JsonResponse({'不能删除评论': False})

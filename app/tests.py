@@ -114,10 +114,9 @@ class URLRoutingTestCase(TestCase):
     
     def test_delete_manage_comment_url(self):
         user = User.objects.get(openid="test_openid")  # 创建一个用户对象
-        product = Product.objects.get(id=1)
         content = "test_content"
         url = reverse('delete_manage_comment')
-        response = self.client.get(url, {'openid': user.openid, "product_id":product.id, "content":content})  # 传递用户openid作为参数
+        response = self.client.get(url, {'openid': user.openid, "content":content})  # 传递用户openid作为参数
         self.assertEqual(response.status_code, 200)
 
     def test_value_or_not_url(self):
@@ -382,7 +381,8 @@ class ViewTestCase(TestCase):
             {
                 'content': comment.content,
                 'time': comment.time.isoformat() + '+00:00',
-                'product_id': comment.good_id.id
+                'prodct_name': comment.good_id.name,
+                'prodct_image':comment.good_id.image,
             }
             for comment in comments
         ]
@@ -392,10 +392,10 @@ class ViewTestCase(TestCase):
         response_data = response.json()
 
         # Extract content and product_id fields from response_data
-        response_comments = [{'content': comment['content'], 'product_id': comment['product_id']} for comment in response_data['comments']]
+        response_comments = [{'content': comment['content'], 'prodct_name': comment['prodct_name'], 'prodct_image':comment['prodct_image']} for comment in response_data['comments']]
 
         # Extract content and product_id fields from expected_data
-        expected_comments = [{'content': comment['content'], 'product_id': comment['product_id']} for comment in expected_data['comments']]
+        expected_comments = [{'content': comment['content'], 'prodct_name': comment['prodct_name'], 'prodct_image':comment['prodct_image']} for comment in expected_data['comments']]
 
         self.assertEqual(response_comments, expected_comments)
     
@@ -417,17 +417,17 @@ class ViewTestCase(TestCase):
         
         response = self.client.get(url, {'good_id': good_id})
         comments = Comment.objects.filter(good_id=self.product1)
-        comment_list = [{'content': comment.content, 'time': comment.time.isoformat(), 'user': comment.user.openid} for comment in comments]
+        comment_list = [{'user_name': comment.user.nickName, 'content': comment.content, 'time': comment.time.strftime("%Y-%m-%d")} for comment in comments]
         expected_data = {'comment': comment_list}
         
         self.assertEqual(response.status_code, 200)
         response_data = response.json()
 
         # Extract user and content fields from response_data
-        response_comments = [{'user': comment['user'], 'content': comment['content']} for comment in response_data['comment']]
+        response_comments = [{'user_name': comment['user_name'], 'content': comment['content'], 'time': comment['time']} for comment in response_data['comment']]
 
         # Extract user and content fields from expected_data
-        expected_comments = [{'user': comment['user'], 'content': comment['content']} for comment in expected_data['comment']]
+        expected_comments = [{'user_name': comment['user_name'], 'content': comment['content'], 'time': comment['time']} for comment in expected_data['comment']]
 
         self.assertEqual(response_comments, expected_comments)
 
@@ -465,7 +465,6 @@ class ViewTestCase(TestCase):
         url = reverse('delete_manage_comment')
         params = {
             'openid': 'test_openid',
-            'product_id': '1',
             'content': 'Test Comment'
         }
 

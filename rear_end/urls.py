@@ -42,5 +42,7 @@ urlpatterns = [
     path('api/delete_manage_comment/', views.delete_manage_comment, name='delete_manage_comment'),
     path('api/value_or_not/', views.value_or_not, name='value_or_not'),
     path('api/get_user_value/', views.get_user_value, name='get_user_value'),
-
+    path('api/opinion/', views.opinion, name='opinion'),
+    path('api/get_break/', views.get_break, name='get_break'),
+    path('api/get_all_comment/', views.get_all_comment, name='get_all_comment'),
 ]
