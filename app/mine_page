@@ -1,0 +1,11 @@
+from django.http import JsonResponse
+from app.models import User
+
+
+def signup(request, user_id, user_name, user_wechat, user_phone):
+    flag = User.objects.create(user_id=user_id, user_name=user_name, user_wechat=user_wechat, user_phone=user_phone)
+    a = 1
+    if flag:
+        return JsonResponse("Sign up Successfully")
+    else:
+        return JsonResponse("Sign up Unsuccessfully")
