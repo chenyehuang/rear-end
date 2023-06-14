@@ -2741,3 +2741,168 @@
 2023-06-08 14:55:07,367 - INFO - User values retrieved successfully for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
 2023-06-08 14:55:17,609 - INFO - Fetching user comments
 2023-06-08 14:55:17,613 - INFO - User comments fetched successfully
+2023-06-10 07:10:41,072 - INFO - Fetching products
+2023-06-10 07:10:41,100 - INFO - Products retrieved successfully
+2023-06-10 07:10:41,577 - INFO - Fetching front page products
+2023-06-10 07:10:41,582 - INFO - Front page products fetched successfully
+2023-06-10 07:11:07,576 - INFO - Fetching products
+2023-06-10 07:11:07,580 - INFO - Products retrieved successfully
+2023-06-10 07:11:07,608 - INFO - Fetching user collect
+2023-06-10 07:11:07,611 - INFO - User collect fetched successfully
+2023-06-10 07:11:26,189 - INFO - Fetching products
+2023-06-10 07:11:26,193 - INFO - Products retrieved successfully
+2023-06-10 07:11:26,418 - INFO - Fetching front page products
+2023-06-10 07:11:26,423 - INFO - Front page products fetched successfully
+2023-06-10 07:11:34,166 - INFO - Fetching products
+2023-06-10 07:11:34,171 - INFO - Products retrieved successfully
+2023-06-10 07:11:34,198 - INFO - Fetching user collect
+2023-06-10 07:11:34,203 - INFO - User collect fetched successfully
+2023-06-10 07:12:49,768 - INFO - Fetching products
+2023-06-10 07:12:49,773 - INFO - Products retrieved successfully
+2023-06-10 07:12:50,052 - INFO - Fetching front page products
+2023-06-10 07:12:50,057 - INFO - Front page products fetched successfully
+2023-06-10 07:22:32,148 - INFO - Fetching products
+2023-06-10 07:22:32,152 - INFO - Products retrieved successfully
+2023-06-10 07:22:32,162 - INFO - Fetching user collect
+2023-06-10 07:22:32,167 - INFO - User collect fetched successfully
+2023-06-10 07:30:13,529 - INFO - Fetching user comments
+2023-06-10 07:30:13,535 - INFO - User comments fetched successfully
+2023-06-10 07:47:26,445 - INFO - Fetching products
+2023-06-10 07:47:26,450 - INFO - Products retrieved successfully
+2023-06-10 07:47:26,966 - INFO - Fetching front page products
+2023-06-10 07:47:26,971 - INFO - Front page products fetched successfully
+2023-06-10 07:47:29,820 - INFO - Fetching break
+2023-06-10 07:47:29,823 - INFO - Successful
+2023-06-10 07:59:45,615 - INFO - Fetching users
+2023-06-10 07:59:45,619 - INFO - Users fetched successfully
+2023-06-10 08:03:09,704 - INFO - Fetching products
+2023-06-10 08:03:09,708 - INFO - Products retrieved successfully
+2023-06-10 11:08:01,480 - INFO - Fetching products
+2023-06-10 11:08:01,485 - INFO - Products retrieved successfully
+2023-06-10 11:08:01,957 - INFO - Fetching front page products
+2023-06-10 11:08:01,962 - INFO - Front page products fetched successfully
+2023-06-10 11:08:08,197 - INFO - Fetching products
+2023-06-10 11:08:08,201 - INFO - Products retrieved successfully
+2023-06-10 11:08:08,218 - INFO - Fetching product details for product ID: 1
+2023-06-10 11:08:08,222 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-10 11:08:08,300 - INFO - Fetching comments for product
+2023-06-10 11:08:08,307 - INFO - Product comments fetched successfully
+2023-06-10 11:10:53,835 - INFO - Fetching products
+2023-06-10 11:10:53,839 - INFO - Products retrieved successfully
+2023-06-10 11:10:53,840 - INFO - Fetching product details for product ID: 1
+2023-06-10 11:10:53,843 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-10 11:10:53,951 - INFO - Fetching comments for product
+2023-06-10 11:10:53,957 - INFO - Product comments fetched successfully
+2023-06-10 11:10:58,235 - INFO - Processing value or not evaluation
+2023-06-10 11:11:09,934 - INFO - Processing value or not evaluation
+2023-06-10 11:11:19,489 - INFO - Fetching products
+2023-06-10 11:11:19,493 - INFO - Products retrieved successfully
+2023-06-10 11:11:19,493 - INFO - Fetching product details for product ID: 1
+2023-06-10 11:11:19,498 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-10 11:11:19,627 - INFO - Fetching comments for product
+2023-06-10 11:11:19,633 - INFO - Product comments fetched successfully
+2023-06-10 11:14:17,116 - INFO - Fetching user values for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:14:17,126 - INFO - User values retrieved successfully for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:14:58,996 - INFO - Fetching break
+2023-06-10 11:14:58,999 - INFO - Successful
+2023-06-10 11:15:09,855 - INFO - Fetching user comments
+2023-06-10 11:15:09,858 - INFO - User comments fetched successfully
+2023-06-10 11:16:28,586 - INFO - Fetching products
+2023-06-10 11:16:28,590 - INFO - Products retrieved successfully
+2023-06-10 11:16:28,608 - INFO - Fetching front page products
+2023-06-10 11:16:28,613 - INFO - Front page products fetched successfully
+2023-06-10 11:16:44,077 - INFO - Fetching products
+2023-06-10 11:16:44,081 - INFO - Products retrieved successfully
+2023-06-10 11:16:44,090 - INFO - Fetching front page products
+2023-06-10 11:16:44,096 - INFO - Front page products fetched successfully
+2023-06-10 11:26:47,840 - INFO - Fetching products
+2023-06-10 11:26:47,844 - INFO - Products retrieved successfully
+2023-06-10 11:26:47,850 - INFO - Fetching user collect
+2023-06-10 11:26:47,853 - INFO - User collect fetched successfully
+2023-06-10 11:26:54,247 - INFO - Fetching products
+2023-06-10 11:26:54,252 - INFO - Products retrieved successfully
+2023-06-10 11:26:54,254 - INFO - Fetching product details for product ID: 1
+2023-06-10 11:26:54,257 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-10 11:26:54,363 - INFO - Fetching comments for product
+2023-06-10 11:26:54,370 - INFO - Product comments fetched successfully
+2023-06-10 11:26:58,259 - INFO - Fetching user collect
+2023-06-10 11:26:58,263 - INFO - User collect fetched successfully
+2023-06-10 11:29:47,764 - INFO - Creating user
+2023-06-10 11:29:47,771 - INFO - User already registered
+2023-06-10 11:30:14,302 - INFO - Creating user
+2023-06-10 11:30:14,305 - INFO - User already registered
+2023-06-10 11:30:15,262 - INFO - Fetching products
+2023-06-10 11:30:15,266 - INFO - Products retrieved successfully
+2023-06-10 11:30:15,272 - INFO - Fetching user collect
+2023-06-10 11:30:15,276 - INFO - User collect fetched successfully
+2023-06-10 11:30:28,919 - INFO - Creating user
+2023-06-10 11:30:28,927 - INFO - User already registered
+2023-06-10 11:31:04,044 - INFO - Fetching users
+2023-06-10 11:31:04,047 - INFO - Users fetched successfully
+2023-06-10 11:31:20,390 - INFO - Fetching products
+2023-06-10 11:31:20,393 - INFO - Products retrieved successfully
+2023-06-10 11:35:36,327 - INFO - Fetching products
+2023-06-10 11:35:36,331 - INFO - Products retrieved successfully
+2023-06-10 11:35:36,352 - INFO - Fetching front page products
+2023-06-10 11:35:36,357 - INFO - Front page products fetched successfully
+2023-06-10 11:35:37,843 - INFO - Fetching products
+2023-06-10 11:35:37,848 - INFO - Products retrieved successfully
+2023-06-10 11:35:37,848 - INFO - Fetching product details for product ID: 1
+2023-06-10 11:35:37,852 - INFO - Product details retrieved successfully for product ID: 1
+2023-06-10 11:35:37,925 - INFO - Fetching comments for product
+2023-06-10 11:35:37,932 - INFO - Product comments fetched successfully
+2023-06-10 11:36:41,457 - INFO - Processing value or not evaluation
+2023-06-10 11:37:51,002 - INFO - Fetching user values for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:37:51,007 - INFO - User values retrieved successfully for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:44:50,519 - INFO - Fetching products
+2023-06-10 11:44:50,523 - INFO - Products retrieved successfully
+2023-06-10 11:44:50,648 - INFO - Fetching front page products
+2023-06-10 11:44:50,653 - INFO - Front page products fetched successfully
+2023-06-10 11:44:58,031 - INFO - Fetching break
+2023-06-10 11:44:58,033 - INFO - Successful
+2023-06-10 11:45:01,150 - INFO - Fetching user values for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:45:01,155 - INFO - User values retrieved successfully for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:46:04,351 - INFO - Fetching products
+2023-06-10 11:46:04,355 - INFO - Products retrieved successfully
+2023-06-10 11:46:04,386 - INFO - Fetching front page products
+2023-06-10 11:46:04,391 - INFO - Front page products fetched successfully
+2023-06-10 11:46:09,129 - INFO - Fetching user values for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 11:46:09,135 - INFO - User values retrieved successfully for openid: oP9Eh5l7V-L6LHSZlIdC2D0vm7Ig
+2023-06-10 14:42:03,152 - INFO - Fetching products
+2023-06-10 14:42:03,157 - INFO - Products retrieved successfully
+2023-06-10 14:42:03,224 - INFO - Fetching front page products
+2023-06-10 14:42:03,229 - INFO - Front page products fetched successfully
+2023-06-10 14:42:15,936 - INFO - Fetching products
+2023-06-10 14:42:15,940 - INFO - Products retrieved successfully
+2023-06-10 14:42:15,991 - INFO - Fetching front page products
+2023-06-10 14:42:15,996 - INFO - Front page products fetched successfully
+2023-06-10 14:52:24,791 - INFO - Fetching products
+2023-06-10 14:52:24,795 - INFO - Products retrieved successfully
+2023-06-10 14:52:24,824 - INFO - Fetching user collect
+2023-06-10 14:52:24,830 - INFO - User collect fetched successfully
+2023-06-10 14:54:09,728 - INFO - Fetching products
+2023-06-10 14:54:09,731 - INFO - Products retrieved successfully
+2023-06-10 14:54:09,733 - INFO - Fetching product details for product ID: 4
+2023-06-10 14:54:09,736 - INFO - Product details retrieved successfully for product ID: 4
+2023-06-10 14:54:09,959 - INFO - Fetching comments for product
+2023-06-10 14:54:09,963 - INFO - Product comments fetched successfully
+2023-06-10 15:20:02,670 - INFO - Fetching user collect
+2023-06-10 15:20:02,676 - INFO - User collect fetched successfully
+2023-06-10 15:21:54,689 - INFO - Fetching user collect
+2023-06-10 15:21:54,695 - INFO - User collect fetched successfully
+2023-06-10 15:23:01,458 - INFO - Fetching products
+2023-06-10 15:23:01,462 - INFO - Products retrieved successfully
+2023-06-10 15:23:01,503 - INFO - Fetching front page products
+2023-06-10 15:23:01,507 - INFO - Front page products fetched successfully
+2023-06-10 15:25:17,843 - INFO - Creating user
+2023-06-10 15:25:17,847 - INFO - User already registered
+2023-06-10 15:25:18,792 - INFO - Fetching products
+2023-06-10 15:25:18,797 - INFO - Products retrieved successfully
+2023-06-10 15:25:18,829 - INFO - Fetching user collect
+2023-06-10 15:25:18,834 - INFO - User collect fetched successfully
+2023-06-10 15:25:41,763 - INFO - Fetching products
+2023-06-10 15:25:41,767 - INFO - Products retrieved successfully
+2023-06-10 15:25:41,770 - INFO - Fetching product details for product ID: 2
+2023-06-10 15:25:41,774 - INFO - Product details retrieved successfully for product ID: 2
+2023-06-10 15:25:41,849 - INFO - Fetching comments for product
+2023-06-10 15:25:41,853 - INFO - Product comments fetched successfully
