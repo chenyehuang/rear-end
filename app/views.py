@@ -1049,7 +1049,7 @@ def get_all_comment(request):
         return JsonResponse({'error': "无法获取全部评论"})
 
 #价格曲线
-def price_figure():
+def price_figure(request):
      logger.info('Price Curve')
     if request.method == "GET":
         try:
