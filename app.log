@@ -14235,3 +14235,16 @@ django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'cn.bing.com:44
 2023-06-14 08:07:04,878 - WARNING - Not Found: /
 2023-06-14 08:11:37,983 - WARNING - Not Found: /
 2023-06-14 08:17:16,113 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:17:33,904 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:17:44,034 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:17:44,335 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:18:04,497 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:18:04,785 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:18:11,884 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:18:12,184 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:18:19,287 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:18:19,587 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:18:27,688 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:18:27,974 - INFO - Watching for file changes with StatReloader
+2023-06-14 12:18:35,076 - INFO - /home/rear-end/app/views.py changed, reloading.
+2023-06-14 12:18:35,377 - INFO - Watching for file changes with StatReloader

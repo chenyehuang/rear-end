@@ -1050,7 +1050,7 @@ def get_all_comment(request):
 
 #价格曲线
 def price_figure(request):
-     logger.info('Price Curve')
+    logger.info('Price Curve')
     if request.method == "GET":
         try:
             prodct_name = request.GET.get('prodct_name')
@@ -1059,14 +1059,14 @@ def price_figure(request):
             products = products.order_by('-recommended_time')
             price_list = []
             for product in products:
-            comment_data = {
-                'recommended_time': comment.recommended_time.strftime("%Y-%m-%d"),
-                'price': comment.price,
-            }
-            price_list.append(comment_data)
+                price_data = {
+                    'recommended_time': comment.recommended_time.strftime("%Y-%m-%d"),
+                    'price': comment.price
+                }
+            price_list.append(price_data)
 
-           logging.info("Successfully retrieved all price")
-        return JsonResponse({'prices': price_list})
+            logging.info("Successfully retrieved all price")
+            return JsonResponse({'prices': price_list})
         except Exception as e:
             logger.error(f'Failed to fetch price details: {str(e)}')
             return JsonResponse({'error': 'Failed to fetch price details'})
