@@ -45,4 +45,5 @@ urlpatterns = [
     path('api/opinion/', views.opinion, name='opinion'),
     path('api/get_break/', views.get_break, name='get_break'),
     path('api/get_all_comment/', views.get_all_comment, name='get_all_comment'),
+    path('api/price_figure/', views.price_figure, name='price_figure'),
 ]

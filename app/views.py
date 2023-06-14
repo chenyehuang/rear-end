@@ -1048,6 +1048,31 @@ def get_all_comment(request):
         logging.exception("Failed to retrieve all comments")
         return JsonResponse({'error': "无法获取全部评论"})
 
+#价格曲线
+def price_figure():
+     logger.info('Price Curve')
+    if request.method == "GET":
+        try:
+            prodct_name = request.GET.get('prodct_name')
+            products = Product.objects.filter(name=prodct_name)
+            #按时间排序
+            products = products.order_by('-recommended_time')
+            price_list = []
+            for product in products:
+            comment_data = {
+                'recommended_time': comment.recommended_time.strftime("%Y-%m-%d"),
+                'price': comment.price,
+            }
+            price_list.append(comment_data)
+
+           logging.info("Successfully retrieved all price")
+        return JsonResponse({'prices': price_list})
+        except Exception as e:
+            logger.error(f'Failed to fetch price details: {str(e)}')
+            return JsonResponse({'error': 'Failed to fetch price details'})
+    else:
+        return JsonResponse({'error': 'Invalid request method'})
+
 # # 管理员删除评论
 # def delete_comment(request):
 #     logger.info('Deleting managed comment')  # 记录日志信息
